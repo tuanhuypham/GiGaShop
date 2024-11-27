@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="123b382c9d7f43a9a9d34ccad7dd4567" Name="Diagram1">
+        <EntityTypeShape EntityType="GigashopModel.BlogPost" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GigashopModel.Category" Width="1.5" PointX="5.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GigashopModel.ContactMessage" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="GigashopModel.OrderDetail" Width="1.5" PointX="5.25" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GigashopModel.Order" Width="1.5" PointX="3" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GigashopModel.Product" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GigashopModel.Review" Width="1.5" PointX="6" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GigashopModel.Service" Width="1.5" PointX="7.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GigashopModel.User" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <AssociationConnector Association="GigashopModel.FK__BlogPosts__Autho__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="GigashopModel.FK__ContactMe__UserI__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="GigashopModel.FK__OrderDeta__Order__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="GigashopModel.FK__OrderDeta__Produ__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="GigashopModel.FK__Orders__UserID__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="GigashopModel.FK__Reviews__Product__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="GigashopModel.FK__Reviews__UserID__52593CB8" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

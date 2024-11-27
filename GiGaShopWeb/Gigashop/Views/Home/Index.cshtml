@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@model IEnumerable<Gigashop.Models.Product>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product List</title>
+</head>
+<body>
+    <h1>Product List</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Product ID</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Stock</th>
+                <th>Category ID</th>
+                <th>Created At</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.ProductID</td>
+                    <td>@product.Description</td>
+                    <td>@product.Price</td>
+                    <td>@(product.Stock.HasValue ? product.Stock.ToString() : "N/A")</td>
+                    <td>@product.CategoryID</td>
+                    <td>@(product.CreatedAt.HasValue ? product.CreatedAt.Value.ToString("yyyy-MM-dd") : "N/A")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>
