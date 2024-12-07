@@ -1,0 +1,829 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Gigashop.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Gigashop.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\contact.php",
+      "PackagePath": "staticwebassets\\contact.php"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\css\\bootstrap-select.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-select.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\css\\colors1.css",
+      "PackagePath": "staticwebassets\\css\\colors1.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\css\\colors1_dark.css",
+      "PackagePath": "staticwebassets\\css\\colors1_dark.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\css\\colors2.css",
+      "PackagePath": "staticwebassets\\css\\colors2.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\css\\colors3.css",
+      "PackagePath": "staticwebassets\\css\\colors3.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\css\\colors_landing_page.css",
+      "PackagePath": "staticwebassets\\css\\colors_landing_page.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\css\\dark_layout.css",
+      "PackagePath": "staticwebassets\\css\\dark_layout.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\css\\hizoom.css",
+      "PackagePath": "staticwebassets\\css\\hizoom.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\css\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\css\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\10ASUS ROG Eye S Webcam streaming chất lượng cao.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\10ASUS ROG Eye S Webcam streaming chất lượng cao.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\11ASUS ROG Delta S.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\11ASUS ROG Delta S.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\12ASUS TUF Gaming K7.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\12ASUS TUF Gaming K7.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\13ASUS ROG Pugio II.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\13ASUS ROG Pugio II.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\14ASUS ROG Scabbard II.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\14ASUS ROG Scabbard II.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\15ASUS ROG Ranger BP3703.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\15ASUS ROG Ranger BP3703.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\15ASUS ROG Throne Qi.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\15ASUS ROG Throne Qi.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\17ASUS ROG Swift PG32UQX Stand.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\17ASUS ROG Swift PG32UQX Stand.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\18ASUS ROG Cetra True Wireless.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\18ASUS ROG Cetra True Wireless.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\19ASUS TUF Gaming Capture Box.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\19ASUS TUF Gaming Capture Box.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\1ASUS ROG Gladius III Wireless.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\1ASUS ROG Gladius III Wireless.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\20ASUS ROG Kunai 3 Gamepad.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\20ASUS ROG Kunai 3 Gamepad.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\21ASUS ExpertCenter D7 Mini Tower PC cao cấp cho doanh nghiệp.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\21ASUS ExpertCenter D7 Mini Tower PC cao cấp cho doanh nghiệp.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\22ASUS ProArt Station PD5 PC dành cho thiết kế đồ họa.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\22ASUS ProArt Station PD5 PC dành cho thiết kế đồ họa.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\23ASUS ROG Strix GA35.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\23ASUS ROG Strix GA35.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\24ASUS ExpertCenter D5.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\24ASUS ExpertCenter D5.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\25ASUS Mini PC PN50.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\25ASUS Mini PC PN50.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\26ASUS ROG Strix GA15.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\26ASUS ROG Strix GA15.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\27ASUS VivoMini VC66-C2.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\27ASUS VivoMini VC66-C2.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\28ASUS Pro E500 G6.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\28ASUS Pro E500 G6.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\29ASUS Chromebox 4.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\29ASUS Chromebox 4.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\2ASUS TUF Gaming H3.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\2ASUS TUF Gaming H3.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\30ASUS ROG Swift ProArt.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\30ASUS ROG Swift ProArt.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\31ASUS ROG Strix GA30.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\31ASUS ROG Strix GA30.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\32ASUS ProArt Mini PC.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\32ASUS ProArt Mini PC.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\33ASUS Tinker Board S.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\33ASUS Tinker Board S.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\34ASUS ROG G21CN.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\34ASUS ROG G21CN.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\35ASUS VivoPC K31 PC.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\35ASUS VivoPC K31 PC.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\36ASUS ROG Strix GA16.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\36ASUS ROG Strix GA16.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\37ASUS Mini PC PB60.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\37ASUS Mini PC PB60.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\38ASUS ROG GR8 II PC.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\38ASUS ROG GR8 II PC.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\39ASUS ExpertCenter E5.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\39ASUS ExpertCenter E5.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\3ASUS ROG Claymore II.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\3ASUS ROG Claymore II.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\40ASUS VivoPC VM42.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\40ASUS VivoPC VM42.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\41ASUS ROG Strix G15.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\41ASUS ROG Strix G15.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\42ASUS ZenBook 14 OLED.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\42ASUS ZenBook 14 OLED.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\43ASUS TUF Dash F15.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\43ASUS TUF Dash F15.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\44ASUS VivoBook 15.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\44ASUS VivoBook 15.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\45ASUS ROG Zephyrus G14.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\45ASUS ROG Zephyrus G14.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\46ASUS ZenBook Flip 13.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\46ASUS ZenBook Flip 13.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\47ASUS Chromebook C423.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\47ASUS Chromebook C423.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\48ASUS VivoBook S14.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\48ASUS VivoBook S14.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\49ASUS ExpertBook B9.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\49ASUS ExpertBook B9.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\4ASUS ROG Sheath Bàn di chuột cỡ lớn.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\4ASUS ROG Sheath Bàn di chuột cỡ lớn.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\50ASUS ROG Flow X13.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\50ASUS ROG Flow X13.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\51ASUS TUF Gaming F17.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\51ASUS TUF Gaming F17.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\52ASUS VivoBook Pro 16X.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\52ASUS VivoBook Pro 16X.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\53ASUS ZenBook Duo 14.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\53ASUS ZenBook Duo 14.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\54ASUS ROG Strix SCAR 15.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\54ASUS ROG Strix SCAR 15.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\55ASUS VivoBook Go 14.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\55ASUS VivoBook Go 14.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\56ASUS ZenBook Pro 15.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\56ASUS ZenBook Pro 15.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\57ASUS TUF Gaming A15.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\57ASUS TUF Gaming A15.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\58ASUS Chromebook Flip CX5.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\58ASUS Chromebook Flip CX5.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\59ASUS ROG Zephyrus Duo 15.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\59ASUS ROG Zephyrus Duo 15.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\5ASUS ROG Chakram.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\5ASUS ROG Chakram.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\60ASUS ExpertBook P2.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\60ASUS ExpertBook P2.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\61ASUS ROG Strix Z690-E Gaming WiFi.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\61ASUS ROG Strix Z690-E Gaming WiFi.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\62ASUS Dual GeForce RTX 3060.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\62ASUS Dual GeForce RTX 3060.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\63ASUS Dual GeForce RTX 3060.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\63ASUS Dual GeForce RTX 3060.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\64ASUS ROG Strix RTX 3080 Ti.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\64ASUS ROG Strix RTX 3080 Ti.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\65ASUS ROG Thor 850W.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\65ASUS ROG Thor 850W.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\66ASUS ROG Ryujin II 360 Tản nhiệt nước AIO.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\66ASUS ROG Ryujin II 360 Tản nhiệt nước AIO.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\67ASUS Hyper M.2 x16 Card V2.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\67ASUS Hyper M.2 x16 Card V2.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\68ASUS ROG Crosshair VIII Hero.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\68ASUS ROG Crosshair VIII Hero.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\69ASUS TUF Gaming GeForce GTX 1660 Super.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\69ASUS TUF Gaming GeForce GTX 1660 Super.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\6ASUS TUF Gaming Backpack.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\6ASUS TUF Gaming Backpack.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\70ASUS ROG Strix Arion.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\70ASUS ROG Strix Arion.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\71ASUS PCE-AC58BT.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\71ASUS PCE-AC58BT.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\72ASUS DRW-24D5MT.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\72ASUS DRW-24D5MT.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\73ASUS Turbo GeForce RTX 3070.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\73ASUS Turbo GeForce RTX 3070.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\74ASUS ROG Strix Z790-F Gaming WiFi.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\74ASUS ROG Strix Z790-F Gaming WiFi.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\75ASUS ROG Swift PG259QNR.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\75ASUS ROG Swift PG259QNR.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\76ASUS TUF Gaming 750W.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\76ASUS TUF Gaming 750W.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\77ASUS ROG Strix RTX 4090.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\77ASUS ROG Strix RTX 4090.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\78ASUS Xonar AE.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\78ASUS Xonar AE.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\79ASUS TUF Gaming Capture Box.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\79ASUS TUF Gaming Capture Box.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\7ASUS ROG Cetra II Core Tai nghe in-ear gaming.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\7ASUS ROG Cetra II Core Tai nghe in-ear gaming.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\80ASUS ROG Balteus.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\80ASUS ROG Balteus.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\8ASUS ROG Strix Impact II.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\8ASUS ROG Strix Impact II.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\Products\\9ASUS ROG Balteus.jpg",
+      "PackagePath": "staticwebassets\\images\\Products\\9ASUS ROG Balteus.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\fevicon\\fevicon.png",
+      "PackagePath": "staticwebassets\\images\\fevicon\\fevicon.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\gradian_black.png",
+      "PackagePath": "staticwebassets\\images\\gradian_black.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\gradian_blue.png",
+      "PackagePath": "staticwebassets\\images\\gradian_blue.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\1.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\2.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\22.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\22.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\3.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\4.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\404_error_img.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\404_error_img.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\5.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\6.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\7.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\8.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\accepted.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\accepted.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\brand_icon1.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\brand_icon1.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\brand_icon2.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\brand_icon2.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\brand_icon3.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\brand_icon3.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\brand_icon4.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\brand_icon4.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\brand_icon5.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\brand_icon5.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\client1.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\client1.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\client1.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\client1.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\client2.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\client2.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\client2.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\client2.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\client3.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\client3.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\client3.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\client3.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\dark_bg_img.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\dark_bg_img.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\dark_bg_img2.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\dark_bg_img2.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\home_01.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\home_01.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\i1.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\i1.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\i2.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\i2.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\i3.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\i3.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\i4.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\i4.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\inner_page_banner.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\inner_page_banner.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\location_icon_map_cont.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\location_icon_map_cont.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\phone_icon.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\phone_icon.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\post-01.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\post-01.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\post-02.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\post-02.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\post-03.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\post-03.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\post-04.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\post-04.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\post-05.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\post-05.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\post-06.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\post-06.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\post-07.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\post-07.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\post-08.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\post-08.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\si1.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\si1.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\si2.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\si2.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\si3.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\si3.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\si4.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\si4.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\si5.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\si5.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\si6.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\si6.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\slide1.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\slide1.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\slide2.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\slide2.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\slide3.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\slide3.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\team-member-1.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\team-member-1.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\team-member-2.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\team-member-2.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\team-member-3.jpg",
+      "PackagePath": "staticwebassets\\images\\it_service\\team-member-3.jpg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\it_service\\test_bg.png",
+      "PackagePath": "staticwebassets\\images\\it_service\\test_bg.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\loaders\\loader_1.png",
+      "PackagePath": "staticwebassets\\images\\loaders\\loader_1.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\logos\\it_logo.png",
+      "PackagePath": "staticwebassets\\images\\logos\\it_logo.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\images\\logos\\it_logo_white.png",
+      "PackagePath": "staticwebassets\\images\\logos\\it_logo_white.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\js\\hizoom.js",
+      "PackagePath": "staticwebassets\\js\\hizoom.js"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\js\\menumaker.js",
+      "PackagePath": "staticwebassets\\js\\menumaker.js"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\js\\wow.js",
+      "PackagePath": "staticwebassets\\js\\wow.js"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\assets\\coloredbg.png",
+      "PackagePath": "staticwebassets\\revolution\\assets\\coloredbg.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\assets\\gridtile.png",
+      "PackagePath": "staticwebassets\\revolution\\assets\\gridtile.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\assets\\gridtile_3x3.png",
+      "PackagePath": "staticwebassets\\revolution\\assets\\gridtile_3x3.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\assets\\gridtile_3x3_white.png",
+      "PackagePath": "staticwebassets\\revolution\\assets\\gridtile_3x3_white.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\assets\\gridtile_white.png",
+      "PackagePath": "staticwebassets\\revolution\\assets\\gridtile_white.png"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\assets\\loader.gif",
+      "PackagePath": "staticwebassets\\revolution\\assets\\loader.gif"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\css\\closedhand.cur",
+      "PackagePath": "staticwebassets\\revolution\\css\\closedhand.cur"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\css\\layers.css",
+      "PackagePath": "staticwebassets\\revolution\\css\\layers.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\css\\navigation.css",
+      "PackagePath": "staticwebassets\\revolution\\css\\navigation.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\css\\openhand.cur",
+      "PackagePath": "staticwebassets\\revolution\\css\\openhand.cur"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\css\\settings.css",
+      "PackagePath": "staticwebassets\\revolution\\css\\settings.css"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\fonts\\revicons\\revicons.eot",
+      "PackagePath": "staticwebassets\\revolution\\fonts\\revicons\\revicons.eot"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\fonts\\revicons\\revicons.svg",
+      "PackagePath": "staticwebassets\\revolution\\fonts\\revicons\\revicons.svg"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\fonts\\revicons\\revicons.ttf",
+      "PackagePath": "staticwebassets\\revolution\\fonts\\revicons\\revicons.ttf"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\fonts\\revicons\\revicons.woff",
+      "PackagePath": "staticwebassets\\revolution\\fonts\\revicons\\revicons.woff"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.actions.min.js",
+      "PackagePath": "staticwebassets\\revolution\\js\\extensions\\revolution.extension.actions.min.js"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.carousel.min.js",
+      "PackagePath": "staticwebassets\\revolution\\js\\extensions\\revolution.extension.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.kenburn.min.js",
+      "PackagePath": "staticwebassets\\revolution\\js\\extensions\\revolution.extension.kenburn.min.js"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.layeranimation.min.js",
+      "PackagePath": "staticwebassets\\revolution\\js\\extensions\\revolution.extension.layeranimation.min.js"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.migration.min.js",
+      "PackagePath": "staticwebassets\\revolution\\js\\extensions\\revolution.extension.migration.min.js"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.navigation.min.js",
+      "PackagePath": "staticwebassets\\revolution\\js\\extensions\\revolution.extension.navigation.min.js"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.parallax.min.js",
+      "PackagePath": "staticwebassets\\revolution\\js\\extensions\\revolution.extension.parallax.min.js"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.slideanims.min.js",
+      "PackagePath": "staticwebassets\\revolution\\js\\extensions\\revolution.extension.slideanims.min.js"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.video.min.js",
+      "PackagePath": "staticwebassets\\revolution\\js\\extensions\\revolution.extension.video.min.js"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\js\\jquery.themepunch.revolution.min.js",
+      "PackagePath": "staticwebassets\\revolution\\js\\jquery.themepunch.revolution.min.js"
+    },
+    {
+      "Id": "D:\\Đồ Án HK1B\\Gigashop\\wwwroot\\revolution\\js\\jquery.themepunch.tools.min.js",
+      "PackagePath": "staticwebassets\\revolution\\js\\jquery.themepunch.tools.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Gigashop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Gigashop.props",
+      "PackagePath": "build\\Gigashop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Gigashop.props",
+      "PackagePath": "buildMultiTargeting\\Gigashop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Gigashop.props",
+      "PackagePath": "buildTransitive\\Gigashop.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
