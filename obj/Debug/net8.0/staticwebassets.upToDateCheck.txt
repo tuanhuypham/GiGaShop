@@ -1,0 +1,202 @@
+wwwroot\contact.php
+wwwroot\css\animate.css
+wwwroot\css\bootstrap.css
+wwwroot\css\bootstrap.min.css
+wwwroot\css\bootstrap-grid.css
+wwwroot\css\bootstrap-grid.min.css
+wwwroot\css\bootstrap-reboot.css
+wwwroot\css\bootstrap-reboot.min.css
+wwwroot\css\bootstrap-select.css
+wwwroot\css\colors_landing_page.css
+wwwroot\css\colors1.css
+wwwroot\css\colors1_dark.css
+wwwroot\css\colors2.css
+wwwroot\css\colors3.css
+wwwroot\css\custom.css
+wwwroot\css\dark_layout.css
+wwwroot\css\font-awesome.css
+wwwroot\css\font-awesome.min.css
+wwwroot\css\hizoom.css
+wwwroot\css\owl.carousel.css
+wwwroot\css\owl.carousel.min.css
+wwwroot\css\owl.theme.default.css
+wwwroot\css\responsive.css
+wwwroot\css\style.css
+wwwroot\fonts\FontAwesome.otf
+wwwroot\fonts\fontawesome-webfont.eot
+wwwroot\fonts\fontawesome-webfont.svg
+wwwroot\fonts\fontawesome-webfont.ttf
+wwwroot\fonts\fontawesome-webfont.woff
+wwwroot\fonts\fontawesome-webfont.woff2
+wwwroot\images\fevicon\fevicon.png
+wwwroot\images\gradian_black.png
+wwwroot\images\gradian_blue.png
+wwwroot\images\it_service\1.jpg
+wwwroot\images\it_service\2.jpg
+wwwroot\images\it_service\22.jpg
+wwwroot\images\it_service\3.jpg
+wwwroot\images\it_service\4.jpg
+wwwroot\images\it_service\404_error_img.png
+wwwroot\images\it_service\5.jpg
+wwwroot\images\it_service\6.jpg
+wwwroot\images\it_service\7.jpg
+wwwroot\images\it_service\8.jpg
+wwwroot\images\it_service\accepted.png
+wwwroot\images\it_service\brand_icon1.png
+wwwroot\images\it_service\brand_icon2.png
+wwwroot\images\it_service\brand_icon3.png
+wwwroot\images\it_service\brand_icon4.png
+wwwroot\images\it_service\brand_icon5.png
+wwwroot\images\it_service\client1.jpg
+wwwroot\images\it_service\client1.png
+wwwroot\images\it_service\client2.jpg
+wwwroot\images\it_service\client2.png
+wwwroot\images\it_service\client3.jpg
+wwwroot\images\it_service\client3.png
+wwwroot\images\it_service\dark_bg_img.png
+wwwroot\images\it_service\dark_bg_img2.png
+wwwroot\images\it_service\home_01.png
+wwwroot\images\it_service\i1.png
+wwwroot\images\it_service\i2.png
+wwwroot\images\it_service\i3.png
+wwwroot\images\it_service\i4.png
+wwwroot\images\it_service\inner_page_banner.jpg
+wwwroot\images\it_service\location_icon_map_cont.png
+wwwroot\images\it_service\phone_icon.png
+wwwroot\images\it_service\post-01.jpg
+wwwroot\images\it_service\post-02.jpg
+wwwroot\images\it_service\post-03.jpg
+wwwroot\images\it_service\post-04.jpg
+wwwroot\images\it_service\post-05.jpg
+wwwroot\images\it_service\post-06.jpg
+wwwroot\images\it_service\post-07.jpg
+wwwroot\images\it_service\post-08.jpg
+wwwroot\images\it_service\si1.png
+wwwroot\images\it_service\si2.png
+wwwroot\images\it_service\si3.png
+wwwroot\images\it_service\si4.png
+wwwroot\images\it_service\si5.png
+wwwroot\images\it_service\si6.png
+wwwroot\images\it_service\slide1.jpg
+wwwroot\images\it_service\slide2.jpg
+wwwroot\images\it_service\slide3.jpg
+wwwroot\images\it_service\team-member-1.jpg
+wwwroot\images\it_service\team-member-2.jpg
+wwwroot\images\it_service\team-member-3.jpg
+wwwroot\images\it_service\test_bg.png
+wwwroot\images\loaders\loader_1.png
+wwwroot\images\logos\it_logo.png
+wwwroot\images\logos\it_logo_white.png
+wwwroot\images\logos\logo_gigashop.png
+wwwroot\images\Products\10ASUS ROG Eye S Webcam streaming chất lượng cao.jpg
+wwwroot\images\Products\11ASUS ROG Delta S.jpg
+wwwroot\images\Products\12ASUS TUF Gaming K7.jpg
+wwwroot\images\Products\13ASUS ROG Pugio II.jpg
+wwwroot\images\Products\14ASUS ROG Scabbard II.jpg
+wwwroot\images\Products\15ASUS ROG Ranger BP3703.jpg
+wwwroot\images\Products\15ASUS ROG Throne Qi.jpg
+wwwroot\images\Products\17ASUS ROG Swift PG32UQX Stand.jpg
+wwwroot\images\Products\18ASUS ROG Cetra True Wireless.jpg
+wwwroot\images\Products\19ASUS TUF Gaming Capture Box.jpg
+wwwroot\images\Products\1ASUS ROG Gladius III Wireless.jpg
+wwwroot\images\Products\20ASUS ROG Kunai 3 Gamepad.jpg
+wwwroot\images\Products\21ASUS ExpertCenter D7 Mini Tower PC cao cấp cho doanh nghiệp.jpg
+wwwroot\images\Products\22ASUS ProArt Station PD5 PC dành cho thiết kế đồ họa.jpg
+wwwroot\images\Products\23ASUS ROG Strix GA35.jpg
+wwwroot\images\Products\24ASUS ExpertCenter D5.jpg
+wwwroot\images\Products\25ASUS Mini PC PN50.jpg
+wwwroot\images\Products\26ASUS ROG Strix GA15.jpg
+wwwroot\images\Products\27ASUS VivoMini VC66-C2.jpg
+wwwroot\images\Products\28ASUS Pro E500 G6.jpg
+wwwroot\images\Products\29ASUS Chromebox 4.jpg
+wwwroot\images\Products\2ASUS TUF Gaming H3.jpg
+wwwroot\images\Products\30ASUS ROG Swift ProArt.jpg
+wwwroot\images\Products\31ASUS ROG Strix GA30.jpg
+wwwroot\images\Products\32ASUS ProArt Mini PC.jpg
+wwwroot\images\Products\33ASUS Tinker Board S.jpg
+wwwroot\images\Products\34ASUS ROG G21CN.jpg
+wwwroot\images\Products\35ASUS VivoPC K31 PC.jpg
+wwwroot\images\Products\36ASUS ROG Strix GA16.jpg
+wwwroot\images\Products\37ASUS Mini PC PB60.jpg
+wwwroot\images\Products\38ASUS ROG GR8 II PC.jpg
+wwwroot\images\Products\39ASUS ExpertCenter E5.jpg
+wwwroot\images\Products\3ASUS ROG Claymore II.jpg
+wwwroot\images\Products\40ASUS VivoPC VM42.jpg
+wwwroot\images\Products\41ASUS ROG Strix G15.jpg
+wwwroot\images\Products\42ASUS ZenBook 14 OLED.jpg
+wwwroot\images\Products\43ASUS TUF Dash F15.jpg
+wwwroot\images\Products\44ASUS VivoBook 15.jpg
+wwwroot\images\Products\45ASUS ROG Zephyrus G14.jpg
+wwwroot\images\Products\46ASUS ZenBook Flip 13.jpg
+wwwroot\images\Products\47ASUS Chromebook C423.jpg
+wwwroot\images\Products\48ASUS VivoBook S14.jpg
+wwwroot\images\Products\49ASUS ExpertBook B9.jpg
+wwwroot\images\Products\4ASUS ROG Sheath Bàn di chuột cỡ lớn.jpg
+wwwroot\images\Products\50ASUS ROG Flow X13.jpg
+wwwroot\images\Products\51ASUS TUF Gaming F17.jpg
+wwwroot\images\Products\52ASUS VivoBook Pro 16X.jpg
+wwwroot\images\Products\53ASUS ZenBook Duo 14.jpg
+wwwroot\images\Products\54ASUS ROG Strix SCAR 15.jpg
+wwwroot\images\Products\55ASUS VivoBook Go 14.jpg
+wwwroot\images\Products\56ASUS ZenBook Pro 15.jpg
+wwwroot\images\Products\57ASUS TUF Gaming A15.jpg
+wwwroot\images\Products\58ASUS Chromebook Flip CX5.jpg
+wwwroot\images\Products\59ASUS ROG Zephyrus Duo 15.jpg
+wwwroot\images\Products\5ASUS ROG Chakram.jpg
+wwwroot\images\Products\60ASUS ExpertBook P2.jpg
+wwwroot\images\Products\61ASUS ROG Strix Z690-E Gaming WiFi.jpg
+wwwroot\images\Products\62ASUS Dual GeForce RTX 3060.jpg
+wwwroot\images\Products\63ASUS Dual GeForce RTX 3060.jpg
+wwwroot\images\Products\64ASUS ROG Strix RTX 3080 Ti.jpg
+wwwroot\images\Products\65ASUS ROG Thor 850W.jpg
+wwwroot\images\Products\66ASUS ROG Ryujin II 360 Tản nhiệt nước AIO.jpg
+wwwroot\images\Products\67ASUS Hyper M.2 x16 Card V2.jpg
+wwwroot\images\Products\68ASUS ROG Crosshair VIII Hero.jpg
+wwwroot\images\Products\69ASUS TUF Gaming GeForce GTX 1660 Super.jpg
+wwwroot\images\Products\6ASUS TUF Gaming Backpack.jpg
+wwwroot\images\Products\70ASUS ROG Strix Arion.jpg
+wwwroot\images\Products\71ASUS PCE-AC58BT.jpg
+wwwroot\images\Products\72ASUS DRW-24D5MT.jpg
+wwwroot\images\Products\73ASUS Turbo GeForce RTX 3070.jpg
+wwwroot\images\Products\74ASUS ROG Strix Z790-F Gaming WiFi.jpg
+wwwroot\images\Products\75ASUS ROG Swift PG259QNR.jpg
+wwwroot\images\Products\76ASUS TUF Gaming 750W.jpg
+wwwroot\images\Products\77ASUS ROG Strix RTX 4090.jpg
+wwwroot\images\Products\78ASUS Xonar AE.jpg
+wwwroot\images\Products\79ASUS TUF Gaming Capture Box.jpg
+wwwroot\images\Products\7ASUS ROG Cetra II Core Tai nghe in-ear gaming.jpg
+wwwroot\images\Products\80ASUS ROG Balteus.jpg
+wwwroot\images\Products\8ASUS ROG Strix Impact II.jpg
+wwwroot\images\Products\9ASUS ROG Balteus.jpg
+wwwroot\js\bootstrap.min.js
+wwwroot\js\custom.js
+wwwroot\js\hizoom.js
+wwwroot\js\jquery.min.js
+wwwroot\js\menumaker.js
+wwwroot\js\wow.js
+wwwroot\revolution\assets\coloredbg.png
+wwwroot\revolution\assets\gridtile.png
+wwwroot\revolution\assets\gridtile_3x3.png
+wwwroot\revolution\assets\gridtile_3x3_white.png
+wwwroot\revolution\assets\gridtile_white.png
+wwwroot\revolution\assets\loader.gif
+wwwroot\revolution\css\closedhand.cur
+wwwroot\revolution\css\layers.css
+wwwroot\revolution\css\navigation.css
+wwwroot\revolution\css\openhand.cur
+wwwroot\revolution\css\settings.css
+wwwroot\revolution\fonts\revicons\revicons.eot
+wwwroot\revolution\fonts\revicons\revicons.svg
+wwwroot\revolution\fonts\revicons\revicons.ttf
+wwwroot\revolution\fonts\revicons\revicons.woff
+wwwroot\revolution\js\extensions\revolution.extension.actions.min.js
+wwwroot\revolution\js\extensions\revolution.extension.carousel.min.js
+wwwroot\revolution\js\extensions\revolution.extension.kenburn.min.js
+wwwroot\revolution\js\extensions\revolution.extension.layeranimation.min.js
+wwwroot\revolution\js\extensions\revolution.extension.migration.min.js
+wwwroot\revolution\js\extensions\revolution.extension.navigation.min.js
+wwwroot\revolution\js\extensions\revolution.extension.parallax.min.js
+wwwroot\revolution\js\extensions\revolution.extension.slideanims.min.js
+wwwroot\revolution\js\extensions\revolution.extension.video.min.js
+wwwroot\revolution\js\jquery.themepunch.revolution.min.js
+wwwroot\revolution\js\jquery.themepunch.tools.min.js

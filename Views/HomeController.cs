@@ -11,6 +11,11 @@ namespace Gigashop.Views
             return View();
         }
 
+        public IActionResult Contact()
+        {
+            return View(); // Trang sử dụng Layout2
+        }
+
         // GET: HomeController/Details/5
         public ActionResult Details(int id)
         {
