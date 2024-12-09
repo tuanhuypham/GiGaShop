@@ -485,32 +485,51 @@
         </div>
 
         <script>
-            fetch('/api/products')
+            fetch('/api/products') // API trả về danh sách sản phẩm
                 .then(response => response.json())
                 .then(products => {
-                    const productList = document.getElementById('product-list');
-                    products.forEach(product => {
-                        const productElement = document.createElement('div');
-                        productElement.className = 'col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all';
-                        productElement.innerHTML = `
-                                <div class="product_list">
-                                    <div class="product_detail_btm">
-                                        <div class="center">
-                                            <h4><a href="#" onclick="saveProductID(${product.productID})">${product.name}</a></h4>
+                    fetch('/api/images/products') // API trả về danh sách file ảnh
+                        .then(response => response.json())
+                        .then(images => {
+                            const productList = document.getElementById('product-list');
+                            products.forEach(product => {
+                                const productID = String(product.productID).padStart(2, '0'); // Đảm bảo ID luôn có 2 ký tự
+                                let matchedImage = images.find(image => image.startsWith(productID)); // Tìm ảnh phù hợp
+                                const fallbackImage = '/images/default.jpg'; // Ảnh mặc định nếu không tìm thấy
+
+                                if (!matchedImage) {
+                                    matchedImage = fallbackImage; // Nếu không tìm thấy ảnh, dùng ảnh mặc định
+                                } else {
+                                    matchedImage = `/images/Products/${matchedImage}`; // Đường dẫn ảnh
+                                }
+
+                                // Tạo phần tử DOM
+                                const productElement = document.createElement('div');
+                                productElement.className = 'col-lg-3 col-md-6 col-sm-6 col-xs-12 margin_bottom_30_all';
+                                productElement.innerHTML = `
+                                    <div class="product_list">
+                                        <div class="product_img">
+                                            <img src="${matchedImage}" alt="${product.name}" class="img-responsive">
                                         </div>
-                                        <div class="starratin">
+                                        <div class="product_detail_btm">
                                             <div class="center">
-                                                ${getStarRating(product.rating)}
+                                                <h4><a href="#" onclick="saveProductID(${product.productID})">${product.name}</a></h4>
+                                            </div>
+                                            <div class="starratin">
+                                                <div class="center">
+                                                    ${getStarRating(product.rating)}
+                                                </div>
+                                            </div>
+                                            <div class="product_price">
+                                                <p>${product.price} VND</p>
                                             </div>
                                         </div>
-                                        <div class="product_price">
-                                            <p>${product.price} VND</p>
-                                        </div>
                                     </div>
-                                </div>
-                            `;
-                        productList.appendChild(productElement);
-                    });
+                                `;
+                                productList.appendChild(productElement);
+                            });
+                        })
+                        .catch(error => console.error('Error fetching images:', error));
                 })
                 .catch(error => console.error('Error fetching products:', error));
 
@@ -526,11 +545,11 @@
                 return starsHtml;
             }
 
-            // Lưu ProductID vào localStorage và chuyển hướng đến trang Details
             function saveProductID(id) {
-                localStorage.setItem('ProductID', id);  // Lưu ProductID vào localStorage
-                window.location.href = '/Home/Details'; // Chuyển hướng đến trang Details
+                localStorage.setItem('ProductID', id);
+                window.location.href = '/Home/Details';
             }
+
         </script>
 
 
