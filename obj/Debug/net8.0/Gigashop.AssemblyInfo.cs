@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gigashop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+baad1a717e0083e609aa35acd2e21a6432a2d9a2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+543bde0684cc5b9d1b68207d8dc0ef4e067b1464")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gigashop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gigashop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

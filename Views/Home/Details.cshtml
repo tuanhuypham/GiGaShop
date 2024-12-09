@@ -178,10 +178,11 @@
                     <div class="row">
                         <div class="col-xl-6 col-lg-12 col-md-12">
                             <div class="product_detail_feature_img hizoom hi2">
-                                <div class='hizoom hi2'> <img src="images/it_service/1.jpg" alt="#" /> </div>
+                                <img id="product-image" src="" alt="Product Image" class="img-responsive"> <!-- Hình ảnh sản phẩm -->
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-12 col-md-12 product_detail_side detail_style1">
+                              <p id="product-id">ID sản phẩm: <span></span></p>
                             <div class="product-heading">
                                 <h2 id="product-name">Norton Internet Security</h2>
                             </div>
@@ -760,6 +761,12 @@
                         document.getElementById('product-rating').innerHTML = getStarRating(product.rating || 0);
                         document.getElementById('product-description').innerText = product.description || 'Không có mô tả';
                         document.getElementById('product-specifications').innerText = product.specifications || 'Không có thông số kỹ thuật';
+
+                        // Hiển thị ProductID
+                        document.getElementById('product-id').querySelector('span').innerText = productId;
+
+                        // Hiển thị hình ảnh sản phẩm dựa trên ProductID
+                        displayProductImage(productId);
                     } else {
                         console.log('Không tìm thấy sản phẩm với ID: ' + productId);
                     }
@@ -769,6 +776,38 @@
                 });
         }
     };
+
+    // Hàm hiển thị ảnh sản phẩm dựa trên ID
+    function displayProductImage(productId) {
+        // Gửi yêu cầu API để lấy danh sách ảnh
+        fetch('/api/images/products')
+            .then(response => response.json())
+            .then(images => {
+                // Đảm bảo ProductID luôn có 2 ký tự
+                const formattedProductId = String(productId).padStart(2, '0');
+
+                // Tìm ảnh có tên bắt đầu với 2 ký tự đầu của ProductID
+                const matchedImage = images.find(image => image.startsWith(formattedProductId));
+
+                // Đường dẫn mặc định nếu không tìm thấy ảnh
+                const fallbackImage = '/images/default.jpg';
+
+                // Nếu tìm thấy ảnh, hiển thị ảnh đó
+                if (matchedImage) {
+                    const imageElement = document.getElementById('product-image');
+                    imageElement.src = `/images/Products/${matchedImage}`;  // Cập nhật đường dẫn ảnh
+                    imageElement.alt = 'Product Image';  // Cập nhật alt text
+                } else {
+                    const imageElement = document.getElementById('product-image');
+                    imageElement.src = fallbackImage;  // Nếu không tìm thấy, dùng ảnh mặc định
+                    imageElement.alt = 'Default Product Image';  // Cập nhật alt text cho ảnh mặc định
+                    console.log('Không tìm thấy ảnh cho sản phẩm này');
+                }
+            })
+            .catch(error => {
+                console.error('Lỗi khi lấy danh sách ảnh:', error);
+            });
+    }
 
     function getStarRating(rating) {
         let starsHtml = '';
@@ -781,6 +820,6 @@
         }
         return starsHtml;
     }
+
+
 </script>
-
-
