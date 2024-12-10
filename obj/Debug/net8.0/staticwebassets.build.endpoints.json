@@ -29,7 +29,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 16:44:13 GMT"
         }
       ],
       "EndpointProperties": [
@@ -74,7 +74,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 16:44:13 GMT"
         }
       ],
       "EndpointProperties": [
@@ -1915,7 +1915,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Tue, 10 Dec 2024 10:21:43 GMT"
         }
       ],
       "EndpointProperties": [
@@ -1952,7 +1952,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Tue, 10 Dec 2024 10:21:43 GMT"
         }
       ],
       "EndpointProperties": [
@@ -1985,7 +1985,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "78825"
+          "Value": "80047"
         },
         {
           "Name": "Content-Type",
@@ -1993,22 +1993,22 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BxZYngIl6k9J9g21OHnW47xfBqGcQA5AfGGyHECb+N4=\""
+          "Value": "\"nCjMA8o7MhEhgOKth9vvylL4nJ6yGNpKdPH6ZWXfoPY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 21:09:55 GMT"
+          "Value": "Tue, 10 Dec 2024 10:21:40 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-BxZYngIl6k9J9g21OHnW47xfBqGcQA5AfGGyHECb+N4="
+          "Value": "sha256-nCjMA8o7MhEhgOKth9vvylL4nJ6yGNpKdPH6ZWXfoPY="
         }
       ]
     },
     {
-      "Route": "css/style.jlou2jtc5g.css",
+      "Route": "css/style.wb3bjonusr.css",
       "AssetFile": "css/style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2022,7 +2022,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "78825"
+          "Value": "80047"
         },
         {
           "Name": "Content-Type",
@@ -2030,21 +2030,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BxZYngIl6k9J9g21OHnW47xfBqGcQA5AfGGyHECb+N4=\""
+          "Value": "\"nCjMA8o7MhEhgOKth9vvylL4nJ6yGNpKdPH6ZWXfoPY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 21:09:55 GMT"
+          "Value": "Tue, 10 Dec 2024 10:21:40 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jlou2jtc5g"
+          "Value": "wb3bjonusr"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-BxZYngIl6k9J9g21OHnW47xfBqGcQA5AfGGyHECb+N4="
+          "Value": "sha256-nCjMA8o7MhEhgOKth9vvylL4nJ6yGNpKdPH6ZWXfoPY="
         },
         {
           "Name": "label",
@@ -2545,6 +2545,744 @@
       ]
     },
     {
+      "Route": "images/Products/01ASUS ROG Gladius III Wireless.gwhtxizvhi.jpg",
+      "AssetFile": "images/Products/01ASUS ROG Gladius III Wireless.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55975"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4DikoTkThAYxcV2zISvHma/DyY8/djzwd17MJjN1MWQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gwhtxizvhi"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4DikoTkThAYxcV2zISvHma/DyY8/djzwd17MJjN1MWQ="
+        },
+        {
+          "Name": "label",
+          "Value": "images/Products/01ASUS ROG Gladius III Wireless.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/Products/01ASUS ROG Gladius III Wireless.jpg",
+      "AssetFile": "images/Products/01ASUS ROG Gladius III Wireless.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55975"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4DikoTkThAYxcV2zISvHma/DyY8/djzwd17MJjN1MWQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4DikoTkThAYxcV2zISvHma/DyY8/djzwd17MJjN1MWQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/Products/02ASUS TUF Gaming H3.0un0c8rqwo.jpg",
+      "AssetFile": "images/Products/02ASUS TUF Gaming H3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55045"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qFSSzLPvAHVCPPAT+oEuJ9q9MMg1CxUNgLB/+P794V0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0un0c8rqwo"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qFSSzLPvAHVCPPAT+oEuJ9q9MMg1CxUNgLB/+P794V0="
+        },
+        {
+          "Name": "label",
+          "Value": "images/Products/02ASUS TUF Gaming H3.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/Products/02ASUS TUF Gaming H3.jpg",
+      "AssetFile": "images/Products/02ASUS TUF Gaming H3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55045"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qFSSzLPvAHVCPPAT+oEuJ9q9MMg1CxUNgLB/+P794V0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qFSSzLPvAHVCPPAT+oEuJ9q9MMg1CxUNgLB/+P794V0="
+        }
+      ]
+    },
+    {
+      "Route": "images/Products/03ASUS ROG Claymore II.jpg",
+      "AssetFile": "images/Products/03ASUS ROG Claymore II.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6104"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NI/rS+XjetbabYHXf/OGNOJzriaycC0CfmcZfM8GtAU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NI/rS+XjetbabYHXf/OGNOJzriaycC0CfmcZfM8GtAU="
+        }
+      ]
+    },
+    {
+      "Route": "images/Products/03ASUS ROG Claymore II.s03it56rsp.jpg",
+      "AssetFile": "images/Products/03ASUS ROG Claymore II.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6104"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NI/rS+XjetbabYHXf/OGNOJzriaycC0CfmcZfM8GtAU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s03it56rsp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NI/rS+XjetbabYHXf/OGNOJzriaycC0CfmcZfM8GtAU="
+        },
+        {
+          "Name": "label",
+          "Value": "images/Products/03ASUS ROG Claymore II.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/Products/04ASUS ROG Sheath Bàn di chuột cỡ lớn.jpg",
+      "AssetFile": "images/Products/04ASUS ROG Sheath Bàn di chuột cỡ lớn.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133505"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QTlMKOOSIuIJ1LgX8FTpSKcB5B3d6zwks6H5QAAkArA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QTlMKOOSIuIJ1LgX8FTpSKcB5B3d6zwks6H5QAAkArA="
+        }
+      ]
+    },
+    {
+      "Route": "images/Products/04ASUS ROG Sheath Bàn di chuột cỡ lớn.pq8cu9ibva.jpg",
+      "AssetFile": "images/Products/04ASUS ROG Sheath Bàn di chuột cỡ lớn.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133505"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QTlMKOOSIuIJ1LgX8FTpSKcB5B3d6zwks6H5QAAkArA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pq8cu9ibva"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QTlMKOOSIuIJ1LgX8FTpSKcB5B3d6zwks6H5QAAkArA="
+        },
+        {
+          "Name": "label",
+          "Value": "images/Products/04ASUS ROG Sheath Bàn di chuột cỡ lớn.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/Products/05ASUS ROG Chakram.jpg",
+      "AssetFile": "images/Products/05ASUS ROG Chakram.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "116990"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tfk/2WNhs9bQci1Q+6S55D8li5rrIA+tEsAvJIBohUY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tfk/2WNhs9bQci1Q+6S55D8li5rrIA+tEsAvJIBohUY="
+        }
+      ]
+    },
+    {
+      "Route": "images/Products/05ASUS ROG Chakram.r42yjphri9.jpg",
+      "AssetFile": "images/Products/05ASUS ROG Chakram.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "116990"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tfk/2WNhs9bQci1Q+6S55D8li5rrIA+tEsAvJIBohUY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r42yjphri9"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tfk/2WNhs9bQci1Q+6S55D8li5rrIA+tEsAvJIBohUY="
+        },
+        {
+          "Name": "label",
+          "Value": "images/Products/05ASUS ROG Chakram.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/Products/06ASUS TUF Gaming Backpack.dtwea6i4hf.jpg",
+      "AssetFile": "images/Products/06ASUS TUF Gaming Backpack.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85125"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XyDA2F79NLewY4RrEqiPljXk3TyCstkXRdVoYzXMY9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dtwea6i4hf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XyDA2F79NLewY4RrEqiPljXk3TyCstkXRdVoYzXMY9M="
+        },
+        {
+          "Name": "label",
+          "Value": "images/Products/06ASUS TUF Gaming Backpack.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/Products/06ASUS TUF Gaming Backpack.jpg",
+      "AssetFile": "images/Products/06ASUS TUF Gaming Backpack.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85125"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XyDA2F79NLewY4RrEqiPljXk3TyCstkXRdVoYzXMY9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XyDA2F79NLewY4RrEqiPljXk3TyCstkXRdVoYzXMY9M="
+        }
+      ]
+    },
+    {
+      "Route": "images/Products/07ASUS ROG Cetra II Core Tai nghe in-ear gaming.jpg",
+      "AssetFile": "images/Products/07ASUS ROG Cetra II Core Tai nghe in-ear gaming.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31262"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LvjYkwDwM/A3Q/7cUCvdxFteXvsLlhnQrlz7FvNyvFw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LvjYkwDwM/A3Q/7cUCvdxFteXvsLlhnQrlz7FvNyvFw="
+        }
+      ]
+    },
+    {
+      "Route": "images/Products/07ASUS ROG Cetra II Core Tai nghe in-ear gaming.majii5k4fh.jpg",
+      "AssetFile": "images/Products/07ASUS ROG Cetra II Core Tai nghe in-ear gaming.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31262"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LvjYkwDwM/A3Q/7cUCvdxFteXvsLlhnQrlz7FvNyvFw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "majii5k4fh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LvjYkwDwM/A3Q/7cUCvdxFteXvsLlhnQrlz7FvNyvFw="
+        },
+        {
+          "Name": "label",
+          "Value": "images/Products/07ASUS ROG Cetra II Core Tai nghe in-ear gaming.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/Products/08ASUS ROG Strix Impact II.5kocpjpfxw.jpg",
+      "AssetFile": "images/Products/08ASUS ROG Strix Impact II.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VTzzLszIEzA8Ot2yHMQD2mdWwNXBOF5ZBHgQN+0KnZs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5kocpjpfxw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VTzzLszIEzA8Ot2yHMQD2mdWwNXBOF5ZBHgQN+0KnZs="
+        },
+        {
+          "Name": "label",
+          "Value": "images/Products/08ASUS ROG Strix Impact II.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/Products/08ASUS ROG Strix Impact II.jpg",
+      "AssetFile": "images/Products/08ASUS ROG Strix Impact II.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VTzzLszIEzA8Ot2yHMQD2mdWwNXBOF5ZBHgQN+0KnZs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VTzzLszIEzA8Ot2yHMQD2mdWwNXBOF5ZBHgQN+0KnZs="
+        }
+      ]
+    },
+    {
+      "Route": "images/Products/09ASUS ROG Balteus.jpg",
+      "AssetFile": "images/Products/09ASUS ROG Balteus.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hcsccCLWbtwA2FwCkGxBmhP+3YprItQ9wBlWspZCxRk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hcsccCLWbtwA2FwCkGxBmhP+3YprItQ9wBlWspZCxRk="
+        }
+      ]
+    },
+    {
+      "Route": "images/Products/09ASUS ROG Balteus.p3wo7v1fxe.jpg",
+      "AssetFile": "images/Products/09ASUS ROG Balteus.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hcsccCLWbtwA2FwCkGxBmhP+3YprItQ9wBlWspZCxRk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p3wo7v1fxe"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hcsccCLWbtwA2FwCkGxBmhP+3YprItQ9wBlWspZCxRk="
+        },
+        {
+          "Name": "label",
+          "Value": "images/Products/09ASUS ROG Balteus.jpg"
+        }
+      ]
+    },
+    {
       "Route": "images/Products/10ASUS ROG Eye S Webcam streaming chất lượng cao.6d0iba55qj.jpg",
       "AssetFile": "images/Products/10ASUS ROG Eye S Webcam streaming chất lượng cao.jpg",
       "Selectors": [],
@@ -2571,7 +3309,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2616,7 +3354,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2653,7 +3391,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2698,7 +3436,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2735,7 +3473,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2780,7 +3518,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2817,7 +3555,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2854,7 +3592,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2899,7 +3637,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2936,7 +3674,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2981,7 +3719,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3026,7 +3764,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3037,8 +3775,8 @@
       ]
     },
     {
-      "Route": "images/Products/15ASUS ROG Throne Qi.eykuxt11yc.jpg",
-      "AssetFile": "images/Products/15ASUS ROG Throne Qi.jpg",
+      "Route": "images/Products/16ASUS ROG Throne Qi.eykuxt11yc.jpg",
+      "AssetFile": "images/Products/16ASUS ROG Throne Qi.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3063,7 +3801,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3077,13 +3815,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/Products/15ASUS ROG Throne Qi.jpg"
+          "Value": "images/Products/16ASUS ROG Throne Qi.jpg"
         }
       ]
     },
     {
-      "Route": "images/Products/15ASUS ROG Throne Qi.jpg",
-      "AssetFile": "images/Products/15ASUS ROG Throne Qi.jpg",
+      "Route": "images/Products/16ASUS ROG Throne Qi.jpg",
+      "AssetFile": "images/Products/16ASUS ROG Throne Qi.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3108,7 +3846,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3145,7 +3883,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3182,7 +3920,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3227,7 +3965,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3264,7 +4002,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3309,7 +4047,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3346,7 +4084,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3361,88 +4099,6 @@
         {
           "Name": "label",
           "Value": "images/Products/19ASUS TUF Gaming Capture Box.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "images/Products/1ASUS ROG Gladius III Wireless.gwhtxizvhi.jpg",
-      "AssetFile": "images/Products/1ASUS ROG Gladius III Wireless.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "55975"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4DikoTkThAYxcV2zISvHma/DyY8/djzwd17MJjN1MWQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "gwhtxizvhi"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4DikoTkThAYxcV2zISvHma/DyY8/djzwd17MJjN1MWQ="
-        },
-        {
-          "Name": "label",
-          "Value": "images/Products/1ASUS ROG Gladius III Wireless.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "images/Products/1ASUS ROG Gladius III Wireless.jpg",
-      "AssetFile": "images/Products/1ASUS ROG Gladius III Wireless.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "55975"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4DikoTkThAYxcV2zISvHma/DyY8/djzwd17MJjN1MWQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-4DikoTkThAYxcV2zISvHma/DyY8/djzwd17MJjN1MWQ="
         }
       ]
     },
@@ -3473,7 +4129,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3510,7 +4166,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3555,7 +4211,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3600,7 +4256,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3637,7 +4293,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3674,7 +4330,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3719,7 +4375,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3764,7 +4420,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3801,7 +4457,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3846,7 +4502,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3883,7 +4539,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3920,7 +4576,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3965,7 +4621,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4002,7 +4658,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4047,7 +4703,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4084,7 +4740,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4129,7 +4785,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4174,7 +4830,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4211,7 +4867,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4256,95 +4912,13 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
           "Value": "sha256-H5TuDpx0k4IuU22RjpDxRZgLmHsj3OTx/jKdVMzwMd4="
-        }
-      ]
-    },
-    {
-      "Route": "images/Products/2ASUS TUF Gaming H3.0un0c8rqwo.jpg",
-      "AssetFile": "images/Products/2ASUS TUF Gaming H3.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "55045"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qFSSzLPvAHVCPPAT+oEuJ9q9MMg1CxUNgLB/+P794V0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0un0c8rqwo"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-qFSSzLPvAHVCPPAT+oEuJ9q9MMg1CxUNgLB/+P794V0="
-        },
-        {
-          "Name": "label",
-          "Value": "images/Products/2ASUS TUF Gaming H3.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "images/Products/2ASUS TUF Gaming H3.jpg",
-      "AssetFile": "images/Products/2ASUS TUF Gaming H3.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "55045"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qFSSzLPvAHVCPPAT+oEuJ9q9MMg1CxUNgLB/+P794V0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-qFSSzLPvAHVCPPAT+oEuJ9q9MMg1CxUNgLB/+P794V0="
         }
       ]
     },
@@ -4375,7 +4949,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4412,7 +4986,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4457,7 +5031,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4502,7 +5076,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4539,7 +5113,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4576,7 +5150,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4621,7 +5195,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4658,7 +5232,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4703,7 +5277,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4748,7 +5322,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4785,7 +5359,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4822,7 +5396,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4867,7 +5441,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4912,7 +5486,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4949,7 +5523,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4986,7 +5560,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5031,7 +5605,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5068,7 +5642,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5113,7 +5687,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5150,7 +5724,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5165,88 +5739,6 @@
         {
           "Name": "label",
           "Value": "images/Products/39ASUS ExpertCenter E5.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "images/Products/3ASUS ROG Claymore II.jpg",
-      "AssetFile": "images/Products/3ASUS ROG Claymore II.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6104"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NI/rS+XjetbabYHXf/OGNOJzriaycC0CfmcZfM8GtAU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-NI/rS+XjetbabYHXf/OGNOJzriaycC0CfmcZfM8GtAU="
-        }
-      ]
-    },
-    {
-      "Route": "images/Products/3ASUS ROG Claymore II.s03it56rsp.jpg",
-      "AssetFile": "images/Products/3ASUS ROG Claymore II.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6104"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NI/rS+XjetbabYHXf/OGNOJzriaycC0CfmcZfM8GtAU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "s03it56rsp"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-NI/rS+XjetbabYHXf/OGNOJzriaycC0CfmcZfM8GtAU="
-        },
-        {
-          "Name": "label",
-          "Value": "images/Products/3ASUS ROG Claymore II.jpg"
         }
       ]
     },
@@ -5277,7 +5769,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5322,7 +5814,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5359,7 +5851,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5404,7 +5896,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5441,7 +5933,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5486,7 +5978,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5523,7 +6015,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5568,7 +6060,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5605,7 +6097,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5650,7 +6142,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5687,7 +6179,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5724,7 +6216,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5769,7 +6261,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5806,7 +6298,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5851,7 +6343,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5896,7 +6388,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5933,7 +6425,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5970,7 +6462,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -6015,7 +6507,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -6060,95 +6552,13 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
           "Value": "sha256-yHsjvfCZ2YB1sRb2ztUNWydV/rm1r11/NW7fRQCj+Pw="
-        }
-      ]
-    },
-    {
-      "Route": "images/Products/4ASUS ROG Sheath Bàn di chuột cỡ lớn.jpg",
-      "AssetFile": "images/Products/4ASUS ROG Sheath Bàn di chuột cỡ lớn.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "133505"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QTlMKOOSIuIJ1LgX8FTpSKcB5B3d6zwks6H5QAAkArA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-QTlMKOOSIuIJ1LgX8FTpSKcB5B3d6zwks6H5QAAkArA="
-        }
-      ]
-    },
-    {
-      "Route": "images/Products/4ASUS ROG Sheath Bàn di chuột cỡ lớn.pq8cu9ibva.jpg",
-      "AssetFile": "images/Products/4ASUS ROG Sheath Bàn di chuột cỡ lớn.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "133505"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QTlMKOOSIuIJ1LgX8FTpSKcB5B3d6zwks6H5QAAkArA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pq8cu9ibva"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-QTlMKOOSIuIJ1LgX8FTpSKcB5B3d6zwks6H5QAAkArA="
-        },
-        {
-          "Name": "label",
-          "Value": "images/Products/4ASUS ROG Sheath Bàn di chuột cỡ lớn.jpg"
         }
       ]
     },
@@ -6179,7 +6589,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -6216,7 +6626,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -6261,7 +6671,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -6306,7 +6716,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -6343,7 +6753,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -6380,7 +6790,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -6425,7 +6835,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -6470,7 +6880,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -6507,7 +6917,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -6552,7 +6962,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -6589,7 +6999,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -6634,7 +7044,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -6671,7 +7081,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -6716,7 +7126,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -6753,7 +7163,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -6798,7 +7208,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -6835,7 +7245,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -6880,7 +7290,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -6917,7 +7327,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -6962,95 +7372,13 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
           "Value": "sha256-U5aFbdcZopDnaaXHxc7kzKCT6llCNyn3AG4M7xG4p8U="
-        }
-      ]
-    },
-    {
-      "Route": "images/Products/5ASUS ROG Chakram.jpg",
-      "AssetFile": "images/Products/5ASUS ROG Chakram.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "116990"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tfk/2WNhs9bQci1Q+6S55D8li5rrIA+tEsAvJIBohUY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-tfk/2WNhs9bQci1Q+6S55D8li5rrIA+tEsAvJIBohUY="
-        }
-      ]
-    },
-    {
-      "Route": "images/Products/5ASUS ROG Chakram.r42yjphri9.jpg",
-      "AssetFile": "images/Products/5ASUS ROG Chakram.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "116990"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tfk/2WNhs9bQci1Q+6S55D8li5rrIA+tEsAvJIBohUY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "r42yjphri9"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-tfk/2WNhs9bQci1Q+6S55D8li5rrIA+tEsAvJIBohUY="
-        },
-        {
-          "Name": "label",
-          "Value": "images/Products/5ASUS ROG Chakram.jpg"
         }
       ]
     },
@@ -7081,7 +7409,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7126,7 +7454,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7163,7 +7491,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7208,7 +7536,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7245,7 +7573,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7282,7 +7610,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7327,7 +7655,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7372,7 +7700,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7409,7 +7737,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7446,7 +7774,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7491,7 +7819,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7528,7 +7856,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7573,7 +7901,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7618,7 +7946,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7655,7 +7983,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7700,7 +8028,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7737,7 +8065,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7782,7 +8110,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7819,7 +8147,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7864,95 +8192,13 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
           "Value": "sha256-yq/koh0WVv1ROqF+XyEgegiokoAdBBrQb3uiHp5ml38="
-        }
-      ]
-    },
-    {
-      "Route": "images/Products/6ASUS TUF Gaming Backpack.dtwea6i4hf.jpg",
-      "AssetFile": "images/Products/6ASUS TUF Gaming Backpack.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "85125"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"XyDA2F79NLewY4RrEqiPljXk3TyCstkXRdVoYzXMY9M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dtwea6i4hf"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-XyDA2F79NLewY4RrEqiPljXk3TyCstkXRdVoYzXMY9M="
-        },
-        {
-          "Name": "label",
-          "Value": "images/Products/6ASUS TUF Gaming Backpack.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "images/Products/6ASUS TUF Gaming Backpack.jpg",
-      "AssetFile": "images/Products/6ASUS TUF Gaming Backpack.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "85125"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"XyDA2F79NLewY4RrEqiPljXk3TyCstkXRdVoYzXMY9M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-XyDA2F79NLewY4RrEqiPljXk3TyCstkXRdVoYzXMY9M="
         }
       ]
     },
@@ -7983,7 +8229,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -8028,7 +8274,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -8065,7 +8311,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -8102,7 +8348,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -8147,7 +8393,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -8192,7 +8438,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -8229,7 +8475,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -8266,7 +8512,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -8311,7 +8557,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -8356,7 +8602,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -8393,7 +8639,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -8438,7 +8684,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -8475,7 +8721,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -8512,7 +8758,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -8557,7 +8803,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -8602,7 +8848,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -8639,7 +8885,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -8684,7 +8930,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -8721,7 +8967,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -8758,7 +9004,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -8773,88 +9019,6 @@
         {
           "Name": "label",
           "Value": "images/Products/79ASUS TUF Gaming Capture Box.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "images/Products/7ASUS ROG Cetra II Core Tai nghe in-ear gaming.jpg",
-      "AssetFile": "images/Products/7ASUS ROG Cetra II Core Tai nghe in-ear gaming.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "31262"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"LvjYkwDwM/A3Q/7cUCvdxFteXvsLlhnQrlz7FvNyvFw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-LvjYkwDwM/A3Q/7cUCvdxFteXvsLlhnQrlz7FvNyvFw="
-        }
-      ]
-    },
-    {
-      "Route": "images/Products/7ASUS ROG Cetra II Core Tai nghe in-ear gaming.majii5k4fh.jpg",
-      "AssetFile": "images/Products/7ASUS ROG Cetra II Core Tai nghe in-ear gaming.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "31262"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"LvjYkwDwM/A3Q/7cUCvdxFteXvsLlhnQrlz7FvNyvFw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "majii5k4fh"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-LvjYkwDwM/A3Q/7cUCvdxFteXvsLlhnQrlz7FvNyvFw="
-        },
-        {
-          "Name": "label",
-          "Value": "images/Products/7ASUS ROG Cetra II Core Tai nghe in-ear gaming.jpg"
         }
       ]
     },
@@ -8885,7 +9049,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -8922,7 +9086,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
+          "Value": "Mon, 09 Dec 2024 15:44:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -8937,170 +9101,6 @@
         {
           "Name": "label",
           "Value": "images/Products/80ASUS ROG Balteus.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "images/Products/8ASUS ROG Strix Impact II.5kocpjpfxw.jpg",
-      "AssetFile": "images/Products/8ASUS ROG Strix Impact II.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3544"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"VTzzLszIEzA8Ot2yHMQD2mdWwNXBOF5ZBHgQN+0KnZs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5kocpjpfxw"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-VTzzLszIEzA8Ot2yHMQD2mdWwNXBOF5ZBHgQN+0KnZs="
-        },
-        {
-          "Name": "label",
-          "Value": "images/Products/8ASUS ROG Strix Impact II.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "images/Products/8ASUS ROG Strix Impact II.jpg",
-      "AssetFile": "images/Products/8ASUS ROG Strix Impact II.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3544"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"VTzzLszIEzA8Ot2yHMQD2mdWwNXBOF5ZBHgQN+0KnZs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-VTzzLszIEzA8Ot2yHMQD2mdWwNXBOF5ZBHgQN+0KnZs="
-        }
-      ]
-    },
-    {
-      "Route": "images/Products/9ASUS ROG Balteus.jpg",
-      "AssetFile": "images/Products/9ASUS ROG Balteus.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4820"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hcsccCLWbtwA2FwCkGxBmhP+3YprItQ9wBlWspZCxRk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hcsccCLWbtwA2FwCkGxBmhP+3YprItQ9wBlWspZCxRk="
-        }
-      ]
-    },
-    {
-      "Route": "images/Products/9ASUS ROG Balteus.p3wo7v1fxe.jpg",
-      "AssetFile": "images/Products/9ASUS ROG Balteus.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4820"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hcsccCLWbtwA2FwCkGxBmhP+3YprItQ9wBlWspZCxRk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "p3wo7v1fxe"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hcsccCLWbtwA2FwCkGxBmhP+3YprItQ9wBlWspZCxRk="
-        },
-        {
-          "Name": "label",
-          "Value": "images/Products/9ASUS ROG Balteus.jpg"
         }
       ]
     },
@@ -13775,170 +13775,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-W4IYa6fwY6ysHFPg0olVfAGsqC+Wr7AT02Y/bVRkq5k="
-        }
-      ]
-    },
-    {
-      "Route": "images/logos/it_logo.6utybmsurs.png",
-      "AssetFile": "images/logos/it_logo.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "42775"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cvHWufpUIwbDf5TXmF+T+xN4vXlMzjHwVbq8xd6KBm4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "6utybmsurs"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-cvHWufpUIwbDf5TXmF+T+xN4vXlMzjHwVbq8xd6KBm4="
-        },
-        {
-          "Name": "label",
-          "Value": "images/logos/it_logo.png"
-        }
-      ]
-    },
-    {
-      "Route": "images/logos/it_logo.png",
-      "AssetFile": "images/logos/it_logo.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "42775"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cvHWufpUIwbDf5TXmF+T+xN4vXlMzjHwVbq8xd6KBm4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-cvHWufpUIwbDf5TXmF+T+xN4vXlMzjHwVbq8xd6KBm4="
-        }
-      ]
-    },
-    {
-      "Route": "images/logos/it_logo_white.krl9h51dlc.png",
-      "AssetFile": "images/logos/it_logo_white.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "26185"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"kPQCUQb1Njmc2T9RGKEPpkH41U0jtsnk/Y5dDQpoLZ8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "krl9h51dlc"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-kPQCUQb1Njmc2T9RGKEPpkH41U0jtsnk/Y5dDQpoLZ8="
-        },
-        {
-          "Name": "label",
-          "Value": "images/logos/it_logo_white.png"
-        }
-      ]
-    },
-    {
-      "Route": "images/logos/it_logo_white.png",
-      "AssetFile": "images/logos/it_logo_white.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "26185"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"kPQCUQb1Njmc2T9RGKEPpkH41U0jtsnk/Y5dDQpoLZ8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 17:25:40 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-kPQCUQb1Njmc2T9RGKEPpkH41U0jtsnk/Y5dDQpoLZ8="
         }
       ]
     },

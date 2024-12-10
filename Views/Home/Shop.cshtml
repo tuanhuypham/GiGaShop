@@ -1,0 +1,150 @@
+﻿@{
+    ViewData["Title"] = "Shop";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div id="inner_banner" class="section inner_banner_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="full">
+                    <div class="title-holder">
+                        <div class="title-holder-cell text-left">
+                            <h1 class="page-title">Shop Page</h1>
+                            <ol class="breadcrumb">
+                                <li><a href="index.html">Home</a></li>
+                                <li class="active">Shop</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end inner page banner -->
+<!-- section -->
+<div class="section padding_layout_1 product_list_main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="row" id="product-list">
+                    <!-- Sản phẩm sẽ được thêm động tại đây -->
+                </div>
+                <script>
+                    fetch('/api/products') // API trả về danh sách sản phẩm
+                        .then(response => response.json())
+                        .then(products => {
+                            fetch('/api/images/products') // API trả về danh sách file ảnh
+                                .then(response => response.json())
+                                .then(images => {
+                                    const productList = document.getElementById('product-list');
+                                    products.forEach(product => {
+                                        const productID = String(product.productID).padStart(2, '0'); // Đảm bảo ID luôn có 2 ký tự
+                                        let matchedImage = images.find(image => image.startsWith(productID)); // Tìm ảnh phù hợp
+                                        const fallbackImage = '/images/default.jpg'; // Ảnh mặc định nếu không tìm thấy
+
+                                        if (!matchedImage) {
+                                            matchedImage = fallbackImage; // Nếu không tìm thấy ảnh, dùng ảnh mặc định
+                                        } else {
+                                            matchedImage = `/images/Products/${matchedImage}`; // Đường dẫn ảnh
+                                        }
+
+
+                                    // Tạo phần tử sản phẩm
+                                    const productElement = document.createElement('div');
+                                    productElement.className = 'col-md-4 col-sm-6 col-xs-12 margin_bottom_30_all';
+                                    productElement.innerHTML = `
+                                        <div class="product_list">
+                                            <div class="product_img">
+                                                <img class="img-responsive" src="${matchedImage}" alt="${product.name}">
+                                            </div>
+                                            <div class="product_detail_btm">
+                                                <div class="center">
+                                                    <h4><a href="#" onclick="saveProductID(${product.productID})">${product.name}</a></h4>
+                                                </div>
+                                                <div class="starratin">
+                                                    <div class="center">
+                                                        ${getStarRating(product.rating)}
+                                                    </div>
+                                                </div>
+                                                <div class="product_price">
+                                                    <p><span class="new_price">${product.price}VNĐ</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    `;
+                                        productList.appendChild(productElement);
+                                    });
+                                })
+                                .catch(error => console.error('Error fetching images:', error));
+                        })
+                        .catch(error => console.error('Error fetching products:', error));
+
+                    function getStarRating(rating) {
+                        let starsHtml = '';
+                        for (let i = 1; i <= 5; i++) {
+                            if (i <= rating) {
+                                starsHtml += '<i class="fa fa-star" aria-hidden="true"></i>';
+                            } else {
+                                starsHtml += '<i class="fa fa-star-o" aria-hidden="true"></i>';
+                            }
+                        }
+                        return starsHtml;
+                    }
+
+                    function saveProductID(id) {
+                        localStorage.setItem('ProductID', id);
+                        window.location.href = '/Home/Details';
+                    }
+
+                </script>
+            </div>
+            <div class="col-md-3">
+                <div class="side_bar">
+                    <div class="side_bar_blog">
+                        <h4>SEARCH</h4>
+                        <div class="side_bar_search">
+                            <div class="input-group stylish-input-group">
+                                <input class="form-control" placeholder="Search" type="text">
+                                <span class="input-group-addon">
+                                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="side_bar_blog">
+                        <h4>Dịch vụ</h4>
+                        <div class="categary">
+                            <ul>
+                                <li><a href="it_data_recovery.html"><i class="fa fa-angle-right"></i> Sửa chữa</a></li>
+                                <li><a href="it_computer_repair.html"><i class="fa fa-angle-right"></i> Lắp đặt</a></li>
+                                <li><a href="it_mobile_service.html"><i class="fa fa-angle-right"></i> Bảo hành</a></li>
+                                <li><a href="it_network_solution.html"><i class="fa fa-angle-right"></i> Bảo trì</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end section -->
+<!-- section -->
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="full">
+                    <div class="contact_us_section">
+                        <div class="call_icon"> <img src="/images/it_service/phone_icon.png" alt="#" /> </div>
+                        <div class="inner_cont">
+                            <h2>REQUEST A FREE QUOTE</h2>
+                            <p>Get answers and advice from people you want it from.</p>
+                        </div>
+                        <div class="button_Section_cont"> <a class="btn dark_gray_bt" href="@Url.Action("Contact", "Home")">Contact us</a> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

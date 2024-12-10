@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "Gigashop.Controllers.ImagesController",
+    "Method": "GetProductImages",
+    "RelativePath": "api/images/products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Gigashop.Controllers.ProductsController",
     "Method": "GetProducts",
     "RelativePath": "api/Products",

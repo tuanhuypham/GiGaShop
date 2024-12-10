@@ -85,20 +85,26 @@ wwwroot\images\it_service\team-member-2.jpg
 wwwroot\images\it_service\team-member-3.jpg
 wwwroot\images\it_service\test_bg.png
 wwwroot\images\loaders\loader_1.png
-wwwroot\images\logos\it_logo.png
-wwwroot\images\logos\it_logo_white.png
 wwwroot\images\logos\logo_gigashop.png
+wwwroot\images\Products\01ASUS ROG Gladius III Wireless.jpg
+wwwroot\images\Products\02ASUS TUF Gaming H3.jpg
+wwwroot\images\Products\03ASUS ROG Claymore II.jpg
+wwwroot\images\Products\04ASUS ROG Sheath Bàn di chuột cỡ lớn.jpg
+wwwroot\images\Products\05ASUS ROG Chakram.jpg
+wwwroot\images\Products\06ASUS TUF Gaming Backpack.jpg
+wwwroot\images\Products\07ASUS ROG Cetra II Core Tai nghe in-ear gaming.jpg
+wwwroot\images\Products\08ASUS ROG Strix Impact II.jpg
+wwwroot\images\Products\09ASUS ROG Balteus.jpg
 wwwroot\images\Products\10ASUS ROG Eye S Webcam streaming chất lượng cao.jpg
 wwwroot\images\Products\11ASUS ROG Delta S.jpg
 wwwroot\images\Products\12ASUS TUF Gaming K7.jpg
 wwwroot\images\Products\13ASUS ROG Pugio II.jpg
 wwwroot\images\Products\14ASUS ROG Scabbard II.jpg
 wwwroot\images\Products\15ASUS ROG Ranger BP3703.jpg
-wwwroot\images\Products\15ASUS ROG Throne Qi.jpg
+wwwroot\images\Products\16ASUS ROG Throne Qi.jpg
 wwwroot\images\Products\17ASUS ROG Swift PG32UQX Stand.jpg
 wwwroot\images\Products\18ASUS ROG Cetra True Wireless.jpg
 wwwroot\images\Products\19ASUS TUF Gaming Capture Box.jpg
-wwwroot\images\Products\1ASUS ROG Gladius III Wireless.jpg
 wwwroot\images\Products\20ASUS ROG Kunai 3 Gamepad.jpg
 wwwroot\images\Products\21ASUS ExpertCenter D7 Mini Tower PC cao cấp cho doanh nghiệp.jpg
 wwwroot\images\Products\22ASUS ProArt Station PD5 PC dành cho thiết kế đồ họa.jpg
@@ -109,7 +115,6 @@ wwwroot\images\Products\26ASUS ROG Strix GA15.jpg
 wwwroot\images\Products\27ASUS VivoMini VC66-C2.jpg
 wwwroot\images\Products\28ASUS Pro E500 G6.jpg
 wwwroot\images\Products\29ASUS Chromebox 4.jpg
-wwwroot\images\Products\2ASUS TUF Gaming H3.jpg
 wwwroot\images\Products\30ASUS ROG Swift ProArt.jpg
 wwwroot\images\Products\31ASUS ROG Strix GA30.jpg
 wwwroot\images\Products\32ASUS ProArt Mini PC.jpg
@@ -120,7 +125,6 @@ wwwroot\images\Products\36ASUS ROG Strix GA16.jpg
 wwwroot\images\Products\37ASUS Mini PC PB60.jpg
 wwwroot\images\Products\38ASUS ROG GR8 II PC.jpg
 wwwroot\images\Products\39ASUS ExpertCenter E5.jpg
-wwwroot\images\Products\3ASUS ROG Claymore II.jpg
 wwwroot\images\Products\40ASUS VivoPC VM42.jpg
 wwwroot\images\Products\41ASUS ROG Strix G15.jpg
 wwwroot\images\Products\42ASUS ZenBook 14 OLED.jpg
@@ -131,7 +135,6 @@ wwwroot\images\Products\46ASUS ZenBook Flip 13.jpg
 wwwroot\images\Products\47ASUS Chromebook C423.jpg
 wwwroot\images\Products\48ASUS VivoBook S14.jpg
 wwwroot\images\Products\49ASUS ExpertBook B9.jpg
-wwwroot\images\Products\4ASUS ROG Sheath Bàn di chuột cỡ lớn.jpg
 wwwroot\images\Products\50ASUS ROG Flow X13.jpg
 wwwroot\images\Products\51ASUS TUF Gaming F17.jpg
 wwwroot\images\Products\52ASUS VivoBook Pro 16X.jpg
@@ -142,7 +145,6 @@ wwwroot\images\Products\56ASUS ZenBook Pro 15.jpg
 wwwroot\images\Products\57ASUS TUF Gaming A15.jpg
 wwwroot\images\Products\58ASUS Chromebook Flip CX5.jpg
 wwwroot\images\Products\59ASUS ROG Zephyrus Duo 15.jpg
-wwwroot\images\Products\5ASUS ROG Chakram.jpg
 wwwroot\images\Products\60ASUS ExpertBook P2.jpg
 wwwroot\images\Products\61ASUS ROG Strix Z690-E Gaming WiFi.jpg
 wwwroot\images\Products\62ASUS Dual GeForce RTX 3060.jpg
@@ -153,7 +155,6 @@ wwwroot\images\Products\66ASUS ROG Ryujin II 360 Tản nhiệt nước AIO.jpg
 wwwroot\images\Products\67ASUS Hyper M.2 x16 Card V2.jpg
 wwwroot\images\Products\68ASUS ROG Crosshair VIII Hero.jpg
 wwwroot\images\Products\69ASUS TUF Gaming GeForce GTX 1660 Super.jpg
-wwwroot\images\Products\6ASUS TUF Gaming Backpack.jpg
 wwwroot\images\Products\70ASUS ROG Strix Arion.jpg
 wwwroot\images\Products\71ASUS PCE-AC58BT.jpg
 wwwroot\images\Products\72ASUS DRW-24D5MT.jpg
@@ -164,10 +165,7 @@ wwwroot\images\Products\76ASUS TUF Gaming 750W.jpg
 wwwroot\images\Products\77ASUS ROG Strix RTX 4090.jpg
 wwwroot\images\Products\78ASUS Xonar AE.jpg
 wwwroot\images\Products\79ASUS TUF Gaming Capture Box.jpg
-wwwroot\images\Products\7ASUS ROG Cetra II Core Tai nghe in-ear gaming.jpg
 wwwroot\images\Products\80ASUS ROG Balteus.jpg
-wwwroot\images\Products\8ASUS ROG Strix Impact II.jpg
-wwwroot\images\Products\9ASUS ROG Balteus.jpg
 wwwroot\js\bootstrap.min.js
 wwwroot\js\custom.js
 wwwroot\js\hizoom.js

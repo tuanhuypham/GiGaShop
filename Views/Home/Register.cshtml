@@ -1,0 +1,145 @@
+﻿@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="signup-container">
+    <div class="signup-box">
+        <h2>Đăng Ký</h2>
+        <form action="#" method="POST" id="signupForm">
+            <input type="hidden" name="UserID" value="AUTO_GENERATED_ID">
+
+            <div class="textbox">
+                <input type="text" placeholder="Username" name="Username" required>
+            </div>
+            <div class="textbox">
+                <input type="password" id="password" placeholder="Mật khẩu" name="PasswordHash" required>
+                <span class="show-password" onclick="togglePassword()">👁️</span>
+            </div>
+            <div class="textbox">
+                <input type="password" id="confirmPassword" placeholder="Nhập lại mật khẩu" required>
+                <span class="show-password" onclick="toggleConfirmPassword()">👁️</span>
+            </div>
+            <div class="textbox">
+                <input type="text" placeholder="Họ và Tên" name="FullName" required>
+            </div>
+            <div class="textbox">
+                <input type="email" placeholder="Email" name="Email" required>
+            </div>
+            <div class="textbox">
+                <input type="text" placeholder="Số điện thoại" name="Phone" required>
+            </div>
+            <div class="textbox">
+                <input type="text" placeholder="Địa chỉ" name="Address" required>
+            </div>
+            <button type="submit" class="btn">Đăng Ký</button>
+            <div class="login-redirect">
+                <p>Đã có tài khoản? <a href="login.html">Đăng nhập ngay</a></p>
+            </div>
+        </form>
+    </div>
+</div>
+
+<style>
+
+
+    .signup-box {
+        background-color: white;
+        padding: 40px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        width: 450px;
+        text-align: center;
+    }
+
+    h2 {
+        color: #1e3a8a;
+        margin-bottom: 20px;
+    }
+
+    .textbox {
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+        .textbox input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+    .show-password {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    .btn {
+        background-color: #1e3a8a;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        width: 100%;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+        .btn:hover {
+            background-color: #2b4692;
+        }
+
+    .login-redirect {
+        margin-top: 10px;
+    }
+
+        .login-redirect p {
+            font-size: 14px;
+        }
+
+        .login-redirect a {
+            text-decoration: none;
+            color: #1e3a8a;
+        }
+
+            .login-redirect a:hover {
+                text-decoration: underline;
+</style>
+<script>
+    function togglePassword() {
+        var passwordField = document.getElementById("password");
+        var passwordFieldType = passwordField.type;
+
+        if (passwordFieldType === "password") {
+            passwordField.type = "text";
+        } else {
+            passwordField.type = "password";
+        }
+    }
+
+    function toggleConfirmPassword() {
+        var confirmPasswordField = document.getElementById("confirmPassword");
+        var confirmPasswordFieldType = confirmPasswordField.type;
+
+        if (confirmPasswordFieldType === "password") {
+            confirmPasswordField.type = "text";
+        } else {
+            confirmPasswordField.type = "password";
+        }
+    }
+
+    document.getElementById("signupForm").addEventListener("submit", function(event) {
+        var password = document.getElementById("password").value;
+        var confirmPassword = document.getElementById("confirmPassword").value;
+
+        // Kiểm tra mật khẩu và nhập lại mật khẩu có khớp hay không
+        if (password !== confirmPassword) {
+            event.preventDefault(); // Ngừng việc submit form nếu mật khẩu không khớp
+            alert("Mật khẩu và nhập lại mật khẩu không khớp!");
+        }
+    });
+</script>

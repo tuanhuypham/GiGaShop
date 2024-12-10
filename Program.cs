@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Gigashop.Data;
 using Gigashop.Services;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -36,11 +38,6 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.MapControllerRoute(
-    name: "contact",
-    pattern: "home/contact",
-    defaults: new { controller = "Home", action = "Contact" });
-
-app.MapControllerRoute(
     name: "shopDetail",
     pattern: "shop/detail/{id}",
     defaults: new { controller = "Shop", action = "Detail" });
@@ -49,6 +46,11 @@ app.MapControllerRoute(
     name: "chatbot",
     pattern: "chatbot",
     defaults: new { controller = "ChatBot", action = "Contact" });
+
+app.MapControllerRoute(
+    name: "about",
+    pattern: "about",
+    defaults: new { controller = "About", action = "About" });
 
 // Đảm bảo cho phép Static Files nếu cần (nếu có file CSS, JS, v.v)
 app.UseStaticFiles();

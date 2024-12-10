@@ -1,0 +1,103 @@
+﻿@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="login-container">
+    <div class="login-box">
+        <h2>Đăng Nhập</h2>
+        <form action="#" method="POST">
+            <div class="textbox">
+                <input type="text" placeholder="Email" name="email" required>
+            </div>
+            <div class="textbox">
+                <input type="password" id="password" placeholder="Mật khẩu" name="password" required>
+                <span class="show-password" onclick="togglePassword()">👁️</span>
+            </div>
+            <button type="submit" class="btn">Đăng Nhập</button>
+            <div class="forgot-password">
+                <a href="#">Quên mật khẩu?</a>
+                <a href="@Url.Action("Register", "Home")">Đăng kí</a>
+            </div>
+        </form>
+    </div>
+</div>
+<style>
+
+    .login-box {
+        background-color: white;
+        padding: 40px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        width: 450px;
+        text-align: center;
+    }
+
+    h2 {
+        color: #1e3a8a;
+        margin-bottom: 20px;
+    }
+
+    .textbox {
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+        .textbox input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+    .show-password {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    .btn {
+        background-color: #1e3a8a;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        width: 100%;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+        .btn:hover {
+            background-color: #2b4692;
+        }
+
+    .forgot-password {
+        margin-top: 10px;
+    }
+
+        .forgot-password a {
+            text-decoration: none;
+            color: #1e3a8a;
+            font-size: 14px;
+        }
+
+            .forgot-password a:hover {
+                text-decoration: underline;
+            }
+</style>
+
+<script>
+            function togglePassword() {
+        var passwordField = document.getElementById("password");
+        var passwordFieldType = passwordField.type;
+
+        if (passwordFieldType === "password") {
+            passwordField.type = "text";
+        } else {
+            passwordField.type = "password";
+        }
+    }
+</script>
