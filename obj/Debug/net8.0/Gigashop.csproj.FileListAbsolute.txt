@@ -566,7 +566,6 @@ D:\Đồ Án HK1B\Gigashop\obj\Debug\net8.0\refint\Gigashop.dll
 D:\Đồ Án HK1B\Gigashop\obj\Debug\net8.0\Gigashop.pdb
 D:\Đồ Án HK1B\Gigashop\obj\Debug\net8.0\Gigashop.genruntimeconfig.cache
 D:\Đồ Án HK1B\Gigashop\obj\Debug\net8.0\ref\Gigashop.dll
-D:\Đồ Án HK1B\GiGaShop\bin\Debug\net8.0\OpenAI_API.dll
 C:\coding\Đồ Án\GiGaShop\bin\Debug\net8.0\appsettings.Development.json
 C:\coding\Đồ Án\GiGaShop\bin\Debug\net8.0\Gigashop.staticwebassets.runtime.json
 C:\coding\Đồ Án\GiGaShop\bin\Debug\net8.0\Gigashop.staticwebassets.endpoints.json
@@ -1145,3 +1144,4 @@ C:\coding\Bao_dev\GiGaShop\obj\Debug\net8.0\refint\Gigashop.dll
 C:\coding\Bao_dev\GiGaShop\obj\Debug\net8.0\Gigashop.pdb
 C:\coding\Bao_dev\GiGaShop\obj\Debug\net8.0\Gigashop.genruntimeconfig.cache
 C:\coding\Bao_dev\GiGaShop\obj\Debug\net8.0\ref\Gigashop.dll
+D:\Đồ Án HK1B\GiGaShop\bin\Debug\net8.0\OpenAI.dll

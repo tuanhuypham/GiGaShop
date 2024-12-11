@@ -1,29 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\coding\\\u0110\u1ED3 \u00C1n\\GiGaShop\\",
+  "WorkspaceRootPath": "D:\\\u0110\u1ED3 \u00C1n HK1B\\GiGaShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|c:\\coding\\\u0111\u1ED3 \u00E1n\\gigashop\\views\\home\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|d:\\\u0111\u1ED3 \u00E1n hk1b\\gigashop\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|d:\\\u0111\u1ED3 \u00E1n hk1b\\gigashop\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|d:\\\u0111\u1ED3 \u00E1n hk1b\\gigashop\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|d:\\\u0111\u1ED3 \u00E1n hk1b\\gigashop\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|d:\\\u0111\u1ED3 \u00E1n hk1b\\gigashop\\views\\home\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:views\\home\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|c:\\coding\\\u0111\u1ED3 \u00E1n\\gigashop\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|d:\\\u0111\u1ED3 \u00E1n hk1b\\gigashop\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|c:\\coding\\\u0111\u1ED3 \u00E1n\\gigashop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|d:\\\u0111\u1ED3 \u00E1n hk1b\\gigashop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|c:\\coding\\\u0111\u1ED3 \u00E1n\\gigashop\\views\\home\\service.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|d:\\\u0111\u1ED3 \u00E1n hk1b\\gigashop\\views\\home\\service.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:views\\home\\service.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|c:\\coding\\\u0111\u1ED3 \u00E1n\\gigashop\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|d:\\\u0111\u1ED3 \u00E1n hk1b\\gigashop\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|c:\\coding\\\u0111\u1ED3 \u00E1n\\gigashop\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|d:\\\u0111\u1ED3 \u00E1n hk1b\\gigashop\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -37,12 +53,68 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n HK1B\\GiGaShop\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n HK1B\\GiGaShop\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAA3wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T10:19:44.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n HK1B\\GiGaShop\\Data\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDBContext.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n HK1B\\GiGaShop\\Data\\ApplicationDBContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDBContext.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAABBwCAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T09:31:26.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n HK1B\\GiGaShop\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n HK1B\\GiGaShop\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T09:31:19.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n HK1B\\GiGaShop\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n HK1B\\GiGaShop\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-10T16:41:18.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\coding\\\u0110\u1ED3 \u00C1n\\GiGaShop\\Views\\Home\\Details.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n HK1B\\GiGaShop\\Views\\Home\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Details.cshtml",
-              "ToolTip": "C:\\coding\\\u0110\u1ED3 \u00C1n\\GiGaShop\\Views\\Home\\Details.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n HK1B\\GiGaShop\\Views\\Home\\Details.cshtml",
               "RelativeToolTip": "Views\\Home\\Details.cshtml",
               "ViewState": "AgIAAHIAAAAAAAAAAAAAAIQAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -50,11 +122,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Service.cshtml",
-              "DocumentMoniker": "C:\\coding\\\u0110\u1ED3 \u00C1n\\GiGaShop\\Views\\Home\\Service.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n HK1B\\GiGaShop\\Views\\Home\\Service.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Service.cshtml",
-              "ToolTip": "C:\\coding\\\u0110\u1ED3 \u00C1n\\GiGaShop\\Views\\Home\\Service.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n HK1B\\GiGaShop\\Views\\Home\\Service.cshtml",
               "RelativeToolTip": "Views\\Home\\Service.cshtml",
               "ViewState": "AgIAAGEAAAAAAAAAAIAywG4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -62,24 +134,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Shop.cshtml",
-              "DocumentMoniker": "C:\\coding\\\u0110\u1ED3 \u00C1n\\GiGaShop\\Views\\Home\\Shop.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n HK1B\\GiGaShop\\Views\\Home\\Shop.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Shop.cshtml",
-              "ToolTip": "C:\\coding\\\u0110\u1ED3 \u00C1n\\GiGaShop\\Views\\Home\\Shop.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n HK1B\\GiGaShop\\Views\\Home\\Shop.cshtml",
               "RelativeToolTip": "Views\\Home\\Shop.cshtml",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAAG8AAAAiAAAAAAAAAA==",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAACQAAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-10T09:17:59.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T09:17:59.341Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\coding\\\u0110\u1ED3 \u00C1n\\GiGaShop\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n HK1B\\GiGaShop\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\coding\\\u0110\u1ED3 \u00C1n\\GiGaShop\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n HK1B\\GiGaShop\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAFYAAAAAAAAAAIAywGAAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -87,11 +158,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\coding\\\u0110\u1ED3 \u00C1n\\GiGaShop\\Views\\_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n HK1B\\GiGaShop\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\coding\\\u0110\u1ED3 \u00C1n\\GiGaShop\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n HK1B\\GiGaShop\\Views\\_ViewStart.cshtml",
               "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -99,11 +170,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "About.cshtml",
-              "DocumentMoniker": "C:\\coding\\\u0110\u1ED3 \u00C1n\\GiGaShop\\Views\\Home\\About.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n HK1B\\GiGaShop\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
-              "ToolTip": "C:\\coding\\\u0110\u1ED3 \u00C1n\\GiGaShop\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n HK1B\\GiGaShop\\Views\\Home\\About.cshtml",
               "RelativeToolTip": "Views\\Home\\About.cshtml",
               "ViewState": "AgIAADkAAAAAAAAAAAAAAEkAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
