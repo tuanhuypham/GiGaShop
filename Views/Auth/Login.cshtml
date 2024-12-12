@@ -1,28 +1,47 @@
-﻿@{
+﻿@model Gigashop.Models.LoginViewModel
+
+@{
     ViewData["Title"] = "Login";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
 <div class="login-container">
     <div class="login-box">
         <h2>Đăng Nhập</h2>
-        <form action="#" method="POST">
+
+        @using (Html.BeginForm("Login", "Auth", FormMethod.Post, new { id = "loginForm" }))
+        {
             <div class="textbox">
-                <input type="text" placeholder="Email" name="email" required>
+                @Html.TextBoxFor(m => m.Email, new { placeholder = "Email", @class = "form-control", required = "required" })
+                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
             </div>
+
             <div class="textbox">
-                <input type="password" id="password" placeholder="Mật khẩu" name="password" required>
+                @Html.PasswordFor(m => m.Password, new { placeholder = "Mật khẩu", @id = "password", @class = "form-control", required = "required" })
                 <span class="show-password" onclick="togglePassword()">👁️</span>
+                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
             </div>
+
             <button type="submit" class="btn">Đăng Nhập</button>
+
             <div class="forgot-password">
                 <a href="#">Quên mật khẩu?</a>
-                <a href="@Url.Action("Register", "Home")">Đăng kí</a>
+                <a href="@Url.Action("Register", "Auth")">Đăng ký</a>
             </div>
-        </form>
+        }
     </div>
 </div>
-<style>
 
+@section Scripts {
+    <script>
+        function togglePassword() {
+            var passwordField = document.getElementById("password");
+            passwordField.type = passwordField.type === "password" ? "text" : "password";
+        }
+    </script>
+}
+
+<style>
     .login-box {
         background-color: white;
         padding: 40px;
@@ -88,16 +107,3 @@
                 text-decoration: underline;
             }
 </style>
-
-<script>
-            function togglePassword() {
-        var passwordField = document.getElementById("password");
-        var passwordFieldType = passwordField.type;
-
-        if (passwordFieldType === "password") {
-            passwordField.type = "text";
-        } else {
-            passwordField.type = "password";
-        }
-    }
-</script>

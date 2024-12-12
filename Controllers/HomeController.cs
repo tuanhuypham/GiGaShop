@@ -16,31 +16,18 @@ namespace Gigashop.Views
             return View();
         }
 
-        public IActionResult Service()
-        {
-            return View();
-        }
-        public IActionResult Login()
+        public IActionResult About()
         {
             return View();
         }
 
-        public IActionResult Register()
-        {
-            return View();
-        }
-
-        public IActionResult ServiceList()
+        // GET: HomeController/Create
+        public ActionResult Create()
         {
             return View();
         }
 
         public IActionResult Shop()
-        {
-            return View();
-        }
-
-        public IActionResult About()
         {
             return View();
         }
@@ -60,11 +47,16 @@ namespace Gigashop.Views
             return View();
         }
 
-        // GET: HomeController/Create
-        public ActionResult Create()
+        public IActionResult Service()
         {
             return View();
         }
+
+        public IActionResult ServiceList()
+        {
+            return View();
+        }
+
 
         // POST: HomeController/Create
         [HttpPost]

@@ -112,7 +112,7 @@ namespace Gigashop.Data
 
         [Required]
         [MaxLength(20)]
-        public string Role { get; set; }
+        public string Role { get; set; } = "User";
 
         public DateTime CreatedAt { get; set; }
 

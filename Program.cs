@@ -1,12 +1,18 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Gigashop.Data;
+﻿using Gigashop.Data;
 using Gigashop.Services;
-
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
+// Đăng ký Session
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // Thời gian hết hạn
+    options.Cookie.HttpOnly = true;                // Chỉ sử dụng Session trong HTTP
+    options.Cookie.IsEssential = true;             // Cookie cần thiết để hoạt động
+});
+
+// Thêm DbContext với SQL Server
 builder.Services.AddDbContext<ApplicationDBContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
@@ -16,23 +22,28 @@ builder.Services.AddDbContext<ApplicationDBContext>(options =>
 var openAiApiKey = builder.Configuration["OpenAI:ApiKey"];
 builder.Services.AddSingleton(new OpenAIService(openAiApiKey));
 
+// Thêm các dịch vụ controller với views
+builder.Services.AddControllersWithViews();
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Cấu hình middleware cho lỗi và bảo mật trong môi trường không phải là Development
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+    app.UseHsts();  // Đảm bảo bảo mật
 }
 
+// Cấu hình Session, static files, và routing
+app.UseSession();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
 
+// Cấu hình Authorization (nếu cần)
 app.UseAuthorization();
 
+// Định nghĩa các routes và controller cho ứng dụng
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
@@ -48,7 +59,7 @@ app.MapControllerRoute(
     defaults: new { controller = "ChatBot", action = "Contact" });
 
 app.MapControllerRoute(
-    name: "about",
+    name: "about",  
     pattern: "about",
     defaults: new { controller = "About", action = "About" });
 
