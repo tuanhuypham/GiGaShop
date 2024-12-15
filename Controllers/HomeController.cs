@@ -9,8 +9,18 @@ namespace Gigashop.Views
         public ActionResult Index()
         {
             return View();
+        }public ActionResult accessories()
+        {
+            return View();
         }
-
+        public ActionResult listLaptop()
+        {
+            return View();
+        }
+        public ActionResult AccessoryPC()
+        {
+            return View();
+        }
         public IActionResult Contact()
         {
             return View();
@@ -20,7 +30,10 @@ namespace Gigashop.Views
         {
             return View();
         }
-
+        public IActionResult listPC()
+        {
+            return View();
+        }
         // GET: HomeController/Create
         public ActionResult Create()
         {
