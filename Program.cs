@@ -10,7 +10,51 @@ builder.Services.AddSession(options =>
     options.IdleTimeout = TimeSpan.FromMinutes(30); // Thời gian hết hạn
     options.Cookie.HttpOnly = true;                // Chỉ sử dụng Session trong HTTP
     options.Cookie.IsEssential = true;             // Cookie cần thiết để hoạt động
+    
+
 });
+void ConfigureServices(IServiceCollection services)
+{
+    services.AddControllersWithViews();
+
+    // Cấu hình session
+    services.AddSession(options =>
+    {
+        options.IdleTimeout = TimeSpan.FromMinutes(30); // Thời gian hết hạn session
+        options.Cookie.HttpOnly = true;
+        options.Cookie.IsEssential = true;
+    });
+}
+
+void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+    if (env.IsDevelopment())
+    {
+        app.UseDeveloperExceptionPage();
+    }
+    else
+    {
+        app.UseExceptionHandler("/Home/Error");
+        app.UseHsts();
+    }
+
+    app.UseHttpsRedirection();
+    app.UseStaticFiles();
+
+    app.UseRouting();
+    app.UseAuthentication();
+    app.UseAuthorization();
+
+    // Kích hoạt session
+    app.UseSession();
+
+    app.UseEndpoints(endpoints =>
+    {
+        endpoints.MapControllerRoute(
+            name: "default",
+            pattern: "{controller=Home}/{action=Index}/{id?}");
+    });
+}
 
 // Thêm DbContext với SQL Server
 builder.Services.AddDbContext<ApplicationDBContext>(options =>
@@ -39,6 +83,8 @@ app.UseSession();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
+builder.Services.AddSession();
+app.UseSession();
 
 // Cấu hình Authorization (nếu cần)
 app.UseAuthorization();

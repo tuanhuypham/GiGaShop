@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RMCoxwGqae2rgMORnhnZPxdCR4B5BhC2DfYIdZnokn0=",
+  "Hash": "6pIJCxzXzn1SEZ1+WoFLrFfOLMfB3AsuGDgaprL95pU=",
   "Source": "Gigashop",
   "BasePath": "_content/Gigashop",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Gigashop\\wwwroot",
       "Source": "Gigashop",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Gigashop.styles.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Gigashop.styles.css",
       "SourceId": "Gigashop",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "Gigashop.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Đồ Án HK1B\\GiGaShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Gigashop.styles.css"
+      "OriginalItemSpec": "D:\\Đồ Án HK1B\\GigaShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Gigashop.styles.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Gigashop.bundle.scp.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Gigashop.bundle.scp.css",
       "SourceId": "Gigashop",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "Gigashop.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Đồ Án HK1B\\GiGaShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Gigashop.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Đồ Án HK1B\\GigaShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Gigashop.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\contact.php",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\contact.php",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "contact.php",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\contact.php"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\css\\animate.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\css\\animate.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "css/animate.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\animate.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\css\\bootstrap.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\css\\bootstrap.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "css/bootstrap.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\css\\bootstrap-grid.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\css\\bootstrap-grid.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\css\\bootstrap-grid.min.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\css\\bootstrap-reboot.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\css\\bootstrap-reboot.min.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\css\\bootstrap-select.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\css\\bootstrap-select.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "css/bootstrap-select.css",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap-select.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\css\\colors_landing_page.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\css\\colors_landing_page.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "css/colors_landing_page.css",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\css\\colors_landing_page.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\css\\colors1.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\css\\colors1.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "css/colors1.css",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\css\\colors1.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\css\\colors1_dark.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\css\\colors1_dark.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "css/colors1_dark.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\css\\colors1_dark.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\css\\colors2.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\css\\colors2.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "css/colors2.css",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\css\\colors2.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\css\\colors3.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\css\\colors3.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "css/colors3.css",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\css\\colors3.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\css\\custom.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\css\\custom.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "css/custom.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\css\\custom.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\css\\dark_layout.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\css\\dark_layout.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "css/dark_layout.css",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\css\\dark_layout.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\css\\font-awesome.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\css\\font-awesome.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "css/font-awesome.css",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\css\\font-awesome.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\css\\font-awesome.min.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\css\\font-awesome.min.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "css/font-awesome.min.css",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\css\\font-awesome.min.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\css\\hizoom.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\css\\hizoom.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "css/hizoom.css",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\css\\hizoom.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\css\\owl.carousel.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\css\\owl.carousel.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "css/owl.carousel.css",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\css\\owl.carousel.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\css\\owl.carousel.min.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\css\\owl.carousel.min.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "css/owl.carousel.min.css",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\css\\owl.carousel.min.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\css\\owl.theme.default.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\css\\owl.theme.default.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "css/owl.theme.default.css",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\css\\owl.theme.default.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\css\\responsive.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\css\\responsive.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "css/responsive.css",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\css\\responsive.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\css\\style.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\css\\style.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\fonts\\FontAwesome.otf",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\fonts\\FontAwesome.otf",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "fonts/FontAwesome.otf",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\FontAwesome.otf"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\fonts\\fontawesome-webfont.eot",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "fonts/fontawesome-webfont.eot",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\fonts\\fontawesome-webfont.svg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "fonts/fontawesome-webfont.svg",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\fonts\\fontawesome-webfont.ttf",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "fonts/fontawesome-webfont.ttf",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\fonts\\fontawesome-webfont.woff",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "fonts/fontawesome-webfont.woff",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\fonts\\fontawesome-webfont.woff2",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "fonts/fontawesome-webfont.woff2",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\fevicon\\fevicon.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\fevicon\\fevicon.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/fevicon/fevicon.png",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\images\\fevicon\\fevicon.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\gradian_black.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\gradian_black.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/gradian_black.png",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gradian_black.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\gradian_blue.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\gradian_blue.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/gradian_blue.png",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gradian_blue.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\1.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\1.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/1.jpg",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\1.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\2.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\2.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/2.jpg",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\2.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\22.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\22.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/22.jpg",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\22.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\3.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\3.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/3.jpg",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\3.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\4.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\4.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/4.jpg",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\4.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\404_error_img.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\404_error_img.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/404_error_img.png",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\404_error_img.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\5.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\5.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/5.jpg",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\5.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\6.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\6.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/6.jpg",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\6.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\7.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\7.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/7.jpg",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\7.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\8.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\8.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/8.jpg",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\8.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\accepted.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\accepted.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/accepted.png",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\accepted.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\brand_icon1.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\brand_icon1.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/brand_icon1.png",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\brand_icon1.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\brand_icon2.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\brand_icon2.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/brand_icon2.png",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\brand_icon2.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\brand_icon3.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\brand_icon3.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/brand_icon3.png",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\brand_icon3.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\brand_icon4.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\brand_icon4.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/brand_icon4.png",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\brand_icon4.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\brand_icon5.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\brand_icon5.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/brand_icon5.png",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\brand_icon5.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\client1.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\client1.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/client1.jpg",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\client1.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\client1.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\client1.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/client1.png",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\client1.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\client2.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\client2.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/client2.jpg",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\client2.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\client2.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\client2.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/client2.png",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\client2.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\client3.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\client3.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/client3.jpg",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\client3.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\client3.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\client3.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/client3.png",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\client3.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\dark_bg_img.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\dark_bg_img.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/dark_bg_img.png",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\dark_bg_img.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\dark_bg_img2.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\dark_bg_img2.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/dark_bg_img2.png",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\dark_bg_img2.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\home_01.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\home_01.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/home_01.png",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\home_01.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\i1.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\i1.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/i1.png",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\i1.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\i2.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\i2.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/i2.png",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\i2.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\i3.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\i3.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/i3.png",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\i3.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\i4.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\i4.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/i4.png",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\i4.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\inner_page_banner.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\inner_page_banner.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/inner_page_banner.jpg",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\inner_page_banner.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\location_icon_map_cont.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\location_icon_map_cont.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/location_icon_map_cont.png",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\location_icon_map_cont.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\phone_icon.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\phone_icon.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/phone_icon.png",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\phone_icon.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\post-01.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\post-01.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/post-01.jpg",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\post-01.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\post-02.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\post-02.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/post-02.jpg",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\post-02.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\post-03.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\post-03.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/post-03.jpg",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\post-03.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\post-04.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\post-04.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/post-04.jpg",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\post-04.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\post-05.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\post-05.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/post-05.jpg",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\post-05.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\post-06.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\post-06.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/post-06.jpg",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\post-06.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\post-07.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\post-07.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/post-07.jpg",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\post-07.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\post-08.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\post-08.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/post-08.jpg",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\post-08.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\si1.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\si1.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/si1.png",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\si1.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\si2.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\si2.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/si2.png",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\si2.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\si3.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\si3.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/si3.png",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\si3.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\si4.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\si4.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/si4.png",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\si4.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\si5.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\si5.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/si5.png",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\si5.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\si6.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\si6.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/si6.png",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\si6.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\slide1.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\slide1.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/slide1.jpg",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\slide1.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\slide2.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\slide2.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/slide2.jpg",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\slide2.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\slide3.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\slide3.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/slide3.jpg",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\slide3.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\team-member-1.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\team-member-1.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/team-member-1.jpg",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\team-member-1.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\team-member-2.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\team-member-2.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/team-member-2.jpg",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\team-member-2.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\team-member-3.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\team-member-3.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/team-member-3.jpg",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\team-member-3.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\it_service\\test_bg.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\it_service\\test_bg.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/it_service/test_bg.png",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\images\\it_service\\test_bg.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\loaders\\loader_1.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\loaders\\loader_1.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/loaders/loader_1.png",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\images\\loaders\\loader_1.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\logos\\logo_gigashop.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\logos\\logo_gigashop.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/logos/logo_gigashop.png",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\logo_gigashop.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\01ASUS ROG Gladius III Wireless.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\01ASUS ROG Gladius III Wireless.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/01ASUS ROG Gladius III Wireless.jpg",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\01ASUS ROG Gladius III Wireless.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\02ASUS TUF Gaming H3.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\02ASUS TUF Gaming H3.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/02ASUS TUF Gaming H3.jpg",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\02ASUS TUF Gaming H3.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\03ASUS ROG Claymore II.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\03ASUS ROG Claymore II.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/03ASUS ROG Claymore II.jpg",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\03ASUS ROG Claymore II.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\04ASUS ROG Sheath Bàn di chuột cỡ lớn.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\04ASUS ROG Sheath Bàn di chuột cỡ lớn.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/04ASUS ROG Sheath Bàn di chuột cỡ lớn.jpg",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\04ASUS ROG Sheath Bàn di chuột cỡ lớn.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\05ASUS ROG Chakram.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\05ASUS ROG Chakram.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/05ASUS ROG Chakram.jpg",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\05ASUS ROG Chakram.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\06ASUS TUF Gaming Backpack.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\06ASUS TUF Gaming Backpack.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/06ASUS TUF Gaming Backpack.jpg",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\06ASUS TUF Gaming Backpack.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\07ASUS ROG Cetra II Core Tai nghe in-ear gaming.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\07ASUS ROG Cetra II Core Tai nghe in-ear gaming.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/07ASUS ROG Cetra II Core Tai nghe in-ear gaming.jpg",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\07ASUS ROG Cetra II Core Tai nghe in-ear gaming.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\08ASUS ROG Strix Impact II.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\08ASUS ROG Strix Impact II.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/08ASUS ROG Strix Impact II.jpg",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\08ASUS ROG Strix Impact II.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\09ASUS ROG Balteus.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\09ASUS ROG Balteus.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/09ASUS ROG Balteus.jpg",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\09ASUS ROG Balteus.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\10ASUS ROG Eye S Webcam streaming chất lượng cao.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\10ASUS ROG Eye S Webcam streaming chất lượng cao.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/10ASUS ROG Eye S Webcam streaming chất lượng cao.jpg",
       "AssetKind": "All",
@@ -1917,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\10ASUS ROG Eye S Webcam streaming chất lượng cao.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\11ASUS ROG Delta S.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\11ASUS ROG Delta S.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/11ASUS ROG Delta S.jpg",
       "AssetKind": "All",
@@ -1936,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\11ASUS ROG Delta S.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\12ASUS TUF Gaming K7.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\12ASUS TUF Gaming K7.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/12ASUS TUF Gaming K7.jpg",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\12ASUS TUF Gaming K7.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\13ASUS ROG Pugio II.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\13ASUS ROG Pugio II.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/13ASUS ROG Pugio II.jpg",
       "AssetKind": "All",
@@ -1974,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\13ASUS ROG Pugio II.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\14ASUS ROG Scabbard II.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\14ASUS ROG Scabbard II.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/14ASUS ROG Scabbard II.jpg",
       "AssetKind": "All",
@@ -1993,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\14ASUS ROG Scabbard II.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\15ASUS ROG Ranger BP3703.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\15ASUS ROG Ranger BP3703.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/15ASUS ROG Ranger BP3703.jpg",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\15ASUS ROG Ranger BP3703.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\16ASUS ROG Throne Qi.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\16ASUS ROG Throne Qi.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/16ASUS ROG Throne Qi.jpg",
       "AssetKind": "All",
@@ -2031,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\16ASUS ROG Throne Qi.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\17ASUS ROG Swift PG32UQX Stand.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\17ASUS ROG Swift PG32UQX Stand.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/17ASUS ROG Swift PG32UQX Stand.jpg",
       "AssetKind": "All",
@@ -2050,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\17ASUS ROG Swift PG32UQX Stand.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\18ASUS ROG Cetra True Wireless.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\18ASUS ROG Cetra True Wireless.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/18ASUS ROG Cetra True Wireless.jpg",
       "AssetKind": "All",
@@ -2069,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\18ASUS ROG Cetra True Wireless.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\19ASUS TUF Gaming Capture Box.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\19ASUS TUF Gaming Capture Box.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/19ASUS TUF Gaming Capture Box.jpg",
       "AssetKind": "All",
@@ -2088,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\19ASUS TUF Gaming Capture Box.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\20ASUS ROG Kunai 3 Gamepad.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\20ASUS ROG Kunai 3 Gamepad.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/20ASUS ROG Kunai 3 Gamepad.jpg",
       "AssetKind": "All",
@@ -2107,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\20ASUS ROG Kunai 3 Gamepad.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\21ASUS ExpertCenter D7 Mini Tower PC cao cấp cho doanh nghiệp.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\21ASUS ExpertCenter D7 Mini Tower PC cao cấp cho doanh nghiệp.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/21ASUS ExpertCenter D7 Mini Tower PC cao cấp cho doanh nghiệp.jpg",
       "AssetKind": "All",
@@ -2126,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\21ASUS ExpertCenter D7 Mini Tower PC cao cấp cho doanh nghiệp.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\22ASUS ProArt Station PD5 PC dành cho thiết kế đồ họa.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\22ASUS ProArt Station PD5 PC dành cho thiết kế đồ họa.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/22ASUS ProArt Station PD5 PC dành cho thiết kế đồ họa.jpg",
       "AssetKind": "All",
@@ -2145,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\22ASUS ProArt Station PD5 PC dành cho thiết kế đồ họa.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\23ASUS ROG Strix GA35.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\23ASUS ROG Strix GA35.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/23ASUS ROG Strix GA35.jpg",
       "AssetKind": "All",
@@ -2164,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\23ASUS ROG Strix GA35.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\24ASUS ExpertCenter D5.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\24ASUS ExpertCenter D5.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/24ASUS ExpertCenter D5.jpg",
       "AssetKind": "All",
@@ -2183,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\24ASUS ExpertCenter D5.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\25ASUS Mini PC PN50.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\25ASUS Mini PC PN50.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/25ASUS Mini PC PN50.jpg",
       "AssetKind": "All",
@@ -2202,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\25ASUS Mini PC PN50.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\26ASUS ROG Strix GA15.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\26ASUS ROG Strix GA15.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/26ASUS ROG Strix GA15.jpg",
       "AssetKind": "All",
@@ -2221,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\26ASUS ROG Strix GA15.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\27ASUS VivoMini VC66-C2.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\27ASUS VivoMini VC66-C2.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/27ASUS VivoMini VC66-C2.jpg",
       "AssetKind": "All",
@@ -2240,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\27ASUS VivoMini VC66-C2.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\28ASUS Pro E500 G6.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\28ASUS Pro E500 G6.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/28ASUS Pro E500 G6.jpg",
       "AssetKind": "All",
@@ -2259,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\28ASUS Pro E500 G6.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\29ASUS Chromebox 4.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\29ASUS Chromebox 4.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/29ASUS Chromebox 4.jpg",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\29ASUS Chromebox 4.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\30ASUS ROG Swift ProArt.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\30ASUS ROG Swift ProArt.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/30ASUS ROG Swift ProArt.jpg",
       "AssetKind": "All",
@@ -2297,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\30ASUS ROG Swift ProArt.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\31ASUS ROG Strix GA30.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\31ASUS ROG Strix GA30.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/31ASUS ROG Strix GA30.jpg",
       "AssetKind": "All",
@@ -2316,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\31ASUS ROG Strix GA30.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\32ASUS ProArt Mini PC.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\32ASUS ProArt Mini PC.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/32ASUS ProArt Mini PC.jpg",
       "AssetKind": "All",
@@ -2335,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\32ASUS ProArt Mini PC.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\33ASUS Tinker Board S.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\33ASUS Tinker Board S.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/33ASUS Tinker Board S.jpg",
       "AssetKind": "All",
@@ -2354,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\33ASUS Tinker Board S.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\34ASUS ROG G21CN.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\34ASUS ROG G21CN.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/34ASUS ROG G21CN.jpg",
       "AssetKind": "All",
@@ -2373,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\34ASUS ROG G21CN.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\35ASUS VivoPC K31 PC.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\35ASUS VivoPC K31 PC.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/35ASUS VivoPC K31 PC.jpg",
       "AssetKind": "All",
@@ -2392,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\35ASUS VivoPC K31 PC.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\36ASUS ROG Strix GA16.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\36ASUS ROG Strix GA16.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/36ASUS ROG Strix GA16.jpg",
       "AssetKind": "All",
@@ -2411,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\36ASUS ROG Strix GA16.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\37ASUS Mini PC PB60.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\37ASUS Mini PC PB60.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/37ASUS Mini PC PB60.jpg",
       "AssetKind": "All",
@@ -2430,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\37ASUS Mini PC PB60.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\38ASUS ROG GR8 II PC.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\38ASUS ROG GR8 II PC.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/38ASUS ROG GR8 II PC.jpg",
       "AssetKind": "All",
@@ -2449,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\38ASUS ROG GR8 II PC.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\39ASUS ExpertCenter E5.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\39ASUS ExpertCenter E5.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/39ASUS ExpertCenter E5.jpg",
       "AssetKind": "All",
@@ -2468,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\39ASUS ExpertCenter E5.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\40ASUS VivoPC VM42.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\40ASUS VivoPC VM42.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/40ASUS VivoPC VM42.jpg",
       "AssetKind": "All",
@@ -2487,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\40ASUS VivoPC VM42.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\41ASUS ROG Strix G15.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\41ASUS ROG Strix G15.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/41ASUS ROG Strix G15.jpg",
       "AssetKind": "All",
@@ -2506,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\41ASUS ROG Strix G15.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\42ASUS ZenBook 14 OLED.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\42ASUS ZenBook 14 OLED.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/42ASUS ZenBook 14 OLED.jpg",
       "AssetKind": "All",
@@ -2525,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\42ASUS ZenBook 14 OLED.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\43ASUS TUF Dash F15.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\43ASUS TUF Dash F15.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/43ASUS TUF Dash F15.jpg",
       "AssetKind": "All",
@@ -2544,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\43ASUS TUF Dash F15.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\44ASUS VivoBook 15.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\44ASUS VivoBook 15.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/44ASUS VivoBook 15.jpg",
       "AssetKind": "All",
@@ -2563,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\44ASUS VivoBook 15.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\45ASUS ROG Zephyrus G14.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\45ASUS ROG Zephyrus G14.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/45ASUS ROG Zephyrus G14.jpg",
       "AssetKind": "All",
@@ -2582,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\45ASUS ROG Zephyrus G14.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\46ASUS ZenBook Flip 13.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\46ASUS ZenBook Flip 13.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/46ASUS ZenBook Flip 13.jpg",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\46ASUS ZenBook Flip 13.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\47ASUS Chromebook C423.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\47ASUS Chromebook C423.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/47ASUS Chromebook C423.jpg",
       "AssetKind": "All",
@@ -2620,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\47ASUS Chromebook C423.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\48ASUS VivoBook S14.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\48ASUS VivoBook S14.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/48ASUS VivoBook S14.jpg",
       "AssetKind": "All",
@@ -2639,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\48ASUS VivoBook S14.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\49ASUS ExpertBook B9.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\49ASUS ExpertBook B9.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/49ASUS ExpertBook B9.jpg",
       "AssetKind": "All",
@@ -2658,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\49ASUS ExpertBook B9.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\50ASUS ROG Flow X13.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\50ASUS ROG Flow X13.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/50ASUS ROG Flow X13.jpg",
       "AssetKind": "All",
@@ -2677,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\50ASUS ROG Flow X13.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\51ASUS TUF Gaming F17.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\51ASUS TUF Gaming F17.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/51ASUS TUF Gaming F17.jpg",
       "AssetKind": "All",
@@ -2696,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\51ASUS TUF Gaming F17.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\52ASUS VivoBook Pro 16X.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\52ASUS VivoBook Pro 16X.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/52ASUS VivoBook Pro 16X.jpg",
       "AssetKind": "All",
@@ -2715,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\52ASUS VivoBook Pro 16X.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\53ASUS ZenBook Duo 14.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\53ASUS ZenBook Duo 14.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/53ASUS ZenBook Duo 14.jpg",
       "AssetKind": "All",
@@ -2734,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\53ASUS ZenBook Duo 14.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\54ASUS ROG Strix SCAR 15.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\54ASUS ROG Strix SCAR 15.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/54ASUS ROG Strix SCAR 15.jpg",
       "AssetKind": "All",
@@ -2753,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\54ASUS ROG Strix SCAR 15.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\55ASUS VivoBook Go 14.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\55ASUS VivoBook Go 14.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/55ASUS VivoBook Go 14.jpg",
       "AssetKind": "All",
@@ -2772,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\55ASUS VivoBook Go 14.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\56ASUS ZenBook Pro 15.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\56ASUS ZenBook Pro 15.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/56ASUS ZenBook Pro 15.jpg",
       "AssetKind": "All",
@@ -2791,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\56ASUS ZenBook Pro 15.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\57ASUS TUF Gaming A15.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\57ASUS TUF Gaming A15.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/57ASUS TUF Gaming A15.jpg",
       "AssetKind": "All",
@@ -2810,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\57ASUS TUF Gaming A15.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\58ASUS Chromebook Flip CX5.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\58ASUS Chromebook Flip CX5.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/58ASUS Chromebook Flip CX5.jpg",
       "AssetKind": "All",
@@ -2829,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\58ASUS Chromebook Flip CX5.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\59ASUS ROG Zephyrus Duo 15.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\59ASUS ROG Zephyrus Duo 15.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/59ASUS ROG Zephyrus Duo 15.jpg",
       "AssetKind": "All",
@@ -2848,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\59ASUS ROG Zephyrus Duo 15.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\60ASUS ExpertBook P2.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\60ASUS ExpertBook P2.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/60ASUS ExpertBook P2.jpg",
       "AssetKind": "All",
@@ -2867,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\60ASUS ExpertBook P2.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\61ASUS ROG Strix Z690-E Gaming WiFi.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\61ASUS ROG Strix Z690-E Gaming WiFi.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/61ASUS ROG Strix Z690-E Gaming WiFi.jpg",
       "AssetKind": "All",
@@ -2886,10 +2886,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\61ASUS ROG Strix Z690-E Gaming WiFi.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\62ASUS Dual GeForce RTX 3060.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\62ASUS Dual GeForce RTX 3060.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/62ASUS Dual GeForce RTX 3060.jpg",
       "AssetKind": "All",
@@ -2905,10 +2905,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\62ASUS Dual GeForce RTX 3060.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\63ASUS Dual GeForce RTX 3060.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\63ASUS Dual GeForce RTX 3060.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/63ASUS Dual GeForce RTX 3060.jpg",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\63ASUS Dual GeForce RTX 3060.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\64ASUS ROG Strix RTX 3080 Ti.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\64ASUS ROG Strix RTX 3080 Ti.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/64ASUS ROG Strix RTX 3080 Ti.jpg",
       "AssetKind": "All",
@@ -2943,10 +2943,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\64ASUS ROG Strix RTX 3080 Ti.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\65ASUS ROG Thor 850W.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\65ASUS ROG Thor 850W.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/65ASUS ROG Thor 850W.jpg",
       "AssetKind": "All",
@@ -2962,10 +2962,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\65ASUS ROG Thor 850W.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\66ASUS ROG Ryujin II 360 Tản nhiệt nước AIO.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\66ASUS ROG Ryujin II 360 Tản nhiệt nước AIO.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/66ASUS ROG Ryujin II 360 Tản nhiệt nước AIO.jpg",
       "AssetKind": "All",
@@ -2981,10 +2981,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\66ASUS ROG Ryujin II 360 Tản nhiệt nước AIO.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\67ASUS Hyper M.2 x16 Card V2.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\67ASUS Hyper M.2 x16 Card V2.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/67ASUS Hyper M.2 x16 Card V2.jpg",
       "AssetKind": "All",
@@ -3000,10 +3000,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\67ASUS Hyper M.2 x16 Card V2.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\68ASUS ROG Crosshair VIII Hero.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\68ASUS ROG Crosshair VIII Hero.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/68ASUS ROG Crosshair VIII Hero.jpg",
       "AssetKind": "All",
@@ -3019,10 +3019,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\68ASUS ROG Crosshair VIII Hero.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\69ASUS TUF Gaming GeForce GTX 1660 Super.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\69ASUS TUF Gaming GeForce GTX 1660 Super.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/69ASUS TUF Gaming GeForce GTX 1660 Super.jpg",
       "AssetKind": "All",
@@ -3038,10 +3038,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\69ASUS TUF Gaming GeForce GTX 1660 Super.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\70ASUS ROG Strix Arion.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\70ASUS ROG Strix Arion.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/70ASUS ROG Strix Arion.jpg",
       "AssetKind": "All",
@@ -3057,10 +3057,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\70ASUS ROG Strix Arion.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\71ASUS PCE-AC58BT.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\71ASUS PCE-AC58BT.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/71ASUS PCE-AC58BT.jpg",
       "AssetKind": "All",
@@ -3076,10 +3076,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\71ASUS PCE-AC58BT.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\72ASUS DRW-24D5MT.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\72ASUS DRW-24D5MT.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/72ASUS DRW-24D5MT.jpg",
       "AssetKind": "All",
@@ -3095,10 +3095,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\72ASUS DRW-24D5MT.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\73ASUS Turbo GeForce RTX 3070.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\73ASUS Turbo GeForce RTX 3070.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/73ASUS Turbo GeForce RTX 3070.jpg",
       "AssetKind": "All",
@@ -3114,10 +3114,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\73ASUS Turbo GeForce RTX 3070.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\74ASUS ROG Strix Z790-F Gaming WiFi.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\74ASUS ROG Strix Z790-F Gaming WiFi.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/74ASUS ROG Strix Z790-F Gaming WiFi.jpg",
       "AssetKind": "All",
@@ -3133,10 +3133,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\74ASUS ROG Strix Z790-F Gaming WiFi.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\75ASUS ROG Swift PG259QNR.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\75ASUS ROG Swift PG259QNR.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/75ASUS ROG Swift PG259QNR.jpg",
       "AssetKind": "All",
@@ -3152,10 +3152,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\75ASUS ROG Swift PG259QNR.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\76ASUS TUF Gaming 750W.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\76ASUS TUF Gaming 750W.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/76ASUS TUF Gaming 750W.jpg",
       "AssetKind": "All",
@@ -3171,10 +3171,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\76ASUS TUF Gaming 750W.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\77ASUS ROG Strix RTX 4090.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\77ASUS ROG Strix RTX 4090.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/77ASUS ROG Strix RTX 4090.jpg",
       "AssetKind": "All",
@@ -3190,10 +3190,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\77ASUS ROG Strix RTX 4090.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\78ASUS Xonar AE.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\78ASUS Xonar AE.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/78ASUS Xonar AE.jpg",
       "AssetKind": "All",
@@ -3209,10 +3209,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\78ASUS Xonar AE.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\79ASUS TUF Gaming Capture Box.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\79ASUS TUF Gaming Capture Box.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/79ASUS TUF Gaming Capture Box.jpg",
       "AssetKind": "All",
@@ -3228,10 +3228,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\79ASUS TUF Gaming Capture Box.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\images\\Products\\80ASUS ROG Balteus.jpg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\images\\Products\\80ASUS ROG Balteus.jpg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "images/Products/80ASUS ROG Balteus.jpg",
       "AssetKind": "All",
@@ -3247,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Products\\80ASUS ROG Balteus.jpg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\js\\bootstrap.min.js",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\js\\bootstrap.min.js",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "js/bootstrap.min.js",
       "AssetKind": "All",
@@ -3266,10 +3266,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\js\\custom.js",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\js\\custom.js",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "js/custom.js",
       "AssetKind": "All",
@@ -3285,10 +3285,10 @@
       "OriginalItemSpec": "wwwroot\\js\\custom.js"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\js\\hizoom.js",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\js\\hizoom.js",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "js/hizoom.js",
       "AssetKind": "All",
@@ -3304,10 +3304,10 @@
       "OriginalItemSpec": "wwwroot\\js\\hizoom.js"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\js\\jquery.min.js",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\js\\jquery.min.js",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "js/jquery.min.js",
       "AssetKind": "All",
@@ -3323,10 +3323,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.min.js"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\js\\menumaker.js",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\js\\menumaker.js",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "js/menumaker.js",
       "AssetKind": "All",
@@ -3342,10 +3342,10 @@
       "OriginalItemSpec": "wwwroot\\js\\menumaker.js"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\js\\wow.js",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\js\\wow.js",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "js/wow.js",
       "AssetKind": "All",
@@ -3361,10 +3361,10 @@
       "OriginalItemSpec": "wwwroot\\js\\wow.js"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\assets\\coloredbg.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\assets\\coloredbg.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/assets/coloredbg.png",
       "AssetKind": "All",
@@ -3380,10 +3380,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\assets\\coloredbg.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\assets\\gridtile.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\assets\\gridtile.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/assets/gridtile.png",
       "AssetKind": "All",
@@ -3399,10 +3399,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\assets\\gridtile.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\assets\\gridtile_3x3.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\assets\\gridtile_3x3.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/assets/gridtile_3x3.png",
       "AssetKind": "All",
@@ -3418,10 +3418,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\assets\\gridtile_3x3.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\assets\\gridtile_3x3_white.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\assets\\gridtile_3x3_white.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/assets/gridtile_3x3_white.png",
       "AssetKind": "All",
@@ -3437,10 +3437,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\assets\\gridtile_3x3_white.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\assets\\gridtile_white.png",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\assets\\gridtile_white.png",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/assets/gridtile_white.png",
       "AssetKind": "All",
@@ -3456,10 +3456,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\assets\\gridtile_white.png"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\assets\\loader.gif",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\assets\\loader.gif",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/assets/loader.gif",
       "AssetKind": "All",
@@ -3475,10 +3475,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\assets\\loader.gif"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\css\\closedhand.cur",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\css\\closedhand.cur",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/css/closedhand.cur",
       "AssetKind": "All",
@@ -3494,10 +3494,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\css\\closedhand.cur"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\css\\layers.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\css\\layers.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/css/layers.css",
       "AssetKind": "All",
@@ -3513,10 +3513,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\css\\layers.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\css\\navigation.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\css\\navigation.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/css/navigation.css",
       "AssetKind": "All",
@@ -3532,10 +3532,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\css\\navigation.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\css\\openhand.cur",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\css\\openhand.cur",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/css/openhand.cur",
       "AssetKind": "All",
@@ -3551,10 +3551,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\css\\openhand.cur"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\css\\settings.css",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\css\\settings.css",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/css/settings.css",
       "AssetKind": "All",
@@ -3570,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\css\\settings.css"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\fonts\\revicons\\revicons.eot",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\fonts\\revicons\\revicons.eot",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/fonts/revicons/revicons.eot",
       "AssetKind": "All",
@@ -3589,10 +3589,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\fonts\\revicons\\revicons.eot"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\fonts\\revicons\\revicons.svg",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\fonts\\revicons\\revicons.svg",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/fonts/revicons/revicons.svg",
       "AssetKind": "All",
@@ -3608,10 +3608,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\fonts\\revicons\\revicons.svg"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\fonts\\revicons\\revicons.ttf",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\fonts\\revicons\\revicons.ttf",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/fonts/revicons/revicons.ttf",
       "AssetKind": "All",
@@ -3627,10 +3627,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\fonts\\revicons\\revicons.ttf"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\fonts\\revicons\\revicons.woff",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\fonts\\revicons\\revicons.woff",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/fonts/revicons/revicons.woff",
       "AssetKind": "All",
@@ -3646,10 +3646,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\fonts\\revicons\\revicons.woff"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.actions.min.js",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.actions.min.js",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/js/extensions/revolution.extension.actions.min.js",
       "AssetKind": "All",
@@ -3665,10 +3665,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\js\\extensions\\revolution.extension.actions.min.js"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.carousel.min.js",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.carousel.min.js",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/js/extensions/revolution.extension.carousel.min.js",
       "AssetKind": "All",
@@ -3684,10 +3684,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\js\\extensions\\revolution.extension.carousel.min.js"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.kenburn.min.js",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.kenburn.min.js",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/js/extensions/revolution.extension.kenburn.min.js",
       "AssetKind": "All",
@@ -3703,10 +3703,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\js\\extensions\\revolution.extension.kenburn.min.js"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.layeranimation.min.js",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.layeranimation.min.js",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/js/extensions/revolution.extension.layeranimation.min.js",
       "AssetKind": "All",
@@ -3722,10 +3722,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\js\\extensions\\revolution.extension.layeranimation.min.js"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.migration.min.js",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.migration.min.js",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/js/extensions/revolution.extension.migration.min.js",
       "AssetKind": "All",
@@ -3741,10 +3741,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\js\\extensions\\revolution.extension.migration.min.js"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.navigation.min.js",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.navigation.min.js",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/js/extensions/revolution.extension.navigation.min.js",
       "AssetKind": "All",
@@ -3760,10 +3760,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\js\\extensions\\revolution.extension.navigation.min.js"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.parallax.min.js",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.parallax.min.js",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/js/extensions/revolution.extension.parallax.min.js",
       "AssetKind": "All",
@@ -3779,10 +3779,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\js\\extensions\\revolution.extension.parallax.min.js"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.slideanims.min.js",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.slideanims.min.js",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/js/extensions/revolution.extension.slideanims.min.js",
       "AssetKind": "All",
@@ -3798,10 +3798,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\js\\extensions\\revolution.extension.slideanims.min.js"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.video.min.js",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\js\\extensions\\revolution.extension.video.min.js",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/js/extensions/revolution.extension.video.min.js",
       "AssetKind": "All",
@@ -3817,10 +3817,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\js\\extensions\\revolution.extension.video.min.js"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\js\\jquery.themepunch.revolution.min.js",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\js\\jquery.themepunch.revolution.min.js",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/js/jquery.themepunch.revolution.min.js",
       "AssetKind": "All",
@@ -3836,10 +3836,10 @@
       "OriginalItemSpec": "wwwroot\\revolution\\js\\jquery.themepunch.revolution.min.js"
     },
     {
-      "Identity": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\revolution\\js\\jquery.themepunch.tools.min.js",
+      "Identity": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\revolution\\js\\jquery.themepunch.tools.min.js",
       "SourceId": "Gigashop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Đồ Án HK1B\\GiGaShop\\wwwroot\\",
+      "ContentRoot": "D:\\Đồ Án HK1B\\GigaShop\\wwwroot\\",
       "BasePath": "_content/Gigashop",
       "RelativePath": "revolution/js/jquery.themepunch.tools.min.js",
       "AssetKind": "All",

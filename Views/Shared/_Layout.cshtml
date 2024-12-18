@@ -70,14 +70,18 @@
                         <div class="float-right">
                             @if (ViewBag.Username != null)
                             {
-                                <div class="make_appo"> <a class="btn white_btn" href="@Url.Action("Login", "Auth")">@ViewBag.Username!</a> </div>
+                                <div class="make_appo">
+                                    <a class="btn white_btn" href="@Url.Action("Logout", "Auth")">Xin chào, @ViewBag.Username!</a>
+                                </div>
                             }
                             else
                             {
-                                <div class="make_appo"> <a class="btn white_btn" href="@Url.Action("Login", "Auth")">Đăng Nhập</a> </div>
+                                <div class="make_appo">
+                                    <a class="btn white_btn" href="@Url.Action("Login", "Auth")">Đăng Nhập</a>
+                                </div>
                             }
-                            
                         </div>
+
                     </div>
                 </div>
             </div>

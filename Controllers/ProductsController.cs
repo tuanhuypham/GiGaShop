@@ -130,20 +130,35 @@ namespace Gigashop.Controllers
             var products = await _context.Products.ToListAsync();
             return Ok(products);
         }
-
-        // GET: api/products/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
-            // Tìm sản phẩm theo ID
             var product = await _context.Products.FindAsync(id);
 
             if (product == null)
             {
-                return NotFound(); // Trả về lỗi nếu không tìm thấy sản phẩm
+                return NotFound();
             }
 
-            return Ok(product); // Trả về sản phẩm dưới dạng JSON
+            // Lưu thông tin sản phẩm vào Session
+            HttpContext.Session.SetString("SelectedProduct", Newtonsoft.Json.JsonConvert.SerializeObject(product));
+
+            return Ok(product);
+        }
+
+        // GET: api/products/5
+
+        [HttpGet("get-session-product")]
+        public ActionResult<Product> GetSessionProduct()
+        {
+            var sessionData = HttpContext.Session.GetString("SelectedProduct");
+            if (string.IsNullOrEmpty(sessionData))
+            {
+                return NotFound("Không có sản phẩm trong session.");
+            }
+
+            var product = Newtonsoft.Json.JsonConvert.DeserializeObject<Product>(sessionData);
+            return Ok(product);
         }
 
         // POST: api/products

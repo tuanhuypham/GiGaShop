@@ -202,6 +202,10 @@ public class Order
     // Navigation property (optional) to User
     [ForeignKey("UserID")]
     public virtual User User { get; set; }
+
+   
+    
+
 }
 [Table("OrderDetails", Schema = "dbo")]
 public class OrderDetail
@@ -215,10 +219,14 @@ public class OrderDetail
     public decimal UnitPrice { get; set; }  // Giá đơn vị của sản phẩm
     public decimal Total { get; set; }      // Tổng tiền cho chi tiết đơn hàng
 
+    // Thêm UserID vào bảng OrderDetails
+    public string UserID { get; set; }  // Liên kết với người dùng
+
     // Điều này sẽ tạo ra mối quan hệ với bảng Orders và Products
     public Order Order { get; set; }
     public Product Product { get; set; }
 }
+
 [Table("ContactMessages", Schema = "dbo")]
     public class ContactMessage{
     [Key]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Đồ Án HK1B\\GiGaShop\\Gigashop.csproj": {}
+    "D:\\Đồ Án HK1B\\GigaShop\\Gigashop.csproj": {}
   },
   "projects": {
-    "D:\\Đồ Án HK1B\\GiGaShop\\Gigashop.csproj": {
+    "D:\\Đồ Án HK1B\\GigaShop\\Gigashop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Đồ Án HK1B\\GiGaShop\\Gigashop.csproj",
+        "projectUniqueName": "D:\\Đồ Án HK1B\\GigaShop\\Gigashop.csproj",
         "projectName": "Gigashop",
-        "projectPath": "D:\\Đồ Án HK1B\\GiGaShop\\Gigashop.csproj",
+        "projectPath": "D:\\Đồ Án HK1B\\GigaShop\\Gigashop.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Đồ Án HK1B\\GiGaShop\\obj\\",
+        "outputPath": "D:\\Đồ Án HK1B\\GigaShop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
