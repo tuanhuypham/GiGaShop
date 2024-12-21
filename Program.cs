@@ -25,6 +25,13 @@ void ConfigureServices(IServiceCollection services)
         options.Cookie.IsEssential = true;
     });
 }
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        builder => builder.AllowAnyOrigin()
+                          .AllowAnyMethod()
+                          .AllowAnyHeader());
+});
 
 void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 {
@@ -37,7 +44,7 @@ void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         app.UseExceptionHandler("/Home/Error");
         app.UseHsts();
     }
-
+    app.UseCors("AllowAll");
     app.UseHttpsRedirection();
     app.UseStaticFiles();
 

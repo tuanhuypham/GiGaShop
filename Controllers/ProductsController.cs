@@ -130,6 +130,29 @@ namespace Gigashop.Controllers
             var products = await _context.Products.ToListAsync();
             return Ok(products);
         }
+        // GET: api/products/search?search={searchQuery}
+        [HttpGet("search-products")]
+        [HttpGet("search")]
+        public IActionResult SearchProducts([FromQuery] string search)
+        {
+            if (string.IsNullOrEmpty(search))
+            {
+                return BadRequest("Tìm kiếm không được để trống.");
+            }
+
+            // Lọc sản phẩm theo tên, không phân biệt chữ hoa/thường
+            var products = _context.Products
+                            .Where(p => p.Name.ToUpper().Contains(search.ToUpper()))
+                            .ToList();
+
+
+            if (products == null || !products.Any())
+            {
+                return NotFound(); // Trả về lỗi nếu không tìm thấy sản phẩm nào
+            }
+
+            return Ok(products); // Trả về danh sách sản phẩm tìm thấy
+        }
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {

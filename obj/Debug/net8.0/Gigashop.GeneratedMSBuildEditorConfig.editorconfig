@@ -17,91 +17,93 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Gigashop
 build_property.RootNamespace = Gigashop
-build_property.ProjectDir = D:\Đồ Án HK1B\GigaShop\
+build_property.ProjectDir = C:\coding\Đồ Án Web Bán Hàng\GiGaShop\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Đồ Án HK1B\GigaShop
+build_property.MSBuildProjectDirectory = C:\coding\Đồ Án Web Bán Hàng\GiGaShop
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[D:/Đồ Án HK1B/GigaShop/Views/Auth/Login.cshtml]
+[C:/coding/Đồ Án Web Bán Hàng/GiGaShop/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Đồ Án HK1B/GigaShop/Views/Auth/Register.cshtml]
+[C:/coding/Đồ Án Web Bán Hàng/GiGaShop/Views/Auth/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Đồ Án HK1B/GigaShop/Views/Home/About.cshtml]
+[C:/coding/Đồ Án Web Bán Hàng/GiGaShop/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Đồ Án HK1B/GigaShop/Views/Home/accessories.cshtml]
+[C:/coding/Đồ Án Web Bán Hàng/GiGaShop/Views/Home/accessories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhY2Nlc3Nvcmllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Đồ Án HK1B/GigaShop/Views/Home/AccessoryPC.cshtml]
+[C:/coding/Đồ Án Web Bán Hàng/GiGaShop/Views/Home/AccessoryPC.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2Nlc3NvcnlQQy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Đồ Án HK1B/GigaShop/Views/Home/CheckOut.cshtml]
+[C:/coding/Đồ Án Web Bán Hàng/GiGaShop/Views/Home/CheckOut.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGVja091dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Đồ Án HK1B/GigaShop/Views/Home/Contact.cshtml]
+[C:/coding/Đồ Án Web Bán Hàng/GiGaShop/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Đồ Án HK1B/GigaShop/Views/Home/Details.cshtml]
+[C:/coding/Đồ Án Web Bán Hàng/GiGaShop/Views/Home/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Đồ Án HK1B/GigaShop/Views/Home/Index.cshtml]
+[C:/coding/Đồ Án Web Bán Hàng/GiGaShop/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Đồ Án HK1B/GigaShop/Views/Home/listLaptop.cshtml]
+[C:/coding/Đồ Án Web Bán Hàng/GiGaShop/Views/Home/listLaptop.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxsaXN0TGFwdG9wLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Đồ Án HK1B/GigaShop/Views/Home/listPC.cshtml]
+[C:/coding/Đồ Án Web Bán Hàng/GiGaShop/Views/Home/listPC.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxsaXN0UEMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Đồ Án HK1B/GigaShop/Views/Home/Service.cshtml]
+[C:/coding/Đồ Án Web Bán Hàng/GiGaShop/Views/Home/Service.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXJ2aWNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Đồ Án HK1B/GigaShop/Views/Home/ServiceList.cshtml]
+[C:/coding/Đồ Án Web Bán Hàng/GiGaShop/Views/Home/ServiceList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXJ2aWNlTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Đồ Án HK1B/GigaShop/Views/Home/Shop.cshtml]
+[C:/coding/Đồ Án Web Bán Hàng/GiGaShop/Views/Home/Shop.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Đồ Án HK1B/GigaShop/Views/Home/ShopingCart.cshtml]
+[C:/coding/Đồ Án Web Bán Hàng/GiGaShop/Views/Home/ShopingCart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9waW5nQ2FydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Đồ Án HK1B/GigaShop/Views/Shared/Error.cshtml]
+[C:/coding/Đồ Án Web Bán Hàng/GiGaShop/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Đồ Án HK1B/GigaShop/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/coding/Đồ Án Web Bán Hàng/GiGaShop/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Đồ Án HK1B/GigaShop/Views/_ViewImports.cshtml]
+[C:/coding/Đồ Án Web Bán Hàng/GiGaShop/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Đồ Án HK1B/GigaShop/Views/_ViewStart.cshtml]
+[C:/coding/Đồ Án Web Bán Hàng/GiGaShop/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Đồ Án HK1B/GigaShop/Views/Shared/_Layout.cshtml]
+[C:/coding/Đồ Án Web Bán Hàng/GiGaShop/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-l5he9kcow5

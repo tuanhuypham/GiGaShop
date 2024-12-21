@@ -3100,8 +3100,9 @@ span.skill {
 	-------------------------------------------------------------------*/
 
 .product_list {
-	min-height: 420px;
+	min-height: 360px;
 	transition: ease all 0.5s;
+	min-width: 180px;
 }
 
 .cleaning .product_list {

@@ -27,77 +27,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-9">
+                <!-- Hiển thị danh sách sản phẩm -->
                 <div class="row" id="product-list">
                     <!-- Sản phẩm sẽ được thêm động tại đây -->
                 </div>
-                <script>
-                    fetch('/api/products') // API trả về danh sách sản phẩm
-                        .then(response => response.json())
-                        .then(products => {
-                            fetch('/api/images/products') // API trả về danh sách file ảnh
-                                .then(response => response.json())
-                                .then(images => {
-                                    const productList = document.getElementById('product-list');
-                                    products.forEach(product => {
-                                        const productID = String(product.productID).padStart(2, '0'); // Đảm bảo ID luôn có 2 ký tự
-                                        let matchedImage = images.find(image => image.startsWith(productID)); // Tìm ảnh phù hợp
-                                        const fallbackImage = '/images/default.jpg'; // Ảnh mặc định nếu không tìm thấy
-
-                                        if (!matchedImage) {
-                                            matchedImage = fallbackImage; // Nếu không tìm thấy ảnh, dùng ảnh mặc định
-                                        } else {
-                                            matchedImage = `/images/Products/${matchedImage}`; // Đường dẫn ảnh
-                                        }
-
-
-                                    // Tạo phần tử sản phẩm
-                                    const productElement = document.createElement('div');
-                                    productElement.className = 'col-md-4 col-sm-6 col-xs-12 margin_bottom_30_all';
-                                    productElement.innerHTML = `
-                                        <div class="product_list">
-                                            <div class="product_img">
-                                                <img class="img-responsive" src="${matchedImage}" alt="${product.name}">
-                                            </div>
-                                            <div class="product_detail_btm">
-                                                <div class="center">
-                                                    <h4><a href="#" onclick="saveProductID(${product.productID})">${product.name}</a></h4>
-                                                </div>
-                                                <div class="starratin">
-                                                    <div class="center">
-                                                        ${getStarRating(product.rating)}
-                                                    </div>
-                                                </div>
-                                                <div class="product_price">
-                                                    <p><span class="new_price">${product.price}VNĐ</span></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    `;
-                                        productList.appendChild(productElement);
-                                    });
-                                })
-                                .catch(error => console.error('Error fetching images:', error));
-                        })
-                        .catch(error => console.error('Error fetching products:', error));
-
-                    function getStarRating(rating) {
-                        let starsHtml = '';
-                        for (let i = 1; i <= 5; i++) {
-                            if (i <= rating) {
-                                starsHtml += '<i class="fa fa-star" aria-hidden="true"></i>';
-                            } else {
-                                starsHtml += '<i class="fa fa-star-o" aria-hidden="true"></i>';
-                            }
-                        }
-                        return starsHtml;
-                    }
-
-                    function saveProductID(id) {
-                        localStorage.setItem('ProductID', id);
-                        window.location.href = '/Home/Details';
-                    }
-
-                </script>
             </div>
             <div class="col-md-3">
                 <div class="side_bar">
@@ -105,13 +38,25 @@
                         <h4>SEARCH</h4>
                         <div class="side_bar_search">
                             <div class="input-group stylish-input-group">
-                                <input class="form-control" placeholder="Search" type="text">
+                                <input id="search-input"
+                                       class="form-control"
+                                       placeholder="Search"
+                                       type="text"
+                                       onkeypress="if (event.key === 'Enter') performSearch()">
                                 <span class="input-group-addon">
-                                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                    <button onclick="performSearch()" type="button">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </button>
                                 </span>
                             </div>
                         </div>
                     </div>
+
+                    <!-- Sản phẩm tìm kiếm sẽ hiển thị ở đây, giữa "Search" và "Dịch vụ" -->
+                    <div id="search-results" class="search-results">
+                        <!-- Các sản phẩm tìm kiếm sẽ được thêm vào đây -->
+                    </div>
+
                     <div class="side_bar_blog">
                         <h4>Dịch vụ</h4>
                         <div class="categary">
@@ -125,26 +70,266 @@
                     </div>
                 </div>
             </div>
+
+
         </div>
     </div>
 </div>
 <!-- end section -->
-<!-- section -->
-<div class="section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="full">
-                    <div class="contact_us_section">
-                        <div class="call_icon"> <img src="/images/it_service/phone_icon.png" alt="#" /> </div>
-                        <div class="inner_cont">
-                            <h2>REQUEST A FREE QUOTE</h2>
-                            <p>Get answers and advice from people you want it from.</p>
-                        </div>
-                        <div class="button_Section_cont"> <a class="btn dark_gray_bt" href="@Url.Action("Contact", "Home")">Contact us</a> </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
+<script>
+    // Hàm để lấy danh sách sản phẩm ban đầu
+    fetch('/api/products') // API trả về danh sách sản phẩm
+        .then(response => response.json())
+        .then(products => {
+            fetch('/api/images/products') // API trả về danh sách file ảnh
+                .then(response => response.json())
+                .then(images => {
+                    const productList = document.getElementById('product-list');
+                    products.forEach(product => {
+                        const productID = String(product.productID).padStart(2, '0'); // Đảm bảo ID luôn có 2 ký tự
+                        let matchedImage = images.find(image => image.startsWith(productID)); // Tìm ảnh phù hợp
+                        const fallbackImage = '/images/default.jpg'; // Ảnh mặc định nếu không tìm thấy
+
+                        if (!matchedImage) {
+                            matchedImage = fallbackImage; // Nếu không tìm thấy ảnh, dùng ảnh mặc định
+                        } else {
+                            matchedImage = `/images/Products/${matchedImage}`; // Đường dẫn ảnh
+                        }
+
+                        // Tạo phần tử sản phẩm
+                        const productElement = document.createElement('div');
+                        productElement.className = 'col-md-4 col-sm-6 col-xs-12 margin_bottom_30_all';
+                        productElement.innerHTML = `
+                            <div class="product_list">
+                                <div class="product_img">
+                                    <img class="img-responsive" src="${matchedImage}" alt="${product.name}">
+                                </div>
+                                <div class="product_detail_btm">
+                                    <div class="center">
+                                        <h4><a href="#" onclick="saveProductID(${product.productID})">${product.name}</a></h4>
+                                    </div>
+                                    <div class="starratin">
+                                        <div class="center">
+                                            ${getStarRating(product.rating)}
+                                        </div>
+                                    </div>
+                                    <div class="product_price">
+                                        <p><span class="new_price">${product.price}VNĐ</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                        productList.appendChild(productElement);
+                    });
+                })
+                .catch(error => console.error('Error fetching images:', error));
+        })
+        .catch(error => console.error('Error fetching products:', error));
+
+    // Hàm tạo đánh giá sao
+    function getStarRating(rating) {
+        let starsHtml = '';
+        for (let i = 1; i <= 5; i++) {
+            if (i <= rating) {
+                starsHtml += '<i class="fa fa-star" aria-hidden="true"></i>';
+            } else {
+                starsHtml += '<i class="fa fa-star-o" aria-hidden="true"></i>';
+            }
+        }
+        return starsHtml;
+    }
+
+    // Lưu ID sản phẩm và chuyển đến chi tiết sản phẩm
+    function saveProductID(id) {
+        localStorage.setItem('ProductID', id);
+        window.location.href = '/Home/Details';
+    }
+
+    // Hàm thực hiện tìm kiếm sản phẩm
+    function performSearch() {
+        const searchQuery = document.getElementById('search-input').value.trim();
+        const searchResults = document.getElementById('search-results');
+        searchResults.innerHTML = ''; // Xóa danh sách sản phẩm cũ
+
+        if (searchQuery.length > 0) {
+            fetch(`/api/products/search?search=${encodeURIComponent(searchQuery)}`)
+                .then(response => response.json())
+                .then(products => {
+                    if (products.length === 0) {
+                        searchResults.innerHTML = '<p>No products found.</p>';
+                        return;
+                    }
+
+                    fetch('/api/images/products') // API trả về danh sách file ảnh
+                        .then(response => response.json())
+                        .then(images => {
+                            const row = document.createElement('div');
+                            row.className = 'row'; // Tạo div cho các sản phẩm hiển thị theo hàng ngang
+                            row.style.display = 'flex';
+                            row.style.flexWrap = 'wrap';
+                            row.style.gap = '15px'; // Khoảng cách giữa các sản phẩm
+
+                            products.forEach(product => {
+                                const productID = String(product.productID).padStart(2, '0');
+                                let matchedImage = images.find(image => image.startsWith(productID));
+                                const fallbackImage = '/images/default.jpg';
+
+                                if (!matchedImage) {
+                                    matchedImage = fallbackImage;
+                                } else {
+                                    matchedImage = `/images/Products/${matchedImage}`;
+                                }
+
+                                // Tạo phần tử sản phẩm
+                                const productElement = document.createElement('div');
+                                productElement.className = 'col-md-4 col-sm-6 col-xs-12 margin_bottom_30_all';
+                                productElement.innerHTML = `
+                                    <div class="product_list">
+                                        <div class="product_img">
+                                            <img class="img-responsive" src="${matchedImage}" alt="${product.name}">
+                                        </div>
+                                        <div class="product_detail_btm">
+                                            <div class="center">
+                                                <h4><a href="#" onclick="saveProductID(${product.productID})">${product.name}</a></h4>
+                                            </div>
+                                            <div class="starratin">
+                                                <div class="center">
+                                                    ${getStarRating(product.rating)}
+                                                </div>
+                                            </div>
+                                            <div class="product_price">
+                                                <p><span class="new_price">${product.price}VNĐ</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                `;
+                                row.appendChild(productElement);
+                            });
+
+                            searchResults.appendChild(row); // Thêm tất cả các sản phẩm vào trong searchResults
+                        })
+                        .catch(error => console.error('Error fetching images:', error));
+                })
+                .catch(error => {
+                    console.error('Error fetching products:', error);
+                    searchResults.innerHTML = '<p class="text-center">Không tìm thấy sản phẩm nào phù hợp.</p>';
+                });
+        }
+    }
+
+</script>
+<style>
+    /* Chỉnh sửa layout của sản phẩm tìm kiếm */
+    #search-results {
+        flex-grow: 1; /* Phần này sẽ chiếm hết không gian còn lại */
+        margin-top: 20px; /* Thêm một chút khoảng cách phía trên */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start; /* Căn chỉnh các sản phẩm bắt đầu từ trái */
+        gap: 10px; /* Khoảng cách giữa các sản phẩm */
+        flex-direction: column;
+    }
+/*     .row{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 95px;
+        margin-right: -15px;
+        margin-left: -15px;
+    } */
+
+    /* Thiết lập sản phẩm tìm kiếm */
+    #search-results .product_list {
+        width: calc(33.33% - 15px); /* Mỗi sản phẩm chiếm 1/3 chiều rộng */
+        margin-bottom: 30px;
+        background: #fff;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: box-shadow 0.3s ease; /* Hiệu ứng hover cho box-shadow */
+    }
+
+    #search-results .product_list:hover {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Tăng độ bóng khi hover */
+    }
+
+    /* Thiết lập chiều cao hình ảnh cho sản phẩm */
+    #search-results .product_img {
+        height: 200px; /* Chiều cao của hình ảnh sản phẩm */
+        overflow: hidden;
+        border-bottom: 1px solid #ddd; /* Viền dưới ảnh để tách biệt */
+    }
+
+    #search-results .product_img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease; /* Hiệu ứng zoom */
+    }
+
+    #search-results .product_img img:hover {
+        transform: scale(1.1); /* Tạo hiệu ứng zoom cho ảnh */
+    }
+
+    /* Thiết lập phần chi tiết sản phẩm */
+    #search-results .product_detail_btm {
+        padding: 15px;
+        text-align: center;
+    }
+
+    #search-results .product_detail_btm h4 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: #333;
+        transition: color 0.3s ease;
+    }
+
+    #search-results .product_detail_btm h4 a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    #search-results .product_detail_btm h4 a:hover {
+        color: #007bff;
+    }
+
+    /* Thiết lập phần đánh giá sao */
+    .starratin .center {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+
+    .starratin i {
+        color: #ff9800; /* Màu vàng cho sao */
+    }
+
+    /* Thiết lập giá sản phẩm */
+    #search-results .product_price {
+        font-size: 16px;
+        color: #333;
+    }
+
+    #search-results .product_price .new_price {
+        font-size: 18px;
+        font-weight: 600;
+        color: #e74c3c;
+    }
+
+    /* Các thiết lập cho phần tìm kiếm */
+    .side_bar_search {
+        margin-bottom: 30px;
+    }
+
+    .side_bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+
+</style>
