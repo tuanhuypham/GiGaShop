@@ -13,11 +13,12 @@ namespace Gigashop.Data
         public DbSet<User> Users { get; set; }
         public DbSet<Service> Services { get; set; }
         public DbSet<Review> Reviews { get; set; }
-        public DbSet<Order> Orders { get; set; }
-        public DbSet<OrderDetail> OrderDetails { get; set; }
+       
         public DbSet<ContactMessage> ContactMessages { get; set; }
         public DbSet<ContactMessage> Categorys { get; set; }
-        public DbSet<MigrationHistory> MigrationHistories { get; set; }
+        public DbSet<Cart> Carts { get; set; }
+
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -39,16 +40,9 @@ namespace Gigashop.Data
             base.OnModelCreating(modelBuilder);
 
             // Đảm bảo bạn đã chỉ định kiểu dữ liệu cho các thuộc tính decimal
-            modelBuilder.Entity<OrderDetail>()
-                .Property(od => od.Total)
-                .HasColumnType("decimal(18,2)");
+         
+           
 
-            modelBuilder.Entity<OrderDetail>()
-                .Property(od => od.UnitPrice)
-                .HasColumnType("decimal(18,2)");
-           modelBuilder.Entity<MigrationHistory>()
-                .ToTable("__EFMigrationsHistory")
-                .HasNoKey();  // Đánh dấu là keyless entity
         }
 
     }
@@ -81,7 +75,7 @@ namespace Gigashop.Data
         public DateTime CreatedAt { get; set; }
 
         public DateTime? UpdatedAt { get; set; }
-        public ICollection<OrderDetail> OrderDetails { get; set; }
+       
     }
 
     [Table("Users", Schema = "dbo")]
@@ -176,57 +170,6 @@ namespace Gigashop.Data
         public virtual User User { get; set; }
     }
 }
-[Table("Orders", Schema = "dbo")]
-public class Order
-{
-    [Key]
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    public int OrderID { get; set; }
-
-    [Required]
-    public int UserID { get; set; } // Foreign key to Users table
-
-    [Required]
-    [Column(TypeName = "decimal(18,2)")]
-    public decimal TotalPrice { get; set; }
-
-    [Required]
-    [MaxLength(50)]
-    public string Status { get; set; }
-
-    [Required]
-    public DateTime CreatedAt { get; set; }
-
-    public DateTime? UpdatedAt { get; set; }
-
-    // Navigation property (optional) to User
-    [ForeignKey("UserID")]
-    public virtual User User { get; set; }
-
-   
-    
-
-}
-[Table("OrderDetails", Schema = "dbo")]
-public class OrderDetail
-{
-    [Key]
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    public int OrderDetailID { get; set; }  // Khóa chính
-    public int OrderID { get; set; }        // Khóa ngoại, liên kết với bảng Orders
-    public int ProductID { get; set; }      // Khóa ngoại, liên kết với bảng Products
-    public int Quantity { get; set; }       // Số lượng sản phẩm
-    public decimal UnitPrice { get; set; }  // Giá đơn vị của sản phẩm
-    public decimal Total { get; set; }      // Tổng tiền cho chi tiết đơn hàng
-
-    // Thêm UserID vào bảng OrderDetails
-    public string UserID { get; set; }  // Liên kết với người dùng
-
-    // Điều này sẽ tạo ra mối quan hệ với bảng Orders và Products
-    public Order Order { get; set; }
-    public Product Product { get; set; }
-}
-
 [Table("ContactMessages", Schema = "dbo")]
     public class ContactMessage{
     [Key]
@@ -254,11 +197,30 @@ public class Category
     public virtual Category ParentCategory { get; set; }
     public virtual ICollection<Category> SubCategories { get; set; }
 }
-[Table("MigrationHistorys", Schema = "dbo")]
-public class MigrationHistory
+
+[Table("Carts", Schema = "dbo")]
+public class Cart
 {
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    public string MigrationId { get; set; }
-    public string ProductVersion { get; set; }
+    public int CartID { get; set; }
+
+    [Required]
+    public int UserID { get; set; }  // Khóa ngoại liên kết với bảng Users
+
+    [Required]
+    public int ProductID { get; set; } // Khóa ngoại liên kết với bảng Products
+
+    [Required]
+    public int Quantity { get; set; }  // Số lượng sản phẩm trong giỏ hàng
+
+    public DateTime CreatedAt { get; set; }
+    public DateTime? UpdatedAt { get; set; }
+
+    // Navigation properties
+    [ForeignKey("UserID")]
+    public virtual User User { get; set; }
+
+    [ForeignKey("ProductID")]
+    public virtual Product Product { get; set; }
 }

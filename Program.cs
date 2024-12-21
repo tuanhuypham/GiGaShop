@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Đăng ký Session
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout = TimeSpan.FromMinutes(30); // Thời gian hết hạn
+ 
     options.Cookie.HttpOnly = true;                // Chỉ sử dụng Session trong HTTP
     options.Cookie.IsEssential = true;             // Cookie cần thiết để hoạt động
     
@@ -20,7 +20,7 @@ void ConfigureServices(IServiceCollection services)
     // Cấu hình session
     services.AddSession(options =>
     {
-        options.IdleTimeout = TimeSpan.FromMinutes(30); // Thời gian hết hạn session
+        
         options.Cookie.HttpOnly = true;
         options.Cookie.IsEssential = true;
     });

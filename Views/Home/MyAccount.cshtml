@@ -1,0 +1,147 @@
+﻿@model Gigashop.Data.User
+
+@{
+    ViewBag.Title = "Thông Tin Cá Nhân";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="account-page">
+   
+
+    <form method="post">
+        @Html.AntiForgeryToken()
+        <input type="hidden" name="UserID" value="@Model.UserID" />
+
+        <label for="fullname">Họ và Tên:</label>
+        <input type="text" id="fullname" name="FullName" value="@Model.FullName" required />
+
+        <label for="phone">Số Điện Thoại:</label>
+        <input type="tel" id="phone" name="Phone" value="@Model.Phone" required />
+
+        <label for="address">Địa Chỉ:</label>
+        <input type="text" id="address" name="Address" value="@Model.Address" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="Email" value="@Model.Email" required />
+
+        <label for="username">Tên Đăng Nhập:</label>
+        <input type="text" id="username" name="Username" value="@Model.Username" readonly />
+
+        <label for="password">Mật Khẩu Mới:</label>
+        <input type="password" id="password" name="PasswordHash" placeholder="Nhập mật khẩu mới (nếu muốn thay đổi)" />
+
+        <label for="confirm-password">Xác Nhận Mật Khẩu:</label>
+        <input type="password" id="confirm-password" name="ConfirmPassword" placeholder="Nhập lại mật khẩu mới" />
+
+        <button type="submit" class="savechanges-button">Lưu Thay Đổi</button>
+
+        <div class="update-notification">
+            @TempData["Message"]
+            @TempData["Error"]
+        </div>
+    </form>
+
+    </div>
+</div>
+
+        <style>
+    /* Đặt nền cho toàn bộ trang */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Căn giữa phần nội dung với form */
+    .account-page {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 30px
+        border-radius: 8px;
+    }
+
+        /* Tiêu đề trang */
+        .account-page h1 {
+            font-size: 2rem;
+            color: #333;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        /* Tiêu đề phụ */
+        .account-page h2 {
+            font-size: 1.25rem;
+            color: #555;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        /* Định dạng các trường input */
+        .account-page input[type="text"],
+        .account-page input[type="tel"],
+        .account-page input[type="email"],
+        .account-page input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 1rem;
+        }
+
+    /* Định dạng button */
+    .savechanges-button {
+        width: 100%;
+        padding: 12px;
+        background-color: #007bff;
+        color: #fff;
+        font-size: 1.1rem;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .savechanges-button:hover {
+            background-color: #0056b3;
+        }
+
+    /* Thông báo thay đổi */
+    .update-notification {
+        margin-top: 20px;
+        text-align: center;
+        color: #d9534f;
+    }
+
+        .update-notification .message {
+            color: #28a745; /* Màu xanh cho thông báo thành công */
+        }
+
+        .update-notification .error {
+            color: #dc3545; /* Màu đỏ cho thông báo lỗi */
+        }
+
+    /* Tạo khoảng cách cho các label */
+    .account-page label {
+        font-weight: bold;
+        margin-top: 10px;
+        display: block;
+    }
+
+    /* Đảm bảo form đẹp và rõ ràng */
+    form {
+        width: 100%;
+    }
+
+    /* Thêm padding cho các trường nhập để dễ đọc hơn */
+    .account-page input[type="text"],
+    .account-page input[type="tel"],
+    .account-page input[type="email"],
+    .account-page input[type="password"] {
+        padding: 12px;
+    }
+
+        </style>

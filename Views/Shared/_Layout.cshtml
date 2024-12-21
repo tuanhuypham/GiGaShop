@@ -71,7 +71,10 @@
                             @if (ViewBag.Username != null)
                             {
                                 <div class="make_appo">
-                                    <a class="btn white_btn" href="@Url.Action("Logout", "Auth")">Xin chào, @ViewBag.Username!</a>
+                                    <a class="btn white_btn" href="@Url.Action("Logout", "Auth")">Đăng xuất </a>
+                                </div>
+                                <div class="make_appo">
+                                    <a class="btn white_btn" href="@Url.Action("MyAccount", "Home")">@ViewBag.Username! </a>
                                 </div>
                             }
                             else

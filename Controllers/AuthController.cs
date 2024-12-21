@@ -22,8 +22,7 @@ namespace Gigashop.Controllers
         [HttpGet]
         public IActionResult Login() => View();
 
-        // POST: Login
-        //[HttpPost]
+
         //public IActionResult Login(LoginViewModel model)
         //{
         //    if (!ModelState.IsValid)
@@ -47,10 +46,13 @@ namespace Gigashop.Controllers
         //    HttpContext.Session.SetString("UserId", user.UserID.ToString());
         //    HttpContext.Session.SetString("Username", user.Username);
 
+        //    // Lưu thông tin vào Cookie (vĩnh viễn)
+        //    Response.Cookies.Append("UserId", user.UserID.ToString(), new CookieOptions { Expires = DateTime.Now.AddYears(1) });
+        //    Response.Cookies.Append("Username", user.Username, new CookieOptions { Expires = DateTime.Now.AddYears(1) });
+
         //    Console.WriteLine($"Đăng nhập thành công: {user.Username}");
         //    return RedirectToAction("Index", "Home");
         //}
-        //[HttpPost]
         public IActionResult Login(LoginViewModel model)
         {
             if (!ModelState.IsValid)
@@ -75,8 +77,8 @@ namespace Gigashop.Controllers
             HttpContext.Session.SetString("Username", user.Username);
 
             // Lưu thông tin vào Cookie (vĩnh viễn)
-            Response.Cookies.Append("UserId", user.UserID.ToString(), new CookieOptions { Expires = DateTime.Now.AddYears(1) });
-            Response.Cookies.Append("Username", user.Username, new CookieOptions { Expires = DateTime.Now.AddYears(1) });
+            Response.Cookies.Append("UserId", user.UserID.ToString(), new CookieOptions { Expires = DateTime.Now.AddYears(1), HttpOnly = true });
+            Response.Cookies.Append("Username", user.Username, new CookieOptions { Expires = DateTime.Now.AddYears(1), HttpOnly = true });
 
             Console.WriteLine($"Đăng nhập thành công: {user.Username}");
             return RedirectToAction("Index", "Home");

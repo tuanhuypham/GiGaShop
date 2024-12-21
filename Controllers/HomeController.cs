@@ -3,6 +3,7 @@ using Gigashop.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.CodeAnalysis.Scripting;
 using Microsoft.EntityFrameworkCore;
 
 namespace Gigashop.Views
@@ -11,124 +12,34 @@ namespace Gigashop.Views
     {
         // GET: HomeController
         private readonly ApplicationDBContext _context;
+       
 
         public HomeController(ApplicationDBContext context)
         {
             _context = context;
         }
         [HttpPost]
-        public async Task<IActionResult> AddToCart(CartRequest request)
-        {
-            // Kiểm tra xem người dùng đã đăng nhập hay chưa
-            var userId = HttpContext.Session.GetString("UserId");
-            if (string.IsNullOrEmpty(userId))
-            {
-                return Unauthorized("Bạn phải đăng nhập để thêm sản phẩm vào giỏ hàng.");
-            }
-
-            // Tìm sản phẩm theo ProductID
-            var product = await _context.Products.FindAsync(request.ProductId);
-            if (product == null)
-            {
-                return NotFound("Sản phẩm không tồn tại.");
-            }
-
-            // Kiểm tra xem sản phẩm đã có trong giỏ hàng của người dùng chưa
-            var orderDetail = await _context.OrderDetails
-                .Where(od => od.UserID == userId && od.ProductID == request.ProductId)
-                .FirstOrDefaultAsync();
-
-            if (orderDetail != null)
-            {
-                // Nếu sản phẩm đã có trong giỏ hàng, cộng thêm số lượng
-                orderDetail.Quantity += request.Quantity;
-                orderDetail.Total = orderDetail.Quantity * product.Price;
-                _context.OrderDetails.Update(orderDetail);
-            }
-            else
-            {
-                // Nếu sản phẩm chưa có trong giỏ hàng, thêm mới vào OrderDetail
-                orderDetail = new OrderDetail
-                {
-                    UserID = userId,
-                    ProductID = request.ProductId,
-                    Quantity = request.Quantity,
-                    UnitPrice = product.Price,
-                    Total = request.Quantity * product.Price
-                };
-
-                _context.OrderDetails.Add(orderDetail);
-            }
-
-            await _context.SaveChangesAsync();
-
-            return Ok("Sản phẩm đã được thêm vào giỏ hàng.");
-        }
-
-
-
-
-        private int GetOrCreateOrder(int userId)
-        {
-            // Kiểm tra xem người dùng có đơn hàng chưa
-            var order = _context.Orders.FirstOrDefault(o => o.UserID == userId && o.Status == "Pending");
-            if (order == null)
-            {
-                order = new Order
-                {
-                    UserID = userId,
-                    Status = "Pending",
-                    CreatedAt = DateTime.Now
-                };
-                _context.Orders.Add(order);
-                _context.SaveChanges();
-            }
-            return order.OrderID;
-        }
-
-
-        public class AddToCartModel
-        {
-            public int ProductID { get; set; }
-            public int Quantity { get; set; }
-        }
-
-        public class CartRequest
-        {
-            public int ProductId { get; set; }
-            public int Quantity { get; set; }
-        }
-        [HttpGet("list")]
-        public async Task<ActionResult<IEnumerable<OrderDetail>>> GetCartItems()
-        {
-            var sessionUser = HttpContext.Session.GetString("UserId");
-            if (string.IsNullOrEmpty(sessionUser))
-            {
-                return Unauthorized("Bạn phải đăng nhập để xem giỏ hàng.");
-            }
-
-            int userId = int.Parse(sessionUser);
-            var cartItems = await _context.OrderDetails
-                                          .Where(o => o.OrderID == 0) // Giả định OrderID = 0 là giỏ hàng chưa thanh toán
-                                          .Include(o => o.Product)
-                                          .ToListAsync();
-
-            return Ok(cartItems);
-        }
         public override void OnActionExecuting(ActionExecutingContext context)
         {
             base.OnActionExecuting(context);
 
-            // Kiểm tra session hoặc cookie
+            // Lấy thông tin từ Session nếu có
             var username = HttpContext.Session.GetString("Username");
-            if (string.IsNullOrEmpty(username))
+            var userId = HttpContext.Session.GetInt32("UserID");
+
+            // Kiểm tra nếu thông tin session không tồn tại thì lấy từ cookie
+            if (string.IsNullOrEmpty(username) && userId == null)
             {
                 username = Request.Cookies["Username"];
+                userId = int.TryParse(Request.Cookies["UserID"], out var id) ? (int?)id : null;
             }
 
             // Lưu thông tin vào ViewBag
             ViewBag.Username = username;
+            ViewBag.UserID = userId;
         }
+
+
         public ActionResult Index()
         {
             return View();
@@ -170,11 +81,7 @@ namespace Gigashop.Views
 
         public IActionResult Details(int id)
         {
-            //var product = _context.Products.FirstOrDefault(p => p.ProductID == id);
-            //if (product == null)
-            //{
-            //    return NotFound();
-            //}
+          
             return View();
         }
 
@@ -255,6 +162,117 @@ namespace Gigashop.Views
                 return View();
             }
         }
+
+
+
+        public IActionResult MyAccount()
+        {
+            // Lấy thông tin từ Session nếu có
+            var username = HttpContext.Session.GetString("Username");
+            var userId = HttpContext.Session.GetString("UserId");
+
+            // Nếu thông tin không có trong Session, kiểm tra Cookie
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(userId))
+            {
+                username = Request.Cookies["Username"];
+                userId = Request.Cookies["UserId"];
+            }
+
+            // Nếu không có thông tin người dùng, chuyển hướng về trang đăng nhập
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(userId))
+            {
+                return RedirectToAction("Login", "Auth");
+            }
+
+            // Lấy thông tin người dùng từ cơ sở dữ liệu dựa trên UserID
+            var user = _context.Users.FirstOrDefault(u => u.UserID.ToString() == userId);
+
+            // Kiểm tra nếu không tìm thấy người dùng trong cơ sở dữ liệu
+            if (user == null)
+            {
+                return RedirectToAction("Index", "Home"); // Nếu không tìm thấy, chuyển về trang chủ
+            }
+
+            // Trả về View với thông tin người dùng
+            return View(user);
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult MyAccount(User user)
+        {
+
+            try
+            {
+                // Kiểm tra UserID hợp lệ
+                if (user.UserID <= 0)
+                {
+                    TempData["Error"] = "UserID không hợp lệ.";
+                    return RedirectToAction("MyAccount");
+                }
+
+                // Lấy thông tin người dùng từ cơ sở dữ liệu
+                var existingUser = _context.Users.SingleOrDefault(u => u.UserID == user.UserID);
+                if (existingUser == null)
+                {
+                    TempData["Error"] = "Không tìm thấy thông tin người dùng.";
+                    return RedirectToAction("MyAccount");
+                }
+
+                // Cập nhật thông tin
+                existingUser.FullName = user.FullName;
+                existingUser.Phone = user.Phone;
+                existingUser.Address = user.Address;
+                existingUser.Email = user.Email;
+
+                // Xử lý mật khẩu mới (nếu có)
+                if (!string.IsNullOrEmpty(user.PasswordHash))
+                {
+                    if (user.PasswordHash != Request.Form["ConfirmPassword"])
+                    {
+                        TempData["Error"] = "Mật khẩu và xác nhận mật khẩu không khớp.";
+                        return View(user);
+                    }
+
+                    // Hash mật khẩu mới
+                    existingUser.PasswordHash = HashPassword(user.PasswordHash);
+                }
+
+                // Lưu thay đổi
+                _context.SaveChanges();
+
+                // Cập nhật thông tin Session
+                HttpContext.Session.SetInt32("UserID", existingUser.UserID);
+                HttpContext.Session.SetString("Username", existingUser.Username);
+
+                TempData["Message"] = "Thông tin đã được cập nhật thành công.";
+                return RedirectToAction("MyAccount");
+            }
+            catch (Exception ex)
+            {
+                // Log lỗi chi tiết hơn nếu cần
+                TempData["Error"] = "Đã xảy ra lỗi khi cập nhật: " + ex.Message;
+                return View(user);
+            }
+        }
+
+
+
+
+        // Mã hóa mật khẩu bằng SHA256
+        private string HashPassword(string password)
+        {
+            using (var sha256 = System.Security.Cryptography.SHA256.Create())
+            {
+                var hashedBytes = sha256.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
+                return Convert.ToBase64String(hashedBytes);
+            }
+        }
+        
+       
+
+
 
     }
 }
