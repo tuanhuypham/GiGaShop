@@ -110,6 +110,10 @@ namespace Gigashop.Migrations
                         .HasMaxLength(1000)
                         .HasColumnType("nvarchar(1000)");
 
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -268,42 +272,122 @@ namespace Gigashop.Migrations
 
                     b.Navigation("Product");
 
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("ContactMessage", b =>
-                {
-                    b.HasOne("Gigashop.Data.User", null)
-                        .WithMany("ContactMessages")
-                        .HasForeignKey("UserID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("Gigashop.Data.Review", b =>
-                {
-                    b.HasOne("Gigashop.Data.Product", "Product")
-                        .WithMany()
-                        .HasForeignKey("ProductID")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("Gigashop.Data.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserID")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Product");
 
                     b.Navigation("User");
-                });
 
-            modelBuilder.Entity("Gigashop.Data.User", b =>
-                {
-                    b.Navigation("ContactMessages");
-                });
+                    modelBuilder.Entity("Order", b =>
+                        {
+                            b.Property<int>("OrderID")
+                                .ValueGeneratedOnAdd()
+                                .HasColumnType("int");
+
+                            SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderID"));
+
+                            b.Property<DateTime>("CreatedAt")
+                                .HasColumnType("datetime2");
+
+                            b.Property<string>("Status")
+                                .IsRequired()
+                                .HasMaxLength(50)
+                                .HasColumnType("nvarchar(50)");
+
+                            b.Property<decimal>("TotalPrice")
+                                .HasColumnType("decimal(18,2)");
+
+                            b.Property<DateTime?>("UpdatedAt")
+                                .HasColumnType("datetime2");
+
+                            b.Property<int>("UserID")
+                                .HasColumnType("int");
+
+                            b.HasKey("OrderID");
+
+                            b.HasIndex("UserID");
+
+                            b.ToTable("Orders", "dbo");
+                        });
+
+                    modelBuilder.Entity("OrderDetail", b =>
+                        {
+                            b.Property<int>("OrderDetailID")
+                                .ValueGeneratedOnAdd()
+                                .HasColumnType("int");
+
+                            SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderDetailID"));
+
+                            b.Property<int>("OrderID")
+                                .HasColumnType("int");
+
+                            b.Property<int>("ProductID")
+                                .HasColumnType("int");
+
+                            b.Property<int>("Quantity")
+                                .HasColumnType("int");
+
+                            b.Property<decimal>("Total")
+                                .HasColumnType("decimal(18,2)");
+
+                            b.Property<decimal>("UnitPrice")
+                                .HasColumnType("decimal(18,2)");
+
+                            b.Property<string>("UserID")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
+
+                            b.HasKey("OrderDetailID");
+
+                            b.HasIndex("OrderID");
+
+                            b.HasIndex("ProductID");
+
+                        });
+
+                    modelBuilder.Entity("ContactMessage", b =>
+                        {
+                            b.HasOne("Gigashop.Data.User", null)
+                                .WithMany("ContactMessages")
+                                .HasForeignKey("UserID")
+                                .OnDelete(DeleteBehavior.Cascade)
+                                .IsRequired();
+                        });
+
+                    modelBuilder.Entity("Gigashop.Data.Review", b =>
+                        {
+                            b.HasOne("Gigashop.Data.Product", "Product")
+                                .WithMany()
+                                .HasForeignKey("ProductID")
+                                .OnDelete(DeleteBehavior.Restrict)
+                                .IsRequired();
+
+                            b.HasOne("Gigashop.Data.User", "User")
+                                .WithMany()
+                                .HasForeignKey("UserID")
+                                .OnDelete(DeleteBehavior.Restrict)
+                                .IsRequired();
+
+                            b.Navigation("Product");
+
+                            b.Navigation("User");
+                        });
+
+
+                    modelBuilder.Entity("Order", b =>
+                        {
+                            b.HasOne("Gigashop.Data.User", "User")
+                                .WithMany()
+                                .HasForeignKey("UserID")
+                                .OnDelete(DeleteBehavior.Cascade)
+                                .IsRequired();
+
+                            b.Navigation("User");
+                        });
+
+
+                    modelBuilder.Entity("Gigashop.Data.User", b =>
+                        {
+                            b.Navigation("ContactMessages");
+                        });
 #pragma warning restore 612, 618
-        }
+                });
     }
-}
+    } }

@@ -18,7 +18,10 @@ namespace Gigashop.Views
         {
             _context = context;
         }
+
         [HttpPost]
+
+        [HttpGet("list")]
         public override void OnActionExecuting(ActionExecutingContext context)
         {
             base.OnActionExecuting(context);

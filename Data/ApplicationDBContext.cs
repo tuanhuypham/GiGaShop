@@ -13,7 +13,11 @@ namespace Gigashop.Data
         public DbSet<User> Users { get; set; }
         public DbSet<Service> Services { get; set; }
         public DbSet<Review> Reviews { get; set; }
+
        
+
+       
+
         public DbSet<ContactMessage> ContactMessages { get; set; }
         public DbSet<ContactMessage> Categorys { get; set; }
         public DbSet<Cart> Carts { get; set; }
@@ -39,10 +43,8 @@ namespace Gigashop.Data
 
             base.OnModelCreating(modelBuilder);
 
-            // Đảm bảo bạn đã chỉ định kiểu dữ liệu cho các thuộc tính decimal
-         
-           
 
+          
         }
 
     }
@@ -75,7 +77,7 @@ namespace Gigashop.Data
         public DateTime CreatedAt { get; set; }
 
         public DateTime? UpdatedAt { get; set; }
-       
+
     }
 
     [Table("Users", Schema = "dbo")]
@@ -170,6 +172,39 @@ namespace Gigashop.Data
         public virtual User User { get; set; }
     }
 }
+
+[Table("Orders", Schema = "dbo")]
+public class Order
+{
+    [Key]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    public int OrderID { get; set; }
+
+    [Required]
+    public int UserID { get; set; } // Foreign key to Users table
+
+    [Required]
+    [Column(TypeName = "decimal(18,2)")]
+    public decimal TotalPrice { get; set; }
+
+    [Required]
+    [MaxLength(50)]
+    public string Status { get; set; }
+
+    [Required]
+    public DateTime CreatedAt { get; set; }
+
+    public DateTime? UpdatedAt { get; set; }
+
+    // Navigation property (optional) to User
+    [ForeignKey("UserID")]
+    public virtual User User { get; set; }
+
+   
+    
+
+}
+
 [Table("ContactMessages", Schema = "dbo")]
     public class ContactMessage{
     [Key]
