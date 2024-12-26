@@ -84,13 +84,21 @@ namespace Gigashop.Views
         }
 
 
-        public IActionResult Details(int id)
+        public async Task<IActionResult> Details(int id)
         {
-            var product = _context.Products.Find(id);
-            if (product == null) return NotFound();
+            // Tìm sản phẩm theo id, sử dụng bất đồng bộ để tránh chặn luồng
+            var product = await _context.Products.FindAsync(id);
 
+            // Kiểm tra xem sản phẩm có tồn tại không
+            if (product == null)
+            {
+                return NotFound();  // Trả về lỗi 404 nếu không tìm thấy sản phẩm
+            }
+
+            // Trả về view với dữ liệu sản phẩm
             return View(product);
         }
+
 
         public async Task<IActionResult> ShopingCart()
         {
