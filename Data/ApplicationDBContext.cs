@@ -66,6 +66,12 @@ namespace Gigashop.Data
                 .HasOne(od => od.Product)
                 .WithMany()
                 .HasForeignKey(od => od.ProductID);
+            // Cấu hình mối quan hệ giữa Product và Review
+            modelBuilder.Entity<Product>()
+                .HasMany(p => p.Reviews)
+                .WithOne(r => r.Product)
+                .HasForeignKey(r => r.ProductID)
+                .OnDelete(DeleteBehavior.Cascade);
         }
 
     }
@@ -98,6 +104,8 @@ namespace Gigashop.Data
         public DateTime CreatedAt { get; set; }
 
         public DateTime? UpdatedAt { get; set; }
+
+        public List<Review> Reviews { get; set; }
 
     }
 

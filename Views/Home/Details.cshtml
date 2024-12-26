@@ -52,7 +52,7 @@
                             <div class="tab_bar_section">
                                 <ul class="nav nav-tabs" role="tablist">
                                     <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#description">Description</a> </li>
-                                    <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#reviews">Reviews (2)</a> </li>
+                                    <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#reviews">Reviews</a> </li>
                                 </ul>
                                 <!-- Tab panes -->
                                 <div class="tab-content">
@@ -65,31 +65,9 @@
                                     </div>
                                     <div id="reviews" class="tab-pane fade">
                                         <div class="product_review">
-                                            <h3>Reviews (2)</h3>
-                                            <div class="commant-text row">
-                                                <div class="col-lg-2 col-md-2 col-sm-4">
-                                                    <div class="profile"> <img class="img-responsive" src="images/it_service/client1.png" alt="#"> </div>
-                                                </div>
-                                                <div class="col-lg-10 col-md-10 col-sm-8">
-                                                    <h5>David</h5>
-                                                    <p><span class="c_date">March 2, 2018</span> | <span><a rel="nofollow" class="comment-reply-link" href="#">Reply</a></span></p>
-                                                    <span class="rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </span>
-                                                    <p class="msg">
-                                                        ThisThis book is a treatise on the theory of ethics, very popular during the Renaissance.
-                                                        The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="commant-text row">
-                                                <div class="col-lg-2 col-md-2 col-sm-4">
-                                                    <div class="profile"> <img class="img-responsive" src="images/it_service/client2.png" alt="#"> </div>
-                                                </div>
-                                                <div class="col-lg-10 col-md-10 col-sm-8">
-                                                    <h5>Jack</h5>
-                                                    <p><span class="c_date">March 2, 2018</span> | <span><a rel="nofollow" class="comment-reply-link" href="#">Reply</a></span></p>
-                                                    <span class="rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </span>
-                                                    <p class="msg">Nunc augue purus, posuere in accumsan sodales ac, euismod at est. Nunc faccumsan ermentum consectetur metus placerat mattis. Praesent mollis justo felis, accumsan faucibus mi maximus et. Nam hendrerit mauris id scelerisque placerat. Nam vitae imperdiet turpis</p>
-                                                </div>
+                                            <h3>Reviews</h3>
+                                            <div id="reviews-list">
+                                                <!-- Đánh giá sẽ được hiển thị ở đây -->
                                             </div>
                                             <div class="row">
                                                 <div class="col-sm-12">
@@ -97,13 +75,20 @@
                                                         <div class="float-right"> <a class="btn sqaure_bt" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Leave a Review</a> </div>
                                                     </div>
                                                     <div class="full">
+                                                        <!-- Form đánh giá sản phẩm -->
                                                         <div id="collapseExample" class="full collapse commant_box">
-                                                            <form accept-charset="UTF-8" action="index.html" method="post">
-                                                                <input id="ratings-hidden" name="rating" type="hidden">
-                                                                <textarea class="form-control animated" cols="50" id="new-review" name="comment" placeholder="Enter your review here..." required=""></textarea>
-                                                                <div class="full_bt center">
-                                                                    <button class="btn sqaure_bt" type="submit">Save</button>
-                                                                </div>
+                                                            <form id="review-form" method="post" action="@Url.Action("AddReview", "Home")">
+                                                                @Html.AntiForgeryToken()
+                                                                <input type="hidden" name="productId" value="@Model.ProductID" />
+                                                                <select id="ratingSelect" name="rating" required>
+                                                                    <option value="1">1 - Rất tệ</option>
+                                                                    <option value="2">2 - Tệ</option>
+                                                                    <option value="3">3 - Bình thường</option>
+                                                                    <option value="4">4 - Tốt</option>
+                                                                    <option value="5">5 - Tuyệt vời</option>
+                                                                </select>
+                                                                <textarea class="form-control" cols="50" id="new-review" name="comment" placeholder="Nhập đánh giá của bạn..." required></textarea>
+                                                                <button class="btn sqaure_bt" type="submit">Lưu đánh giá</button>
                                                             </form>
                                                         </div>
                                                     </div>
@@ -152,81 +137,6 @@
     </div>
 </div>
 <script>
-    window.onload = function () {
-        const productId = localStorage.getItem('ProductID');
-        if (productId) {
-            // Gửi yêu cầu API để lấy thông tin sản phẩm với ProductID
-            fetch(`/api/products/${productId}`)
-                .then(response => response.json())
-                .then(product => {
-                    if (product) {
-                        // Hiển thị thông tin chi tiết sản phẩm
-                        document.getElementById('product-name').innerText = product.name || 'Không có tên sản phẩm';
-                        document.getElementById('product-price').innerText = (product.price || 0) + ' VND';
-                        document.getElementById('product-rating').innerHTML = getStarRating(product.rating || 0);
-                        document.getElementById('product-description').innerText = product.description || 'Không có mô tả';
-                        document.getElementById('product-specifications').innerText = product.specifications || 'Không có thông số kỹ thuật';
-
-                        // Hiển thị ProductID
-                        document.getElementById('product-id').querySelector('span').innerText = productId;
-
-                        // Hiển thị hình ảnh sản phẩm dựa trên ProductID
-                        displayProductImage(productId);
-                    } else {
-                        console.log('Không tìm thấy sản phẩm với ID: ' + productId);
-                    }
-                })
-                .catch(error => {
-                    console.error('Lỗi khi lấy dữ liệu sản phẩm:', error);
-                });
-        }
-    };
-
-    // Hàm hiển thị ảnh sản phẩm dựa trên ID
-    function displayProductImage(productId) {
-        // Gửi yêu cầu API để lấy danh sách ảnh
-        fetch('/api/images/products')
-            .then(response => response.json())
-            .then(images => {
-                // Đảm bảo ProductID luôn có 2 ký tự
-                const formattedProductId = String(productId).padStart(2, '0');
-
-                // Tìm ảnh có tên bắt đầu với 2 ký tự đầu của ProductID
-                const matchedImage = images.find(image => image.startsWith(formattedProductId));
-
-                // Đường dẫn mặc định nếu không tìm thấy ảnh
-                const fallbackImage = '/images/default.jpg';
-
-                // Nếu tìm thấy ảnh, hiển thị ảnh đó
-                if (matchedImage) {
-                    const imageElement = document.getElementById('product-image');
-                    imageElement.src = `/images/Products/${matchedImage}`;  // Cập nhật đường dẫn ảnh
-                    imageElement.alt = 'Product Image';  // Cập nhật alt text
-                } else {
-                    const imageElement = document.getElementById('product-image');
-                    imageElement.src = fallbackImage;  // Nếu không tìm thấy, dùng ảnh mặc định
-                    imageElement.alt = 'Default Product Image';  // Cập nhật alt text cho ảnh mặc định
-                    console.log('Không tìm thấy ảnh cho sản phẩm này');
-                }
-            })
-            .catch(error => {
-                console.error('Lỗi khi lấy danh sách ảnh:', error);
-            });
-    }
-
-    function getStarRating(rating) {
-        let starsHtml = '';
-        for (let i = 1; i <= 5; i++) {
-            if (i <= rating) {
-                starsHtml += '<i class="fa fa-star" aria-hidden="true"></i>';
-            } else {
-                starsHtml += '<i class="fa fa-star-o" aria-hidden="true"></i>';
-            }
-        }
-        return starsHtml;
-    }
-</script>
-<script>
     document.getElementById('add-to-cart-btn').addEventListener('click', function () {
         const productId = document.getElementById('product-id').querySelector('span').innerText;
         const quantity = document.getElementById('quantity-input').value;
@@ -255,8 +165,107 @@
                 console.error('Lỗi:', error);
                 alert('Không thể thêm sản phẩm vào giỏ hàng. Vui lòng thử lại.');
             });
-        
-
     });
+</script>
+<script>
+        window.onload = function () {
+        const productId = localStorage.getItem('ProductID');
+        if (productId) {
+            // Lấy thông tin sản phẩm từ API
+            fetch(`/api/products/${productId}`)
+                .then(response => response.json())
+                .then(product => {
+                    if (product) {
+                        // Hiển thị thông tin sản phẩm
+                        document.getElementById('product-name').innerText = product.name || 'Không có tên sản phẩm';
+                        document.getElementById('product-price').innerText = (product.price || 0) + ' VND';
+                        document.getElementById('product-description').innerText = product.description || 'Không có mô tả';
+                        document.getElementById('product-specifications').innerText = product.specifications || 'Không có thông số kỹ thuật';
 
+                        // Cập nhật thông tin ProductID
+                        document.getElementById('product-id').querySelector('span').innerText = productId;
+
+                        // Hiển thị đánh giá sao
+                        document.getElementById('product-rating').innerHTML = getStarRating(product.rating || 0);
+
+                        // Hiển thị hình ảnh sản phẩm
+                        displayProductImage(productId);
+                    } else {
+                        console.log('Không tìm thấy sản phẩm với ID: ' + productId);
+                    }
+                })
+                .catch(error => {
+                    console.error('Lỗi khi lấy dữ liệu sản phẩm:', error);
+                });
+
+            // Lấy các đánh giá từ API
+            fetch(`/home/getreviews?productId=${productId}`)
+                .then(response => response.json())
+                .then(reviews => {
+                    const reviewsList = document.getElementById('reviews-list');
+                    reviewsList.innerHTML = '';
+                    reviews.forEach(review => {
+                        const reviewItem = `
+                            <div class="commant-text row">
+                                <div class="col-lg-2 col-md-2 col-sm-4">
+                                    <div class="profile">
+                                        <img class="img-responsive" src="images/it_service/client1.png" alt="#">
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 col-md-10 col-sm-8">
+                                    <h5>${review.userName}</h5>
+                                    <p><span class="c_date">${new Date(review.createdAt).toLocaleDateString()}</span></p>
+                                    <span class="rating">${getStarRating(review.rating)}</span>
+                                    <p class="msg">${review.comment}</p>
+                                </div>
+                            </div>
+                        `;
+                        reviewsList.innerHTML += reviewItem;
+                    });
+                })
+                .catch(error => {
+                    console.error('Lỗi khi lấy đánh giá:', error);
+                });
+        }
+    };
+
+    // Hàm hiển thị sao đánh giá
+    function getStarRating(rating) {
+        let starsHtml = '';
+        for (let i = 1; i <= 5; i++) {
+            if (i <= rating) {
+                starsHtml += '<i class="fa fa-star" aria-hidden="true"></i>';
+            } else {
+                starsHtml += '<i class="fa fa-star-o" aria-hidden="true"></i>';
+            }
+        }
+        return starsHtml;
+    }
+
+    // Hiển thị ảnh sản phẩm
+    function displayProductImage(productId) {
+        fetch('/api/images/products')
+            .then(response => response.json())
+            .then(images => {
+                const formattedProductId = String(productId).padStart(2, '0');
+                const matchedImage = images.find(image => image.startsWith(formattedProductId));
+                const fallbackImage = '/images/default.jpg';
+
+                if (matchedImage) {
+                    document.getElementById('product-image').src = `/images/Products/${matchedImage}`;
+                    document.getElementById('product-image').alt = 'Product Image';
+                } else {
+                    document.getElementById('product-image').src = fallbackImage;
+                    document.getElementById('product-image').alt = 'Default Product Image';
+                }
+            })
+            .catch(error => {
+                console.error('Lỗi khi lấy ảnh sản phẩm:', error);
+            });
+    }
+    // Optional: Cập nhật thông báo khi người dùng chọn đánh giá
+    document.getElementById('ratingSelect').addEventListener('change', function() {
+        var selectedRating = this.value;
+        console.log("Đánh giá của bạn: " + selectedRating);
+    });
 </script>

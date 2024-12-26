@@ -55,7 +55,7 @@
                                         <td class="col-sm-8 col-md-6">
                                             <div class="media">
                                                 <a class="thumbnail pull-left" href="#">
-                                                    <img class="media-object-img img-responsive" id="product-image-@item.CartID" alt="@item.Product.Name" />
+                                                    <img class="media-object-img img-responsive" id="product-image-@item.Product.ProductID" alt="@item.Product.Name" />
                                                 </a>
                                                 <div class="media-body">
                                                     <h4 class="media-heading"><a href="#">@item.Product.Name</a></h4>
@@ -68,10 +68,10 @@
                                             <input class="form-control" value="@item.Quantity" type="number">
                                         </td>
                                         <td class="col-sm-1 col-md-1 text-center">
-                                            <p class="price_table">@item.Product.Price:C</p>
+                                            <p class="price_table">@item.Product.Price VNĐ</p>
                                         </td>
                                         <td class="col-sm-1 col-md-1 text-center">
-                                            <p class="price_table">@(@item.Quantity * item.Product.Price):C</p>
+                                            <p class="price_table">@(@item.Quantity * item.Product.Price) VNĐ</p>
                                         </td>
                                         <td class="col-sm-1 col-md-1">
                                             <form asp-action="RemoveFromCart" method="post">
@@ -97,15 +97,15 @@
                                 </tr>
                                 <tr>
                                     <td><h4>Subtotal</h4></td>
-                                    <td class="text-right"><h4>@Model.Sum(item => item.Quantity * item.Product.Price):C</h4></td>
+                                    <td class="text-right"><h4>@Model.Sum(item => item.Quantity * item.Product.Price) VNĐ</h4></td>
                                 </tr>
                                 <tr>
                                     <td><h5>Estimated shipping</h5></td>
-                                    <td class="text-right"><h4>$5.00</h4></td>
+                                    <td class="text-right"><h4>0 VNĐ</h4></td>
                                 </tr>
                                 <tr>
                                     <td><h3>Total</h3></td>
-                                    <td class="text-right"><h4>@(Model.Sum(item => item.Quantity * item.Product.Price) + 5):C</h4></td>
+                                    <td class="text-right"><h4>@(Model.Sum(item => item.Quantity * item.Product.Price)) VNĐ</h4></td>
                                 </tr>
                                 <tr>
                                     <td><button type="button" class="button">Continue Shopping</button></td>

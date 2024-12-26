@@ -22,37 +22,6 @@ namespace Gigashop.Controllers
         [HttpGet]
         public IActionResult Login() => View();
 
-
-        //public IActionResult Login(LoginViewModel model)
-        //{
-        //    if (!ModelState.IsValid)
-        //    {
-        //        Console.WriteLine("Dữ liệu nhập không hợp lệ.");
-        //        return View(model);
-        //    }
-
-        //    // Mã hóa mật khẩu và kiểm tra người dùng
-        //    var passwordHash = ComputeHash(model.Password);
-        //    var user = _context.Users.FirstOrDefault(u => u.Email == model.Email && u.PasswordHash == passwordHash);
-
-        //    if (user == null)
-        //    {
-        //        ModelState.AddModelError("", "Email hoặc mật khẩu không chính xác.");
-        //        Console.WriteLine("Đăng nhập thất bại: Tài khoản hoặc mật khẩu không đúng.");
-        //        return View(model);
-        //    }
-
-        //    // Lưu thông tin vào Session
-        //    HttpContext.Session.SetString("UserId", user.UserID.ToString());
-        //    HttpContext.Session.SetString("Username", user.Username);
-
-        //    // Lưu thông tin vào Cookie (vĩnh viễn)
-        //    Response.Cookies.Append("UserId", user.UserID.ToString(), new CookieOptions { Expires = DateTime.Now.AddYears(1) });
-        //    Response.Cookies.Append("Username", user.Username, new CookieOptions { Expires = DateTime.Now.AddYears(1) });
-
-        //    Console.WriteLine($"Đăng nhập thành công: {user.Username}");
-        //    return RedirectToAction("Index", "Home");
-        //}
         public IActionResult Login(LoginViewModel model)
         {
             if (!ModelState.IsValid)

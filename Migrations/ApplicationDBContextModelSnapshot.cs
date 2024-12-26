@@ -347,9 +347,9 @@ namespace Gigashop.Migrations
             modelBuilder.Entity("Gigashop.Data.Review", b =>
                 {
                     b.HasOne("Gigashop.Data.Product", "Product")
-                        .WithMany()
+                        .WithMany("Reviews")
                         .HasForeignKey("ProductID")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Gigashop.Data.User", "User")
@@ -361,6 +361,11 @@ namespace Gigashop.Migrations
                     b.Navigation("Product");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Gigashop.Data.Product", b =>
+                {
+                    b.Navigation("Reviews");
                 });
 
             modelBuilder.Entity("Gigashop.Data.User", b =>

@@ -84,10 +84,12 @@ namespace Gigashop.Views
         }
 
 
-        public IActionResult Details()
+        public IActionResult Details(int id)
         {
+            var product = _context.Products.Find(id);
+            if (product == null) return NotFound();
 
-            return View();
+            return View(product);
         }
 
         public async Task<IActionResult> ShopingCart()
@@ -389,5 +391,64 @@ namespace Gigashop.Views
             public int Quantity { get; set; } // Số lượng
         }
 
+        // Lấy các đánh giá của sản phẩm
+        public JsonResult GetReviews(int productId)
+        {
+            var reviews = _context.Reviews
+                .Where(r => r.ProductID == productId)
+                .Select(r => new
+                {
+                    r.ReviewID,
+                    r.Rating,
+                    r.Comment,
+                    r.CreatedAt,
+                    UserName = r.User.Username // Lấy tên người dùng từ bảng User
+                })
+                .ToList();
+
+            return Json(reviews);
+        }
+
+        // Xử lý việc gửi đánh giá
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult AddReview(int productId, int rating, string comment)
+        {
+            try
+            {
+                // Lấy UserId từ Session hoặc Cookie
+                var userIdString = HttpContext.Session.GetString("UserId") ?? Request.Cookies["UserId"];
+
+                // Kiểm tra UserId có tồn tại và hợp lệ không
+                if (string.IsNullOrEmpty(userIdString) || !int.TryParse(userIdString, out var userId))
+                {
+                    TempData["ErrorMessage"] = "Người dùng chưa đăng nhập hoặc UserId không hợp lệ.";
+                    return RedirectToAction("ProductDetail", new { id = productId });
+                }
+
+                // Tạo mới đối tượng Review
+                var review = new Review
+                {
+                    ProductID = productId,
+                    UserID = userId,
+                    Rating = rating,
+                    Comment = comment,
+                    CreatedAt = DateTime.Now
+                };
+
+                // Thêm đánh giá vào cơ sở dữ liệu
+                _context.Reviews.Add(review);
+                _context.SaveChanges();
+
+                TempData["SuccessMessage"] = "Đánh giá của bạn đã được lưu thành công!";
+                return RedirectToAction("ProductDetail", new { id = productId });
+            }
+            catch (Exception ex)
+            {
+                // Xử lý lỗi và trả về thông báo
+                TempData["ErrorMessage"] = "Đã xảy ra lỗi: " + ex.Message;
+                return RedirectToAction("ProductDetail", new { id = productId });
+            }
+        }
     }
 }
