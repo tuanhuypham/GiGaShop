@@ -1,5 +1,6 @@
 ﻿using Gigashop.Data;
 using Gigashop.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
@@ -12,7 +13,7 @@ namespace Gigashop.Views
     {
         // GET: HomeController
         private readonly ApplicationDBContext _context;
-       
+
 
         public HomeController(ApplicationDBContext context)
         {
@@ -20,7 +21,6 @@ namespace Gigashop.Views
         }
 
         [HttpPost]
-
         [HttpGet("list")]
         public override void OnActionExecuting(ActionExecutingContext context)
         {
@@ -46,7 +46,8 @@ namespace Gigashop.Views
         public ActionResult Index()
         {
             return View();
-        }public ActionResult accessories()
+        }
+        public ActionResult accessories()
         {
             return View();
         }
@@ -82,16 +83,54 @@ namespace Gigashop.Views
             return View();
         }
 
-        public IActionResult Details(int id)
+
+        public IActionResult Details()
         {
-          
+
             return View();
         }
 
-        public IActionResult ShopingCart()
+        public async Task<IActionResult> ShopingCart()
         {
-            return View();
+            // Kiểm tra nếu cookie chứa UserID
+            if (!Request.Cookies.TryGetValue("UserID", out var userIdStr) || string.IsNullOrEmpty(userIdStr))
+            {
+                return RedirectToAction("Login", "Account"); // Chuyển hướng đến trang đăng nhập nếu UserID không tồn tại
+            }
+
+            // Chuyển UserID từ chuỗi sang số nguyên
+            if (!int.TryParse(userIdStr, out var userId))
+            {
+                return BadRequest("Invalid UserID in cookie.");
+            }
+
+            // Lấy danh sách sản phẩm trong giỏ hàng của người dùng
+            var cartItems = await _context.Carts
+                .Where(c => c.UserID == userId)
+                .Include(c => c.Product) // Bao gồm thông tin sản phẩm liên kết
+                .ToListAsync();
+
+            return View(cartItems); // Truyền danh sách vào View
         }
+
+        [HttpPost]
+        public async Task<IActionResult> RemoveFromCart(int cartId)
+        {
+            var cartItem = await _context.Carts.FindAsync(cartId);
+            if (cartItem != null)
+            {
+                _context.Carts.Remove(cartItem);
+                await _context.SaveChangesAsync();
+            }
+
+            return RedirectToAction(nameof(ShopingCart));
+        }
+
+
+        //public IActionResult ShopingCart()
+        //{
+        //    return View();
+        //}
 
         public IActionResult CheckOut()
         {
@@ -272,10 +311,83 @@ namespace Gigashop.Views
                 return Convert.ToBase64String(hashedBytes);
             }
         }
-        
-       
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Route("api/cart/add")]
+        public IActionResult AddToCart([FromBody] AddToCartRequest request)
+        {
+            try
+            {
+                // Lấy thông tin từ Session nếu có
+                var username = HttpContext.Session.GetString("Username");
+                var userId = HttpContext.Session.GetString("UserId");
+
+                // Nếu thông tin không có trong Session, kiểm tra Cookie
+                if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(userId))
+                {
+                    username = Request.Cookies["Username"];
+                    userId = Request.Cookies["UserId"];
+                }
+
+                // Nếu không có thông tin người dùng, trả về lỗi
+                if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(userId))
+                {
+                    return Json(new { message = "Người dùng chưa đăng nhập." });
+                }
+
+                // Chuyển đổi UserId từ string sang int
+                int parsedUserId;
+                if (!int.TryParse(userId, out parsedUserId))
+                {
+                    return Json(new { message = "Thông tin người dùng không hợp lệ." });
+                }
+
+                // Tìm sản phẩm theo ProductID
+                var product = _context.Products.FirstOrDefault(p => p.ProductID == request.ProductID);
+                if (product == null)
+                    return Json(new { message = "Sản phẩm không tồn tại." });
+
+                // Kiểm tra giỏ hàng hiện tại
+                var cart = _context.Carts.FirstOrDefault(c => c.UserID == parsedUserId && c.ProductID == request.ProductID);
+                if (cart == null)
+                {
+                    // Nếu sản phẩm chưa có trong giỏ hàng, thêm mới
+                    cart = new Cart
+                    {
+                        UserID = parsedUserId,
+                        ProductID = request.ProductID,
+                        Quantity = request.Quantity,
+                        CreatedAt = DateTime.Now,
+                        UpdatedAt = DateTime.Now
+                    };
+                    _context.Carts.Add(cart);
+                }
+                else
+                {
+                    // Nếu đã có trong giỏ hàng, cập nhật số lượng
+                    cart.Quantity += request.Quantity;
+                    cart.UpdatedAt = DateTime.Now;
+                }
+
+                // Lưu thay đổi vào DB
+                _context.SaveChanges();
+
+                return Json(new { message = "Đã thêm sản phẩm vào giỏ hàng thành công!" });
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return Json(new { message = "Đã xảy ra lỗi khi thêm sản phẩm vào giỏ hàng." });
+            }
+        }
 
 
+        public class AddToCartRequest
+        {
+            public int ProductID { get; set; } // ID sản phẩm
+            public int Quantity { get; set; } // Số lượng
+        }
 
     }
 }

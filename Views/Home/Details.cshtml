@@ -1,4 +1,5 @@
-﻿@{
+﻿
+@{
     ViewData["Title"] = "Detail Product";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -25,12 +26,12 @@
                         <div class="detail-contant">
                             <p id="product-description">Mô tả sản phẩm sẽ được hiển thị ở đây</p>
                             <form id="add-to-cart-form">
+                                @Html.AntiForgeryToken()
                                 <div class="quantity">
                                     <input id="quantity-input" step="1" min="1" max="5" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" type="number">
                                 </div>
                                 <button type="button" id="add-to-cart-btn" class="btn sqaure_bt">Add to cart</button>
                             </form>
-
                         </div>
                         <div class="share-post">
                             <a href="#" class="share-text">Share</a>
@@ -43,6 +44,7 @@
                             </ul>
                         </div>
                     </div>
+
                 </div>
                 <div class="row">
                     <div class="col-md-12">
@@ -225,34 +227,36 @@
     }
 </script>
 <script>
-    document.querySelector(".cart button").addEventListener("click", function (e) {
-        e.preventDefault(); // Ngăn chuyển hướng form
-        const productId = document.querySelector("#product-id span").textContent.trim();
-        const quantity = document.querySelector(".quantity input").value;
-
-        fetch('/api/products/add-to-cart', {
+    document.getElementById('add-to-cart-btn').addEventListener('click', function () {
+        const productId = document.getElementById('product-id').querySelector('span').innerText;
+        const quantity = document.getElementById('quantity-input').value;
+        body: JSON.stringify({
+            productID: parseInt(productId), // Đảm bảo productId là số
+            quantity: parseInt(quantity)   // Đảm bảo quantity là số
+        })
+        fetch('/api/cart/add', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
+                'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
             },
             body: JSON.stringify({
                 productID: parseInt(productId),
-                quantity: parseInt(quantity),
-            }),
-        })
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error("Không thể thêm sản phẩm vào giỏ hàng");
-                }
-                return response.json();
+                quantity: parseInt(quantity)
             })
+        })
+            .then(response => response.json())
             .then(data => {
-                alert(data); // Hiển thị thông báo thành công
+                if (data.message) {
+                    alert(data.message); // Hiển thị thông báo thành công
+                }
             })
             .catch(error => {
-                console.error("Lỗi:", error);
-                alert("Đã xảy ra lỗi: " + error.message);
+                console.error('Lỗi:', error);
+                alert('Không thể thêm sản phẩm vào giỏ hàng. Vui lòng thử lại.');
             });
+        
+
     });
 
 </script>

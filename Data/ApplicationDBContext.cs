@@ -13,14 +13,10 @@ namespace Gigashop.Data
         public DbSet<User> Users { get; set; }
         public DbSet<Service> Services { get; set; }
         public DbSet<Review> Reviews { get; set; }
-
-       
-
-       
-
         public DbSet<ContactMessage> ContactMessages { get; set; }
         public DbSet<ContactMessage> Categorys { get; set; }
         public DbSet<Cart> Carts { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
 
 
 
@@ -44,7 +40,32 @@ namespace Gigashop.Data
             base.OnModelCreating(modelBuilder);
 
 
-          
+          // Cart Table Configuration
+            modelBuilder.Entity<Cart>()
+                .HasOne(c => c.User)
+                .WithMany()
+                .HasForeignKey(c => c.UserID);
+
+            modelBuilder.Entity<Cart>()
+                .HasOne(c => c.Product)
+                .WithMany()
+                .HasForeignKey(c => c.ProductID);
+
+            // OrderDetail Table Configuration
+            modelBuilder.Entity<OrderDetail>()
+                .HasOne(od => od.Cart)
+                .WithMany()
+                .HasForeignKey(od => od.CartID);
+
+            modelBuilder.Entity<OrderDetail>()
+                .HasOne(od => od.User)
+                .WithMany()
+                .HasForeignKey(od => od.UserID);
+
+            modelBuilder.Entity<OrderDetail>()
+                .HasOne(od => od.Product)
+                .WithMany()
+                .HasForeignKey(od => od.ProductID);
         }
 
     }
@@ -171,91 +192,93 @@ namespace Gigashop.Data
         [ForeignKey("UserID")]
         public virtual User User { get; set; }
     }
-}
+    [Table("ContactMessages", Schema = "dbo")]
+    public class ContactMessage
+    {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int MessageID { get; set; }     // Khóa chính
+        public int UserID { get; set; }        // Khóa ngoại, liên kết với bảng Users
+        public string Name { get; set; }       // Tên người gửi
+        public string Email { get; set; }      // Email của người gửi
+        public string Subject { get; set; }    // Tiêu đề
+        public string Message { get; set; }    // Nội dung tin nhắn
+        public DateTime CreatedAt { get; set; } // Thời gian tin nhắn được gửi
+    }
+    [Table("Categorys", Schema = "dbo")]
+    public class Category
+    {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int CategoryID { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public int? ParentCategoryID { get; set; }  // Cho phép null nếu không có Parent Category
+        public DateTime CreatedAt { get; set; }
 
-[Table("Orders", Schema = "dbo")]
-public class Order
-{
-    [Key]
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    public int OrderID { get; set; }
+        // Navigation property để liên kết với Parent Category (nếu có)
+        public virtual Category ParentCategory { get; set; }
+        public virtual ICollection<Category> SubCategories { get; set; }
+    }
 
-    [Required]
-    public int UserID { get; set; } // Foreign key to Users table
+    public class Cart
+    {
+        [Key]
+        public int CartID { get; set; }
 
-    [Required]
-    [Column(TypeName = "decimal(18,2)")]
-    public decimal TotalPrice { get; set; }
+        [Required]
+        public int UserID { get; set; } // Foreign key liên kết với User
 
-    [Required]
-    [MaxLength(50)]
-    public string Status { get; set; }
+        [Required]
+        public int ProductID { get; set; } // Foreign key liên kết với Product
 
-    [Required]
-    public DateTime CreatedAt { get; set; }
+        [Required]
+        public int Quantity { get; set; } // Số lượng sản phẩm
 
-    public DateTime? UpdatedAt { get; set; }
+        [Required]
+        [Column(TypeName = "datetime")]
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
 
-    // Navigation property (optional) to User
-    [ForeignKey("UserID")]
-    public virtual User User { get; set; }
+        [Required]
+        [Column(TypeName = "datetime")]
+        public DateTime UpdatedAt { get; set; } = DateTime.Now;
 
-   
-    
+        // Navigation Properties
+        public User User { get; set; }
+        public Product Product { get; set; }
+    }
+    public class OrderDetail
+    {
+        [Key]
+        public int OrderDetailID { get; set; }
 
-}
+        [Required]
+        public int CartID { get; set; } // Foreign key liên kết với Cart
 
-[Table("ContactMessages", Schema = "dbo")]
-    public class ContactMessage{
-    [Key]
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    public int MessageID { get; set; }     // Khóa chính
-    public int UserID { get; set; }        // Khóa ngoại, liên kết với bảng Users
-    public string Name { get; set; }       // Tên người gửi
-    public string Email { get; set; }      // Email của người gửi
-    public string Subject { get; set; }    // Tiêu đề
-    public string Message { get; set; }    // Nội dung tin nhắn
-    public DateTime CreatedAt { get; set; } // Thời gian tin nhắn được gửi
-}
-[Table("Categorys", Schema = "dbo")]
-public class Category
-{
-    [Key]
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    public int CategoryID { get; set; }
-    public string Name { get; set; }
-    public string Description { get; set; }
-    public int? ParentCategoryID { get; set; }  // Cho phép null nếu không có Parent Category
-    public DateTime CreatedAt { get; set; }
+        [Required]
+        public int UserID { get; set; } // Foreign key liên kết với User
 
-    // Navigation property để liên kết với Parent Category (nếu có)
-    public virtual Category ParentCategory { get; set; }
-    public virtual ICollection<Category> SubCategories { get; set; }
-}
+        [Required]
+        public int ProductID { get; set; } // Foreign key liên kết với Product
 
-[Table("Carts", Schema = "dbo")]
-public class Cart
-{
-    [Key]
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    public int CartID { get; set; }
+        [Required]
+        public int Quantity { get; set; }
 
-    [Required]
-    public int UserID { get; set; }  // Khóa ngoại liên kết với bảng Users
+        [Required]
+        [Column(TypeName = "decimal(18,2)")]
+        public decimal UnitPrice { get; set; } // Giá sản phẩm tại thời điểm đặt hàng
 
-    [Required]
-    public int ProductID { get; set; } // Khóa ngoại liên kết với bảng Products
+        [Column(TypeName = "decimal(18,2)")]
+        public decimal TotalPrice => Quantity * UnitPrice; // Tổng giá (tính toán tự động)
 
-    [Required]
-    public int Quantity { get; set; }  // Số lượng sản phẩm trong giỏ hàng
+        [Required]
+        [Column(TypeName = "datetime")]
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
 
-    public DateTime CreatedAt { get; set; }
-    public DateTime? UpdatedAt { get; set; }
+        // Navigation Properties
+        public Cart Cart { get; set; }
+        public User User { get; set; }
+        public Product Product { get; set; }
+    }
 
-    // Navigation properties
-    [ForeignKey("UserID")]
-    public virtual User User { get; set; }
-
-    [ForeignKey("ProductID")]
-    public virtual Product Product { get; set; }
 }

@@ -282,7 +282,6 @@ D:\Đồ Án HK1B\GiGaShop\Gigashop\bin\Debug\net8.0\runtimes\win\lib\net7.0\Mic
 D:\Đồ Án HK1B\GiGaShop\Gigashop\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 D:\Đồ Án HK1B\GiGaShop\Gigashop\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\Đồ Án HK1B\GiGaShop\Gigashop\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
-D:\Đồ Án HK1B\Gigashop\bin\Debug\net8.0\Gigashop.dll
 C:\coding\Bao_dev\GiGaShop\bin\Debug\net8.0\appsettings.Development.json
 C:\coding\Bao_dev\GiGaShop\bin\Debug\net8.0\Gigashop.staticwebassets.endpoints.json
 C:\coding\Bao_dev\GiGaShop\bin\Debug\net8.0\Gigashop.staticwebassets.runtime.json
@@ -1155,6 +1154,8 @@ D:\Đồ Án HK1B\GiGaShop\bin\Debug\net8.0\Gigashop.staticwebassets.runtime.jso
 D:\Đồ Án HK1B\GiGaShop\bin\Debug\net8.0\Gigashop.exe
 D:\Đồ Án HK1B\GiGaShop\bin\Debug\net8.0\Gigashop.deps.json
 D:\Đồ Án HK1B\GiGaShop\bin\Debug\net8.0\Gigashop.runtimeconfig.json
+D:\Đồ Án HK1B\GiGaShop\bin\Debug\net8.0\Gigashop.dll
+D:\Đồ Án HK1B\GiGaShop\bin\Debug\net8.0\Gigashop.pdb
 D:\Đồ Án HK1B\GiGaShop\bin\Debug\net8.0\Azure.Core.dll
 D:\Đồ Án HK1B\GiGaShop\bin\Debug\net8.0\Azure.Identity.dll
 D:\Đồ Án HK1B\GiGaShop\bin\Debug\net8.0\Humanizer.dll
@@ -1432,3 +1433,4 @@ D:\Đồ Án HK1B\GiGaShop\obj\Debug\net8.0\Gigashop.dll
 D:\Đồ Án HK1B\GiGaShop\obj\Debug\net8.0\refint\Gigashop.dll
 D:\Đồ Án HK1B\GiGaShop\obj\Debug\net8.0\Gigashop.pdb
 D:\Đồ Án HK1B\GiGaShop\obj\Debug\net8.0\Gigashop.genruntimeconfig.cache
+D:\Đồ Án HK1B\GiGaShop\obj\Debug\net8.0\ref\Gigashop.dll
