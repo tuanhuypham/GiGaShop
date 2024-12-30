@@ -1,0 +1,282 @@
+﻿@{
+    Layout = null; /* Tắt layout chung cho trang này */
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title Trang Quản Lý - Admin</title> <!-- Tiêu đề trang web -->
+    <link rel="stylesheet" href="~/Content/admin_main.css"> <!-- Liên kết đến tệp CSS chính -->
+    <script src="~/Scripts/admin.js" defer></script> <!-- Liên kết đến tệp JavaScript chính -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" /> <!-- Thêm Font Awesome cho các biểu tượng -->
+</head>
+<body>
+    <div class="admin-container">
+
+        <!-- Sidebar (Thanh điều hướng bên trái) -->
+        <aside class="admin-sidebar">
+            <div class="sidebar-header">
+                <h2><i class="fas fa-cogs"></i> GigaShop - Admin</h2> <!-- Tiêu đề của Sidebar -->
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <!-- Liên kết đến các trang chức năng trong hệ thống -->
+                    <li><a href="@Url.Action("Dashboard", "Admin")"><i class="fas fa-home"></i> Trang Chủ</a></li> <!-- Trang chủ của Admin -->
+                    <li><a href="@Url.Action("ManageUsers", "Admin")"><i class="fas fa-users"></i> Quản lý người dùng</a></li> <!-- Quản lý người dùng -->
+                    <li><a href="@Url.Action("ManageOrders", "Admin")"><i class="fas fa-shopping-cart"></i> Quản lý đơn hàng</a></li> <!-- Quản lý đơn hàng -->
+                    <li><a href="@Url.Action("ManageProducts", "Admin")"><i class="fas fa-box-open"></i> Quản lý sản phẩm</a></li> <!-- Quản lý sản phẩm -->
+                    <li><a href="@Url.Action("ManageCategories", "Admin")"><i class="fas fa-tags"></i> Quản lý danh mục</a></li> <!-- Quản lý danh mục -->
+                    <li><a href="@Url.Action("ViewFeedback", "Admin")"><i class="fas fa-comment-dots"></i> Phản hồi và góp ý</a></li> <!-- Xem phản hồi và góp ý -->
+                    <li><a href="@Url.Action("Reports", "Admin")"><i class="fas fa-chart-line"></i> Báo cáo thống kê</a></li> <!-- Xem báo cáo thống kê -->
+                    <li><a href="@Url.Action("Settings", "Admin")"><i class="fas fa-cog"></i> Cài đặt</a></li> <!-- Cài đặt hệ thống -->
+                </ul>
+            </nav>
+            <div class="sidebar-footer">
+                <a href="@Url.Action("Logout", "Home")"><i class="fas fa-sign-out-alt"></i> Đăng xuất</a> <!-- Liên kết để đăng xuất -->
+            </div>
+        </aside>
+
+        <!-- Main Content (Nội dung chính) -->
+        <main class="admin-main">
+            @RenderBody() <!-- Chỗ này sẽ render nội dung của từng trang cụ thể -->
+        </main>
+    </div>
+
+    <style>
+        /* ------------------------------
+           Cấu hình chung của Layout
+        ------------------------------ */
+        body {
+            font-family: 'Times New Roman', sans-serif; /* Chọn phông chữ */
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fc; /* Màu nền trang */
+            overflow-x: hidden; /* Ngừng trượt ngang */
+        }
+
+        /* ------------------------------
+           Sidebar (Thanh điều hướng bên trái)
+        ------------------------------ */
+        .admin-container {
+            display: flex; /* Chia bố cục của sidebar và content */
+        }
+
+        .admin-sidebar {
+            background-color: #2c3e50; /* Màu nền sidebar */
+            width: 320px;
+            height: 100vh; /* Chiều cao full màn hình */
+            color: #ecf0f1; /* Màu chữ bên trong sidebar */
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Tiêu đề sidebar */
+        .sidebar-header h2 {
+            color: #76d7c4; /* Màu xanh lá nhạt cho tiêu đề */
+            text-align: center;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+            .sidebar-header h2::after {
+                content: "";
+                position: absolute;
+                bottom: -10px;
+                left: 0;
+                width: 100%;
+                height: 2px;
+                background-color: #76d7c4; /* Đường gạch dưới cùng màu xanh lá nhạt */
+            }
+
+        /* Menu sidebar */
+        .sidebar-nav {
+            flex-grow: 1; /* Làm cho menu sidebar chiếm hết không gian còn lại */
+        }
+
+            .sidebar-nav ul {
+                list-style: none; /* Loại bỏ dấu chấm cho danh sách */
+                padding-left: 0;
+            }
+
+                .sidebar-nav ul li {
+                    margin-bottom: 20px; /* Khoảng cách giữa các mục */
+                }
+
+                    .sidebar-nav ul li a {
+                        color: #ecf0f1; /* Màu chữ của các liên kết */
+                        text-decoration: none; /* Loại bỏ gạch chân */
+                        display: flex;
+                        align-items: center;
+                        padding: 10px;
+                        border-radius: 5px; /* Bo góc cho các liên kết */
+                        transition: background-color 0.3s; /* Hiệu ứng khi hover */
+                    }
+
+                        .sidebar-nav ul li a:hover {
+                            background-color: #34495e; /* Màu nền khi hover */
+                        }
+
+                        .sidebar-nav ul li a i {
+                            margin-right: 10px; /* Khoảng cách giữa biểu tượng và văn bản */
+                        }
+
+        /* Footer của Sidebar */
+        .sidebar-footer {
+            background-color: #2c3e50; /* Màu nền của footer */
+            color: #ecf0f1; /* Màu chữ trong footer */
+            padding: 10px;
+            text-align: center;
+            font-size: 1.2rem;
+            position: relative;
+        }
+
+        .sidebar-footer::before {
+            content: "";
+            position: absolute;
+            top: -10px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #76d7c4; /* Đường gạch trên cùng màu xanh lá nhạt */
+        }
+
+        .sidebar-footer a {
+            color: #e74c3c; /* Màu chữ đỏ cho liên kết Đăng xuất */
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+
+            .sidebar-footer a:hover {
+                color: #c0392b; /* Màu đỏ đậm hơn khi hover */
+            }
+
+        /* ------------------------------
+           Nội dung chính của Dashboard
+        ------------------------------ */
+        .admin-main {
+            width: 110%; /* Tăng kích thước nội dung chính */
+        }
+
+        /* ------------------------------
+           Tiêu đề của Dashboard
+        ------------------------------ */
+        .dashboard {
+            padding: 20px;
+        }
+
+        .dashboard-title {
+            font-size: 2rem; /* Kích thước chữ tiêu đề */
+            font-weight: bold;
+            color: #333; /* Màu chữ đen nhạt cho tiêu đề */
+            line-height: 1.5; /* Khoảng cách giữa các dòng */
+        }
+
+        /* Thông điệp chào mừng */
+        .welcome-message {
+            font-size: 1.2rem; /* Kích thước chữ chào mừng */
+            color: #555; /* Màu chữ nhạt hơn */
+            font-weight: normal;
+            display: block;
+            margin-top: 10px;
+        }
+
+        /* ------------------------------
+           Thống kê Dashboard
+        ------------------------------ */
+        .dashboard-stats {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px; /* Khoảng cách giữa các mục thống kê */
+        }
+
+        /* Thẻ thống kê */
+        .stat-card {
+            background-color: #fff; /* Màu nền của thẻ thống kê */
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng */
+            width: 22%; /* Đặt độ rộng thẻ */
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s; /* Hiệu ứng khi hover */
+        }
+
+            .stat-card:hover {
+                transform: translateY(-5px); /* Hiệu ứng dịch chuyển nhẹ khi hover */
+            }
+
+        .stat-card-icon {
+            font-size: 2rem; /* Kích thước biểu tượng */
+            color: #5b6e6e; /* Màu biểu tượng */
+            margin-bottom: 15px;
+        }
+
+        /* Nội dung của thẻ thống kê */
+        .stat-card-content h3 {
+            font-size: 1.5rem; /* Kích thước chữ cho số liệu */
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333; /* Màu chữ số liệu */
+        }
+
+        .stat-card-content p {
+            font-size: 1rem; /* Kích thước chữ mô tả */
+            color: #777; /* Màu chữ nhạt cho mô tả */
+        }
+
+        /* Mục doanh thu */
+        .stat-card-content h3 {
+            color: #2ecc71; /* Màu xanh lá cho mục doanh thu */
+        }
+
+        /* ------------------------------
+           Hoạt động gần đây
+        ------------------------------ */
+        .recent-activity {
+            margin-top: 50px;
+        }
+
+            .recent-activity h2 {
+                font-size: 1.8rem; /* Kích thước chữ cho tiêu đề hoạt động */
+                font-weight: bold;
+                color: #333;
+                margin-bottom: 20px;
+            }
+
+        /* Danh sách hoạt động */
+        .activity-list {
+            background-color: #f9f9f9; /* Màu nền nhạt cho danh sách */
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Hiệu ứng bóng nhẹ */
+        }
+
+        /* Mục hoạt động */
+        .activity-item {
+            background-color: #fff; /* Màu nền cho mỗi mục hoạt động */
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng nhẹ */
+        }
+
+            .activity-item:last-child {
+                margin-bottom: 0; /* Loại bỏ margin-bottom cho mục cuối cùng */
+            }
+
+            .activity-item p {
+                font-size: 1rem;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+
+            .activity-item small {
+                font-size: 0.85rem; /* Kích thước chữ nhỏ cho thời gian hoạt động */
+                color: #777; /* Màu chữ nhạt cho thời gian */
+            }
+    </style>
+</body>
+</html>

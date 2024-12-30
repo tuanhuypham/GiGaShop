@@ -147,6 +147,97 @@ namespace Gigashop.Views
             return View();
         }
 
+        [HttpPost]
+        public async Task<IActionResult> ProcessCheckout(CheckoutViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                TempData["ErrorMessage"] = "Vui lòng kiểm tra lại thông tin.";
+                return View("Checkout", model);
+            }
+
+            var userIdCookie = Request.Cookies["UserID"];
+            if (string.IsNullOrEmpty(userIdCookie) || !int.TryParse(userIdCookie, out int userId))
+            {
+                TempData["ErrorMessage"] = "Bạn cần đăng nhập để thanh toán!";
+                return RedirectToAction("Checkout", "Home");
+            }
+
+            var cartItems = await _context.Carts
+                .Where(c => c.UserID == userId)
+                .Include(c => c.Product)
+                .ToListAsync();
+
+            if (!cartItems.Any())
+            {
+                TempData["ErrorMessage"] = "Không có sản phẩm trong giỏ hàng!";
+                return RedirectToAction("Checkout", "Home");
+            }
+
+            decimal totalAmount = cartItems.Sum(c => c.Quantity * c.Product.Price);
+
+            using var transaction = await _context.Database.BeginTransactionAsync();
+
+            try
+            {
+                // Lưu dữ liệu vào bảng Checkouts trước
+                foreach (var cartItem in cartItems)
+                {
+                    var checkout = new Checkout
+                    {
+                        CartID = cartItem.CartID,
+                        UserID = userId,
+                        ProductID = cartItem.ProductID,
+                        CustomerName = model.CustomerName,
+                        PhoneNumber = model.PhoneNumber,
+                        Address = model.Address,
+                        Email = model.Email,
+                        TotalAmount = totalAmount,
+                        CreatedAt = DateTime.Now
+                    };
+
+                    _context.Checkouts.Add(checkout);
+                }
+
+                // Lưu thay đổi vào cơ sở dữ liệu
+                await _context.SaveChangesAsync();
+
+                // Commit transaction để lưu thành công dữ liệu vào Checkouts
+                await transaction.CommitAsync();
+
+                // Thông báo thành công trước khi xóa giỏ hàng
+                TempData["SuccessMessage"] = "Checkout thành công!";
+
+                // Tạo giao dịch mới để xóa giỏ hàng
+                using var deleteTransaction = await _context.Database.BeginTransactionAsync();
+
+                try
+                {
+                    // Nếu lưu thành công, tiếp tục xóa giỏ hàng
+                    _context.Carts.RemoveRange(cartItems);
+                    await _context.SaveChangesAsync();
+
+                    // Commit transaction xóa giỏ hàng
+                    await deleteTransaction.CommitAsync();
+                }
+                catch (Exception ex)
+                {
+                    await deleteTransaction.RollbackAsync();
+                    Console.WriteLine($"Error during cart deletion: {ex.Message}");
+                    TempData["ErrorMessage"] = "Đã xảy ra lỗi khi xóa giỏ hàng. Vui lòng thử lại!";
+                    return View("Checkout", model);
+                }
+
+                return RedirectToAction("Index", "Home");
+            }
+            catch (Exception ex)
+            {
+                await transaction.RollbackAsync();
+                Console.WriteLine($"Error during checkout: {ex.Message}");
+                TempData["ErrorMessage"] = "Đã xảy ra lỗi khi thanh toán. Vui lòng thử lại!";
+                return View("Checkout", model);
+            }
+        }
         public IActionResult Service()
         {
             return View();
@@ -431,7 +522,7 @@ namespace Gigashop.Views
                 if (string.IsNullOrEmpty(userIdString) || !int.TryParse(userIdString, out var userId))
                 {
                     TempData["ErrorMessage"] = "Người dùng chưa đăng nhập hoặc UserId không hợp lệ.";
-                    return RedirectToAction("ProductDetail", new { id = productId });
+                    return RedirectToAction("Details", new { id = productId });
                 }
 
                 // Tạo mới đối tượng Review
@@ -449,13 +540,13 @@ namespace Gigashop.Views
                 _context.SaveChanges();
 
                 TempData["SuccessMessage"] = "Đánh giá của bạn đã được lưu thành công!";
-                return RedirectToAction("ProductDetail", new { id = productId });
+                return RedirectToAction("Details", new { id = productId });
             }
             catch (Exception ex)
             {
                 // Xử lý lỗi và trả về thông báo
                 TempData["ErrorMessage"] = "Đã xảy ra lỗi: " + ex.Message;
-                return RedirectToAction("ProductDetail", new { id = productId });
+                return RedirectToAction("Details", new { id = productId });
             }
         }
     }

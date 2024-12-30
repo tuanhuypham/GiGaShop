@@ -17,7 +17,7 @@ namespace Gigashop.Data
         public DbSet<ContactMessage> Categorys { get; set; }
         public DbSet<Cart> Carts { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
-
+        public DbSet<Checkout> Checkouts { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -72,6 +72,26 @@ namespace Gigashop.Data
                 .WithOne(r => r.Product)
                 .HasForeignKey(r => r.ProductID)
                 .OnDelete(DeleteBehavior.Cascade);
+
+            // Cart Table Configuration
+            modelBuilder.Entity<Cart>()
+                .HasOne(c => c.User)
+                .WithMany()
+                .HasForeignKey(c => c.UserID);
+
+            modelBuilder.Entity<Cart>()
+                .HasOne(c => c.Product)
+                .WithMany()
+                .HasForeignKey(c => c.ProductID);
+            modelBuilder.Entity<Checkout>().HasOne(c => c.Cart)
+                .WithMany()
+                .HasForeignKey(c => c.CartID)
+                .OnDelete(DeleteBehavior.Restrict); 
+            modelBuilder.Entity<Cart>().HasOne(c => c.User)
+                .WithMany().HasForeignKey(c => c.UserID); 
+            modelBuilder.Entity<Cart>()
+                .HasOne(c => c.Product).WithMany()
+                .HasForeignKey(c => c.ProductID);
         }
 
     }
@@ -287,6 +307,55 @@ namespace Gigashop.Data
         public Cart Cart { get; set; }
         public User User { get; set; }
         public Product Product { get; set; }
+    }
+    [Table("Checkouts", Schema = "dbo")]
+    public class Checkout
+    {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int CheckoutID { get; set; }
+
+        [Required]
+        public int CartID { get; set; }
+
+        [Required]
+        public int UserID { get; set; }
+
+        [Required]
+        public int ProductID { get; set; }
+
+        [Required]
+        [MaxLength(100)]
+        public string CustomerName { get; set; }
+
+        [Required]
+        [MaxLength(15)]
+        public string PhoneNumber { get; set; }
+
+        [Required]
+        [MaxLength(200)]
+        public string Address { get; set; }
+
+        [Required]
+        [MaxLength(256)]
+        [EmailAddress]
+        public string Email { get; set; }
+
+        [Required]
+        [Column(TypeName = "decimal(18,2)")]
+        public decimal TotalAmount { get; set; }
+
+        [Required]
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
+
+        [ForeignKey("CartID")]
+        public virtual Cart Cart { get; set; }
+
+        [ForeignKey("UserID")]
+        public virtual User User { get; set; }
+
+        [ForeignKey("ProductID")]
+        public virtual Product Product { get; set; }
     }
 
 }

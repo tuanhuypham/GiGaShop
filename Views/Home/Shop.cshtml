@@ -143,7 +143,8 @@
     // Lưu ID sản phẩm và chuyển đến chi tiết sản phẩm
     function saveProductID(id) {
         localStorage.setItem('ProductID', id);
-        window.location.href = '/Home/Details';
+        // window.location.href = '/Home/Details';
+        window.location.href = `/Home/Details/${id}`;
     }
 
     // Hàm thực hiện tìm kiếm sản phẩm
@@ -168,7 +169,7 @@
                             row.className = 'row'; // Tạo div cho các sản phẩm hiển thị theo hàng ngang
                             row.style.display = 'flex';
                             row.style.flexWrap = 'wrap';
-                            row.style.gap = '15px'; // Khoảng cách giữa các sản phẩm
+                            row.style.gap = '100px'; // Khoảng cách giữa các sản phẩm
 
                             products.forEach(product => {
                                 const productID = String(product.productID).padStart(2, '0');

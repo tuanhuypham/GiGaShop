@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\coding\\Bao_dev\\GiGaShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|c:\\coding\\bao_dev\\gigashop\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|c:\\coding\\bao_dev\\gigashop\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|c:\\coding\\bao_dev\\gigashop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|c:\\coding\\bao_dev\\gigashop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|c:\\coding\\bao_dev\\gigashop\\views\\home\\shopingcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:views\\home\\shopingcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|c:\\coding\\bao_dev\\gigashop\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|c:\\coding\\bao_dev\\gigashop\\views\\home\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:views\\home\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|c:\\coding\\bao_dev\\gigashop\\models\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:models\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|c:\\coding\\bao_dev\\gigashop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,33 +34,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationDBContext.cs",
-              "DocumentMoniker": "C:\\coding\\Bao_dev\\GiGaShop\\Data\\ApplicationDBContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDBContext.cs",
-              "ToolTip": "C:\\coding\\Bao_dev\\GiGaShop\\Data\\ApplicationDBContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDBContext.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAA0wGsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T10:59:56.255Z",
-              "EditorCaption": ""
+              "DocumentIndex": 2,
+              "Title": "ShopingCart.cshtml",
+              "DocumentMoniker": "C:\\coding\\Bao_dev\\GiGaShop\\Views\\Home\\ShopingCart.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\ShopingCart.cshtml",
+              "ToolTip": "C:\\coding\\Bao_dev\\GiGaShop\\Views\\Home\\ShopingCart.cshtml",
+              "RelativeToolTip": "Views\\Home\\ShopingCart.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAA2wGcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T07:46:41.066Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "CheckOut.cshtml",
+              "DocumentMoniker": "C:\\coding\\Bao_dev\\GiGaShop\\Views\\Home\\CheckOut.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\CheckOut.cshtml",
+              "ToolTip": "C:\\coding\\Bao_dev\\GiGaShop\\Views\\Home\\CheckOut.cshtml",
+              "RelativeToolTip": "Views\\Home\\CheckOut.cshtml",
+              "ViewState": "AgIAAFYAAAAAAAAAAAA2wGMAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T07:45:58.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CheckoutViewModel.cs",
+              "DocumentMoniker": "C:\\coding\\Bao_dev\\GiGaShop\\Models\\CheckoutViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\CheckoutViewModel.cs",
+              "ToolTip": "C:\\coding\\Bao_dev\\GiGaShop\\Models\\CheckoutViewModel.cs",
+              "RelativeToolTip": "Models\\CheckoutViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T07:45:05.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\coding\\Bao_dev\\GiGaShop\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\coding\\Bao_dev\\GiGaShop\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAFABAAAAAAAAAAA2wGABAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAADgBAAAAAAAAAAAAAGEBAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-26T09:06:57.532Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T07:14:25.449Z"
             },
             {
               "$type": "Document",
@@ -62,22 +92,21 @@
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\coding\\Bao_dev\\GiGaShop\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAIA1wFkAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAALoAAAAAAAAAAIA3wMYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T08:20:30.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T07:13:35.456Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\coding\\Bao_dev\\GiGaShop\\Views\\Home\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Details.cshtml",
-              "ToolTip": "C:\\coding\\Bao_dev\\GiGaShop\\Views\\Home\\Details.cshtml*",
-              "RelativeToolTip": "Views\\Home\\Details.cshtml*",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFoAAACGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-26T08:19:59.325Z",
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\coding\\Bao_dev\\GiGaShop\\Data\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\coding\\Bao_dev\\GiGaShop\\Data\\ApplicationDBContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDBContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAABAwBYAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T07:09:28.497Z",
               "EditorCaption": ""
             }
           ]
