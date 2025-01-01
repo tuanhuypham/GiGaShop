@@ -193,11 +193,9 @@ namespace Gigashop.Controllers
                     AdminUsername = message.Message, // Tên quản trị viên (nếu có)
                     CreatedAt = DateTime.Now
                 };
-
                 _context.AdminActivities.Add(activity);
                 await _context.SaveChangesAsync();
             }    
-
             return View("Message_Management");
         }
     }

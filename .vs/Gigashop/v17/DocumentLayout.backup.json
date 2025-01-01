@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\coding\\Bao_dev\\GiGaShop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|c:\\coding\\bao_dev\\gigashop\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|c:\\coding\\bao_dev\\gigashop\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|c:\\coding\\bao_dev\\gigashop\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|c:\\coding\\bao_dev\\gigashop\\views\\admin\\comment_management.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:views\\admin\\comment_management.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|c:\\coding\\bao_dev\\gigashop\\views\\admin\\accountmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:views\\admin\\accountmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|c:\\coding\\bao_dev\\gigashop\\views\\admin\\message_management.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:views\\admin\\message_management.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|c:\\coding\\bao_dev\\gigashop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE8088DB-0092-4416-84A1-A4CE0A26890D}|Gigashop.csproj|c:\\coding\\bao_dev\\gigashop\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -38,76 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\coding\\Bao_dev\\GiGaShop\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\coding\\Bao_dev\\GiGaShop\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAIwEwAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T12:09:20.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Message_Management.cshtml",
-              "DocumentMoniker": "C:\\coding\\Bao_dev\\GiGaShop\\Views\\Admin\\Message_Management.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\Message_Management.cshtml",
-              "ToolTip": "C:\\coding\\Bao_dev\\GiGaShop\\Views\\Admin\\Message_Management.cshtml",
-              "RelativeToolTip": "Views\\Admin\\Message_Management.cshtml",
-              "ViewState": "AgIAAGwAAAAAAAAAAAA4wIEAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-01T11:10:13.847Z",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\coding\\Bao_dev\\GiGaShop\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\coding\\Bao_dev\\GiGaShop\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-01T12:33:27.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Comment_Management.cshtml",
-              "DocumentMoniker": "C:\\coding\\Bao_dev\\GiGaShop\\Views\\Admin\\Comment_Management.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\Comment_Management.cshtml",
-              "ToolTip": "C:\\coding\\Bao_dev\\GiGaShop\\Views\\Admin\\Comment_Management.cshtml",
-              "RelativeToolTip": "Views\\Admin\\Comment_Management.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAIwBYAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-01T10:54:22.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccountManagement.cshtml",
-              "DocumentMoniker": "C:\\coding\\Bao_dev\\GiGaShop\\Views\\Admin\\AccountManagement.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\AccountManagement.cshtml",
-              "ToolTip": "C:\\coding\\Bao_dev\\GiGaShop\\Views\\Admin\\AccountManagement.cshtml",
-              "RelativeToolTip": "Views\\Admin\\AccountManagement.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-01T06:16:58.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDBContext.cs",
-              "DocumentMoniker": "C:\\coding\\Bao_dev\\GiGaShop\\Data\\ApplicationDBContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDBContext.cs",
-              "ToolTip": "C:\\coding\\Bao_dev\\GiGaShop\\Data\\ApplicationDBContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDBContext.cs",
-              "ViewState": "AgIAAMkAAAAAAAAAAAAswMcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T01:08:47.432Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "_LayoutAdmin.cshtml",
               "DocumentMoniker": "C:\\coding\\Bao_dev\\GiGaShop\\Views\\Shared\\_LayoutAdmin.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LayoutAdmin.cshtml",
@@ -115,18 +47,17 @@
               "RelativeToolTip": "Views\\Shared\\_LayoutAdmin.cshtml",
               "ViewState": "AgIAAA0AAAAAAAAAAAA2wBkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-01T06:14:40.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-01T06:14:40.661Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\coding\\Bao_dev\\GiGaShop\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "C:\\coding\\Bao_dev\\GiGaShop\\Controllers\\AdminController.cs*",
-              "RelativeToolTip": "Controllers\\AdminController.cs*",
-              "ViewState": "AgIAALMAAAAAAAAAAAA1wLwAAAAwAAAAAAAAAA==",
+              "ToolTip": "C:\\coding\\Bao_dev\\GiGaShop\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAAAMIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-31T00:24:28.078Z",
               "EditorCaption": ""
