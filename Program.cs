@@ -61,21 +61,22 @@ app.UseSession();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
 app.MapControllerRoute(
     name: "shopDetail",
     pattern: "shop/detail/{id}",
     defaults: new { controller = "Shop", action = "Detail" });
-
+// Thêm route cho admin
 app.MapControllerRoute(
-    name: "chatbot",
-    pattern: "chatbot",
-    defaults: new { controller = "ChatBot", action = "Contact" });
-
+    name: "admin",
+    pattern: "{controller=Admin}/{action=AccountManagement}/{id?}");
 app.MapControllerRoute(
-    name: "about",
-    pattern: "about",
-    defaults: new { controller = "About", action = "About" });
+    name: "admin",
+    pattern: "{controller=Admin}/{action=Comment_Management}/{id?}");
+app.MapControllerRoute(
+    name: "admin",
+    pattern: "{controller=Admin}/{action=Message_Management}/{id?}");
+
+
 
 // Đảm bảo cho phép Static Files nếu cần (nếu có file CSS, JS, v.v)
 app.UseStaticFiles();

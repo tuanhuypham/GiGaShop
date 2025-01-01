@@ -22,6 +22,7 @@ wwwroot\css\owl.carousel.min.css
 wwwroot\css\owl.theme.default.css
 wwwroot\css\responsive.css
 wwwroot\css\style.css
+wwwroot\css\Style_admin.css
 wwwroot\fonts\FontAwesome.otf
 wwwroot\fonts\fontawesome-webfont.eot
 wwwroot\fonts\fontawesome-webfont.svg

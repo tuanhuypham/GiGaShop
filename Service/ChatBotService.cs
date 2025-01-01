@@ -247,6 +247,7 @@ public class OpenAIService
                 2. Trả lời rõ ràng và chi tiết dựa trên thông tin có trong dữ liệu.
                 3. Nếu người dùng yêu cầu lọc (theo giá, danh mục, hoặc thông số kỹ thuật), hãy thực hiện và trả lại kết quả phù hợp.
                 4. Nếu một sản phẩm hết hàng (Stock = 0), hãy thông báo rõ ràng.
+                5. Nếu người dùng hỏi những câu không liên quan đến công nghệ, hãy thông báo rõ ràng để người dùng đưa ra câu hỏi phù hợp.
 
                 Bắt đầu trả lời khi nhận được câu hỏi từ người dùng."},
             new { role = "user", content = userInput }

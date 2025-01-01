@@ -197,6 +197,19 @@ namespace Gigashop.Views
                     };
 
                     _context.Checkouts.Add(checkout);
+
+                    // Ghi log hoạt động vào bảng AdminActivities
+                    var activity = new AdminActivity
+                    {
+                        Action = "Thanh toán giỏ hàng",
+                        DataType = "Người dùng",
+                        AdminUsername = model.CustomerName, // Ghi tên người dùng đã đăng ký
+                        CreatedAt = DateTime.Now
+                    };
+
+                    _context.AdminActivities.Add(activity);
+                    _context.SaveChanges();
+
                 }
 
                 // Lưu thay đổi vào cơ sở dữ liệu
@@ -205,30 +218,15 @@ namespace Gigashop.Views
                 // Commit transaction để lưu thành công dữ liệu vào Checkouts
                 await transaction.CommitAsync();
 
+
                 // Thông báo thành công trước khi xóa giỏ hàng
                 TempData["SuccessMessage"] = "Checkout thành công!";
 
-                // Tạo giao dịch mới để xóa giỏ hàng
+                //   Tạo giao dịch mới để xóa giỏ hàng
                 using var deleteTransaction = await _context.Database.BeginTransactionAsync();
 
-                try
-                {
-                    // Nếu lưu thành công, tiếp tục xóa giỏ hàng
-                    _context.Carts.RemoveRange(cartItems);
-                    await _context.SaveChangesAsync();
 
-                    // Commit transaction xóa giỏ hàng
-                    await deleteTransaction.CommitAsync();
-                }
-                catch (Exception ex)
-                {
-                    await deleteTransaction.RollbackAsync();
-                    Console.WriteLine($"Error during cart deletion: {ex.Message}");
-                    TempData["ErrorMessage"] = "Đã xảy ra lỗi khi xóa giỏ hàng. Vui lòng thử lại!";
-                    return View("Checkout", model);
-                }
-
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Checkout", "Home");
             }
             catch (Exception ex)
             {
@@ -238,6 +236,8 @@ namespace Gigashop.Views
                 return View("Checkout", model);
             }
         }
+
+
         public IActionResult Service()
         {
             return View();
@@ -548,6 +548,22 @@ namespace Gigashop.Views
                 TempData["ErrorMessage"] = "Đã xảy ra lỗi: " + ex.Message;
                 return RedirectToAction("Details", new { id = productId });
             }
+        }
+
+        [HttpPost("SendMessage")]
+        public IActionResult SendMessage([FromBody] ContactMessage message)
+        {
+            if (message == null || string.IsNullOrEmpty(message.Message))
+            {
+                return BadRequest("Tin nhắn không hợp lệ.");
+            }
+
+            message.CreatedAt = DateTime.Now;
+
+            _context.ContactMessages.Add(message);
+            _context.SaveChanges();
+
+            return Ok(new { success = true, message = "Tin nhắn đã được lưu thành công." });
         }
     }
 }

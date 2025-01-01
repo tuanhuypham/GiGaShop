@@ -4,6 +4,7 @@ using Gigashop.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Gigashop.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    partial class ApplicationDBContextModelSnapshot : ModelSnapshot
+    [Migration("20250101060114_AddAdminActivitiesTable")]
+    partial class AddAdminActivitiesTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -50,7 +53,7 @@ namespace Gigashop.Migrations
 
                     b.HasKey("ActivityID");
 
-                    b.ToTable("AdminActivities", (string)null);
+                    b.ToTable("AdminActivities");
                 });
 
             modelBuilder.Entity("Gigashop.Data.Cart", b =>
@@ -82,7 +85,7 @@ namespace Gigashop.Migrations
 
                     b.HasIndex("UserID");
 
-                    b.ToTable("Carts", (string)null);
+                    b.ToTable("Carts");
                 });
 
             modelBuilder.Entity("Gigashop.Data.Checkout", b =>
@@ -210,7 +213,7 @@ namespace Gigashop.Migrations
 
                     b.HasIndex("UserID");
 
-                    b.ToTable("OrderDetails", (string)null);
+                    b.ToTable("OrderDetails");
                 });
 
             modelBuilder.Entity("Gigashop.Data.Product", b =>
@@ -255,7 +258,7 @@ namespace Gigashop.Migrations
 
                     b.HasKey("ProductID");
 
-                    b.ToTable("Products", (string)null);
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("Gigashop.Data.Review", b =>
@@ -289,7 +292,7 @@ namespace Gigashop.Migrations
 
                     b.HasIndex("UserID");
 
-                    b.ToTable("Reviews", (string)null);
+                    b.ToTable("Reviews");
                 });
 
             modelBuilder.Entity("Gigashop.Data.Service", b =>
@@ -321,7 +324,7 @@ namespace Gigashop.Migrations
 
                     b.HasKey("ServiceID");
 
-                    b.ToTable("Services", (string)null);
+                    b.ToTable("Services");
                 });
 
             modelBuilder.Entity("Gigashop.Data.User", b =>

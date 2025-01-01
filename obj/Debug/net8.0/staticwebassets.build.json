@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "c1p0LHXE1Q0pO9yPwK8XQ+WvhHtGx2nn4Biin1F7cd0=",
+  "Hash": "+P6xeYJimJM1uebHAP3yXERb0/Z1qT5Vr/1IB1A1jpk=",
   "Source": "Gigashop",
   "BasePath": "_content/Gigashop",
   "Mode": "Default",
@@ -561,6 +561,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\coding\\Bao_dev\\GiGaShop\\wwwroot\\css\\Style_admin.css",
+      "SourceId": "Gigashop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\coding\\Bao_dev\\GiGaShop\\wwwroot\\",
+      "BasePath": "_content/Gigashop",
+      "RelativePath": "css/Style_admin#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q3es4o5tc9",
+      "Integrity": "ZqrSdKNabBMOxcvFQew76yRqIKDhTcI1EC91j7q2OUo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Style_admin.css"
     },
     {
       "Identity": "C:\\coding\\Bao_dev\\GiGaShop\\wwwroot\\fonts\\FontAwesome.otf",
@@ -6229,6 +6250,88 @@
       ]
     },
     {
+      "Route": "css/Style_admin.css",
+      "AssetFile": "C:\\coding\\Bao_dev\\GiGaShop\\wwwroot\\css\\Style_admin.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6675"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZqrSdKNabBMOxcvFQew76yRqIKDhTcI1EC91j7q2OUo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 11:09:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZqrSdKNabBMOxcvFQew76yRqIKDhTcI1EC91j7q2OUo="
+        }
+      ]
+    },
+    {
+      "Route": "css/Style_admin.q3es4o5tc9.css",
+      "AssetFile": "C:\\coding\\Bao_dev\\GiGaShop\\wwwroot\\css\\Style_admin.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6675"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZqrSdKNabBMOxcvFQew76yRqIKDhTcI1EC91j7q2OUo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 11:09:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q3es4o5tc9"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Style_admin.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZqrSdKNabBMOxcvFQew76yRqIKDhTcI1EC91j7q2OUo="
+        }
+      ]
+    },
+    {
       "Route": "fonts/FontAwesome.81c8p4mxph.otf",
       "AssetFile": "C:\\coding\\Bao_dev\\GiGaShop\\wwwroot\\fonts\\FontAwesome.otf",
       "Selectors": [],
@@ -6743,7 +6846,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 30 Dec 2024 05:56:20 GMT"
+          "Value": "Wed, 01 Jan 2025 09:14:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6788,7 +6891,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 30 Dec 2024 05:56:20 GMT"
+          "Value": "Wed, 01 Jan 2025 09:14:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6833,7 +6936,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 30 Dec 2024 05:56:20 GMT"
+          "Value": "Wed, 01 Jan 2025 09:14:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6870,7 +6973,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 30 Dec 2024 05:56:20 GMT"
+          "Value": "Wed, 01 Jan 2025 09:14:46 GMT"
         },
         {
           "Name": "Cache-Control",

@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\contact.php"
     },
     {
+      "Id": "C:\\coding\\Bao_dev\\GiGaShop\\wwwroot\\css\\Style_admin.css",
+      "PackagePath": "staticwebassets\\css\\Style_admin.css"
+    },
+    {
       "Id": "C:\\coding\\Bao_dev\\GiGaShop\\wwwroot\\css\\animate.css",
       "PackagePath": "staticwebassets\\css\\animate.css"
     },

@@ -1,0 +1,139 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<div class="recent-activity">
+    <h2>Quản lý đánh giá</h2>
+    <div class="table-container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Tên người dùng</th>
+                    <th>Sản phẩm</th>
+                    <th>Mức độ hài lòng</th>
+                    <th>Nội dung đánh giá</th>
+                    <th>Thời gian đánh giá</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (ViewBag.Reviews != null)
+                {
+                    int index = 1;
+                    foreach (var review in ViewBag.Reviews)
+                    {
+                        <tr>
+                            <td>@index</td>
+                            <td>@review.User.Username</td> <!-- Hiển thị tên người dùng -->
+                            <td>@review.Product.Name</td> <!-- Hiển thị tên sản phẩm -->
+                            <td>@review.Rating / 5</td> <!-- Hiển thị mức độ hài lòng -->
+                            <td>@review.Comment</td> <!-- Hiển thị nội dung đánh giá -->
+                            <td>@review.CreatedAt.ToString("dd/MM/yyyy HH:mm:ss")</td> <!-- Hiển thị thời gian đánh giá -->
+                            <td>
+                                <button class="btn btn-danger" onclick="deleteReview(@review.ReviewID)">Xóa</button>
+                            </td>
+                        </tr>
+                        index++;
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+    <style>
+        /* Container cho toàn bộ bảng */
+        .table-container {
+            max-height: 400px; /* Chiều cao tối đa của bảng */
+            overflow-y: auto; /* Cuộn dọc */
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            background-color: #fff;
+        }
+
+        /* Bảng */
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0;
+        }
+
+        /* Header bảng */
+        .table thead th {
+            background-color: #f4f4f4;
+            color: #333;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 14px;
+            padding: 12px 15px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Dòng trong bảng */
+        .table tbody tr {
+            border-bottom: 1px solid #ddd;
+            transition: background-color 0.2s ease;
+        }
+
+        /* Dòng lẻ màu khác */
+        .table tbody tr:nth-child(odd) {
+            background-color: #f9f9f9;
+        }
+
+        /* Hover hiệu ứng */
+        .table tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Ô bảng */
+        .table th,
+        .table td {
+            padding: 10px 12px;
+            text-align: left;
+            font-size: 14px;
+            word-wrap: break-word;
+            max-width: 200px; /* Giới hạn độ dài của nội dung */
+        }
+
+        /* Nút xóa */
+        .btn {
+            border: none;
+            padding: 7px 12px;
+            font-size: 14px;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-danger {
+            background-color: #d9534f;
+        }
+
+        .btn-danger:hover {
+            background-color: #c9302c;
+        }
+    </style>
+    <script>
+        function deleteReview(reviewId) {
+            if (confirm("Bạn có chắc chắn muốn xóa đánh giá này?")) {
+                fetch(`/Admin/DeleteReview/${reviewId}`, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    }
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        alert(data.message);
+                        rowElement.remove();
+                        alert("Lỗi: " + data.message);
+                    }
+                })
+                .catch(error => console.error("Error:", error));
+            }
+        }
+    </script>
+</div>
+

@@ -1,13 +1,8 @@
 ﻿@{
-    Layout = "~/Views/Shared/Dashboard.cshtml";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
 
 <div class="dashboard">
-    <h1 class="dashboard-title">
-        Xin chào,@ViewBag.Username!<br>
-        <span class="welcome-message">Quản lí - GigaShop</span>
-    </h1>
-
     <!-- Phần Thống Kê Dashboard -->
     <div class="dashboard-stats">
         <!-- Mục Người Dùng -->
@@ -16,7 +11,7 @@
                 <i class="fas fa-users"></i> <!-- Biểu tượng người dùng -->
             </div>
             <div class="stat-card-content">
-                <h3>@ViewBag.UserCount</h3> <!-- Hiển thị số người dùng -->
+                <h3>@ViewBag.TotalUsers</h3> <!-- Hiển thị số người dùng -->
                 <p>Tổng số người dùng</p> <!-- Mô tả -->
             </div>
         </div>
@@ -27,7 +22,7 @@
                 <i class="fas fa-shopping-cart"></i> <!-- Biểu tượng giỏ hàng -->
             </div>
             <div class="stat-card-content">
-                <h3>@ViewBag.OrderCount</h3> <!-- Hiển thị số đơn hàng -->
+                <h3>@ViewBag.TotalOrders</h3> <!-- Hiển thị số đơn hàng -->
                 <p>Tổng số đơn hàng</p> <!-- Mô tả -->
             </div>
         </div>
@@ -38,7 +33,7 @@
                 <i class="fas fa-box-open"></i> <!-- Biểu tượng sản phẩm -->
             </div>
             <div class="stat-card-content">
-                <h3>@ViewBag.ProductCount</h3> <!-- Hiển thị số sản phẩm -->
+                <h3>@ViewBag.TotalProducts</h3> <!-- Hiển thị số sản phẩm -->
                 <p>Tổng số sản phẩm</p> <!-- Mô tả -->
             </div>
         </div>
@@ -49,7 +44,7 @@
                 <i class="fas fa-dollar-sign"></i> <!-- Biểu tượng đồng tiền -->
             </div>
             <div class="stat-card-content">
-                <h3>@ViewBag.TotalRevenue.ToString("N0")</h3> <!-- Hiển thị doanh thu với định dạng tiền tệ -->
+                <h3>@String.Format("{0:0,0 VNĐ}", ViewBag.TotalRevenue)</h3> <!-- Hiển thị doanh thu với định dạng tiền tệ -->
                 <p>Tổng doanh thu (VNĐ)</p> <!-- Mô tả -->
             </div>
         </div>
@@ -58,14 +53,63 @@
     <!-- Phần Hoạt Động Gần Đây -->
     <div class="recent-activity">
         <h2>Hoạt động gần đây</h2>
-        <div class="activity-list">
-            @foreach (var activity in ViewBag.AdminActivities) /* Duyệt qua các hoạt động quản trị */
+        <div class="activity-list scrollable-container">
+            @if (ViewBag.AdminActivities != null)
             {
-                <div class="activity-item">
-                    <p><strong>@activity.Action</strong> - @activity.DataType</p> <!-- Hiển thị hành động và loại dữ liệu -->
-                    <small>@activity.CreatedAt.ToString("dd/MM/yyyy HH:mm:ss")</small> <!-- Hiển thị thời gian tạo hoạt động -->
-                </div>
+                foreach (var activity in ViewBag.AdminActivities)
+                {
+                    <div class="activity-item">
+                        <p><strong>@activity.DataType</strong> - @activity.Action</p>
+                        <p>@activity.AdminUsername</p>
+                        <small>@activity.CreatedAt.ToString("dd/MM/yyyy HH:mm:ss")</small>
+                    </div>
+                }
             }
         </div>
     </div>
+    <style>
+        /* Scrollable Container */
+        .scrollable-container {
+            max-height: 300px; /* Giới hạn chiều cao tối đa */
+            overflow-y: auto; /* Kích hoạt thanh cuộn dọc */
+            border: 1px solid #ddd; /* Đường viền để phân biệt khu vực */
+            padding: 10px; /* Khoảng cách bên trong */
+            border-radius: 5px; /* Góc bo tròn */
+            background-color: #f9f9f9; /* Màu nền */
+        }
+
+        /* Custom Scrollbar */
+        .scrollable-container::-webkit-scrollbar {
+            width: 8px; /* Chiều rộng của thanh cuộn */
+        }
+
+        .scrollable-container::-webkit-scrollbar-thumb {
+            background: #888; /* Màu của thanh cuộn */
+            border-radius: 4px; /* Bo góc của thanh cuộn */
+        }
+
+        .scrollable-container::-webkit-scrollbar-thumb:hover {
+            background: #555; /* Màu khi hover thanh cuộn */
+        }
+
+        /* Activity Item Styling */
+        .activity-item {
+            margin-bottom: 15px; /* Khoảng cách giữa các hoạt động */
+            padding: 10px;
+            background: #fff; /* Nền trắng cho mỗi mục */
+            border: 1px solid #ddd; /* Viền cho từng hoạt động */
+            border-radius: 5px; /* Bo góc */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng */
+        }
+
+        /* Text Styling */
+        .activity-item p {
+            margin: 5px 0; /* Khoảng cách giữa các đoạn văn */
+        }
+
+        .activity-item small {
+            color: #666; /* Màu chữ cho thời gian */
+        }
+
+    </style>
 </div>

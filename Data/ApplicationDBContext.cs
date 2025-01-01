@@ -18,6 +18,7 @@ namespace Gigashop.Data
         public DbSet<Cart> Carts { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
         public DbSet<Checkout> Checkouts { get; set; }
+        public DbSet<AdminActivity> AdminActivities { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -158,6 +159,7 @@ namespace Gigashop.Data
         [Required]
         [MaxLength(20)]
         public string Role { get; set; } = "User";
+        public string Status { get; set; }
 
         public DateTime CreatedAt { get; set; }
 
@@ -232,6 +234,8 @@ namespace Gigashop.Data
         public string Subject { get; set; }    // Tiêu đề
         public string Message { get; set; }    // Nội dung tin nhắn
         public DateTime CreatedAt { get; set; } // Thời gian tin nhắn được gửi
+        [ForeignKey("UserID")]
+        public virtual User User { get; set; } // Liên kết tới bảng User
     }
     [Table("Categorys", Schema = "dbo")]
     public class Category
@@ -356,6 +360,26 @@ namespace Gigashop.Data
 
         [ForeignKey("ProductID")]
         public virtual Product Product { get; set; }
+    }
+
+    public class AdminActivity
+    {
+        [Key]
+        public int ActivityID { get; set; }
+
+        [Required]
+        [MaxLength(100)]
+        public string Action { get; set; } // Hành động thực hiện (Ví dụ: "Thêm sản phẩm", "Cập nhật đơn hàng")
+
+        [MaxLength(100)]
+        public string DataType { get; set; } // Loại dữ liệu (Ví dụ: "Sản phẩm", "Người dùng")
+
+        [Required]
+        public DateTime CreatedAt { get; set; } = DateTime.Now; // Thời gian thực hiện
+
+        [Required]
+        [MaxLength(50)]
+        public string AdminUsername { get; set; } // Tên người dùng quản trị thực hiện hành động
     }
 
 }

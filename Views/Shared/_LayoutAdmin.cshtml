@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Quản Lý GigaShop</title> <!-- Tiêu đề trang web -->
+    <link rel="stylesheet" href="/css/Style_admin.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" /> <!-- Thêm Font Awesome cho các biểu tượng -->
+</head>
+<body>
+    <div class="admin-container">
+
+        <!-- Sidebar (Thanh điều hướng bên trái) -->
+        <aside class="admin-sidebar">
+            <div class="sidebar-header">
+                <h2></i> GigaShop - Admin</h2> <!-- Tiêu đề của Sidebar -->
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <!-- Liên kết đến các trang chức năng trong hệ thống -->
+                    <li><a href="@Url.Action("MainPage_Admin", "Admin")"><i class="fas fa-home"></i> Trang Chủ</a></li> <!-- Trang chủ của Admin -->
+                    <li><a href="@Url.Action("AccountManagement", "Admin")"><i class="fas fa-users"></i> Quản lý người dùng</a></li>
+                    <li><a href="@Url.Action("Comment_Management", "Admin")"><i class="fas fa-comment-dots"></i> Quản lý Đánh giá</a></li>
+                    <li><a href="@Url.Action("Message_Management", "Admin")"><i class="fas fa-headset"></i> Quản lý Tư vấn</a></li>
+                </ul>
+            </nav>
+            <div class="sidebar-footer">
+                <a href="@Url.Action("Logout", "Auth")"><i class="fas fa-sign-out-alt"></i> Đăng xuất</a> <!-- Liên kết để đăng xuất -->
+            </div>
+        </aside>
+
+        <!-- Main Content (Nội dung chính) -->
+        <main class="admin-main">
+            @RenderBody() <!-- Chỗ này sẽ render nội dung của từng trang cụ thể -->
+        </main>
+    </div>
+</body>
+</html>

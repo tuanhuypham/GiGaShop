@@ -1,0 +1,176 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<div class="dashboard">
+    <div class="recent-activity">
+        <h2>Quản lý tài khoản</h2>
+        <div class="table-container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Tên người dùng</th>
+                        <th>Email</th>
+                        <th>Số điện thoại</th>
+                        <th>Vai trò</th>
+                        <th>Trạng thái</th>
+                        <th>Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (ViewBag.Users != null)
+                    {
+                        int index = 1;
+                        foreach (var user in ViewBag.Users)
+                        {
+                            <tr>
+                                <td>@index</td>
+                                <td>@user.Username</td>
+                                <td>@user.Email</td>
+                                <td>@user.Phone</td>
+                                <td>@user.Role</td>
+                                <td>@user.Status</td>
+                                <td>
+                                    @if (user.Status == "Active")
+                                    {
+                                        <button class="btn btn-warning" onclick="blockUser(@user.UserID)">Block</button>
+                                    }
+                                    else
+                                    {
+                                        <button class="btn btn-success" onclick="unblockUser(@user.UserID)">Unblock</button>
+                                    }
+                                    <button class="btn btn-danger" onclick="deleteUser(@user.UserID)">Delete</button>
+                                </td>
+                            </tr>
+                            index++;
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <style>
+    /* Table Styles */
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .table th,
+    .table td {
+        padding: 12px 15px;
+        text-align: left;
+        border: 1px solid #ddd;
+        font-size: 14px;
+    }
+
+    .table th {
+        background-color: #f4f4f4;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+
+    .table tbody tr:nth-child(odd) {
+        background-color: #f9f9f9;
+    }
+
+    .table tbody tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    /* Buttons */
+    .btn {
+        border: none;
+        padding: 7px 12px;
+        font-size: 14px;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+        margin: 0 5px;
+    }
+
+    .btn-warning {
+        background-color: #f0ad4e;
+    }
+
+    .btn-warning:hover {
+        background-color: #ec971f;
+    }
+
+    .btn-success {
+        background-color: #5cb85c;
+    }
+
+    .btn-success:hover {
+        background-color: #449d44;
+    }
+
+    .btn-danger {
+        background-color: #d9534f;
+    }
+
+    .btn-danger:hover {
+        background-color: #c9302c;
+    }
+
+    /* Extra Styles for Buttons */
+    .table td button {
+        width: 90px;
+        text-align: center;
+        margin-right: 5px;
+    }
+
+    /* Scrollable Container */
+    .table-container {
+        max-height: 400px; /* Set max height for scrolling */
+        overflow-y: auto; /* Enable vertical scrolling */
+        border: 1px solid #ddd; /* Add border to the container */
+        border-radius: 5px; /* Rounded corners */
+        background-color: #fff; /* Background color */
+        padding: 10px;
+    }
+
+    /* Custom Scrollbar */
+    .table-container::-webkit-scrollbar {
+        width: 8px; /* Scrollbar width */
+    }
+
+    .table-container::-webkit-scrollbar-thumb {
+        background: #888; /* Scrollbar thumb color */
+        border-radius: 4px; /* Rounded scrollbar thumb */
+    }
+
+    .table-container::-webkit-scrollbar-thumb:hover {
+        background: #555; /* Scrollbar thumb hover color */
+    }
+    </style>
+
+    <script>
+        // Hàm Block người dùng
+        function blockUser(userID) {
+            if (confirm("Bạn có chắc chắn muốn khóa tài khoản này?")) {
+                window.location.href = `/Admin/BlockUser/${userID}`;
+            }
+        }
+
+        // Hàm Unblock người dùng
+        function unblockUser(userID) {
+            if (confirm("Bạn có chắc chắn muốn mở khóa tài khoản này?")) {
+                window.location.href = `/Admin/UnblockUser/${userID}`;
+            }
+        }
+
+        // Hàm Delete người dùng
+        function deleteUser(userID) {
+            if (confirm("Bạn có chắc chắn muốn xóa tài khoản này?")) {
+                window.location.href = `/Admin/DeleteUser/${userID}`;
+            }
+        }
+    </script>
+</div>
